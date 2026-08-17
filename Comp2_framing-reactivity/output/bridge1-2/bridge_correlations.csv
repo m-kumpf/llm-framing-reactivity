@@ -1,0 +1,16 @@
+factor,reactivity_index,index_label,n,spearman_rho,p_exact_permutation,pearson_r_descriptive,primary
+Extraversion,reactivity_confirmatory_bridge_index,"Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",7,-0.7143,0.0881,-0.7049,False
+Extraversion,reactivity_primary,Interpersonal primary (10 metrics),7,-0.0357,0.9635,-0.1847,False
+Extraversion,reactivity_sensitivity,Deterministic-only sensitivity (7 metrics),7,0.1429,0.7825,0.5371,False
+Agreeableness,reactivity_confirmatory_bridge_index,"Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",7,-0.2143,0.6615,-0.1506,False
+Agreeableness,reactivity_primary,Interpersonal primary (10 metrics),7,-0.1786,0.7131,-0.2736,False
+Agreeableness,reactivity_sensitivity,Deterministic-only sensitivity (7 metrics),7,0.2143,0.6615,-0.1212,False
+Conscientiousness,reactivity_confirmatory_bridge_index,"Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",7,0.0,1.0,-0.0106,False
+Conscientiousness,reactivity_primary,Interpersonal primary (10 metrics),7,-0.25,0.5948,-0.193,False
+Conscientiousness,reactivity_sensitivity,Deterministic-only sensitivity (7 metrics),7,0.2143,0.6615,-0.1916,False
+Emotional_Stability,reactivity_confirmatory_bridge_index,"Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",7,0.1071,0.8397,0.1595,True
+Emotional_Stability,reactivity_primary,Interpersonal primary (10 metrics),7,-0.3571,0.4444,-0.5218,False
+Emotional_Stability,reactivity_sensitivity,Deterministic-only sensitivity (7 metrics),7,0.1429,0.7825,-0.9119,False
+Intellect_Openness,reactivity_confirmatory_bridge_index,"Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",7,-0.2143,0.6615,-0.2798,False
+Intellect_Openness,reactivity_primary,Interpersonal primary (10 metrics),7,-0.1786,0.7131,-0.399,False
+Intellect_Openness,reactivity_sensitivity,Deterministic-only sensitivity (7 metrics),7,0.2143,0.6615,-0.1499,False

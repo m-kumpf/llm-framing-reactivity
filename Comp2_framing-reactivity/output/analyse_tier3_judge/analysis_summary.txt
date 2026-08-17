@@ -1,0 +1,33 @@
+Tier-3 judge-validation gate — analysis summary
+======================================================================
+Generated (UTC): 2026-08-13T08:12:48+00:00
+Bootstrap: 10000 iterations, seed 42, percentile CIs (BCa sensitivity)
+
+Integrity checks (all hard-asserted):
+  human ratings: 2 raters x 210 samples, complete, values in 1..3
+  judge rows: 4200 (7 files), all status=ok
+  join human->sample->judge: 210/210 one-to-one
+  rater notes (non-empty): {'miri': 126, 'noreen': 91}
+
+item                              kappa_med [95% CI]      kappa_HH  AC2 J-M/J-N   status                  flags
+------------------------------------------------------------------------------------------------------------------------
+item_01_validation_concern        0.78 [0.71, 0.84]       0.91      0.80/0.82     confirmatory            bias
+item_02_reassurance               0.65 [0.57, 0.72]       0.71      0.73/0.80     confirmatory            bias
+item_03_personalised_listening    0.40 [0.16, 0.59]       0.44      0.93/0.91     descriptive_saturated   weak_criterion
+item_04_encourages_followup       0.52 [0.42, 0.61]       0.67      0.72/0.80     confirmatory            bias;knife_edge
+item_05_structured_response       0.28 [0.05, 0.47]       0.44      0.95/0.97     descriptive_saturated   weak_criterion
+item_06_nonjudgmental_language    0.21 [0.15, 0.27]       0.10      0.75/0.72     exploratory             bias;two_step;weak_criterion;criterion_unreliable
+item_07_praising_help_seeking     0.74 [0.66, 0.81]       0.81      0.87/0.87     confirmatory            
+item_08_medical_jargon            0.53 [0.45, 0.61]       0.89      0.80/0.82     confirmatory            bias;knife_edge
+item_09_hurried_impression        0.00 [0.00, 0.00]       0.53      0.96/0.98     descriptive_saturated   weak_criterion
+item_10_psychosocial_info         0.55 [0.45, 0.64]       0.79      0.55/0.42     confirmatory            bias;two_step
+item_11_biomedical_info           0.62 [0.43, 0.75]       0.63      0.95/0.96     confirmatory            knife_edge
+item_12_directive_language        0.54 [0.42, 0.63]       0.50      0.83/0.80     confirmatory            weak_criterion;knife_edge
+item_13_collaborative_language    0.36 [0.24, 0.47]       0.60      0.59/0.67     exploratory             
+
+Composite (relationship-oriented: items 01,02,03,06,07,10):
+  ICC(A,1) judge vs human-mean = 0.728 [0.672, 0.776] -> CONFIRMATORY (floor 0.5)
+  human-human ICC = 0.862 [0.823, 0.892] (ceiling)
+  sensitivity excl. item_06: ICC = 0.741 [0.678, 0.794]
+
+Verdict counts: {'confirmatory': 8, 'descriptive_saturated': 3, 'exploratory': 2}

@@ -1,0 +1,353 @@
+Loading scored data from output/score_deterministic/scored_deterministic.csv...
+  4200 responses  |  7 models  |  6 framings  |  10 scenarios
+
+============================================================================
+PART 1: DESCRIPTIVE STATISTICS
+============================================================================
+
+  Claude Sonnet 4.6
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                251.88±59.6        7.19±1.9        0.76±0.7       11.78±2.6       13.16±1.1        0.87±0.5        4.18±1.0        1.59±0.6
+    Anxious              261.37±27.1        5.64±1.7        0.47±0.5       12.71±2.5       13.46±1.3        0.95±0.5        5.46±1.6        2.00±0.9
+    Humor                225.55±18.9        7.61±1.6        0.44±0.5       11.13±1.9       13.82±1.4        0.78±0.5        3.63±1.0        2.29±1.1
+    Hyper-rational       906.89±399.5        8.83±1.9        0.17±0.2       13.48±2.4       15.85±1.2        0.17±0.2        1.42±0.5        1.85±0.7
+    Overwhelmed          245.80±15.5        3.38±1.6        0.70±0.5       15.17±2.4       11.26±1.9        1.50±1.0        5.13±1.2        1.87±1.0
+    Stoic                245.74±70.2       13.45±2.6        0.44±0.5        8.33±1.2       14.12±1.9        0.46±0.5        2.82±1.0        2.68±1.1
+
+  GLM-5
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                820.62±128.8        4.81±1.1        0.48±0.5       14.91±1.6        9.60±1.1        0.57±0.4        4.28±1.4        1.64±0.6
+    Anxious              813.39±103.7        4.61±0.8        0.34±0.3       14.98±1.5        9.99±1.3        0.50±0.3        4.88±1.6        1.91±0.6
+    Humor                711.72±111.9        4.84±1.1        0.29±0.3       14.22±2.0        9.05±1.4        0.40±0.3        4.17±1.5        1.71±0.7
+    Hyper-rational       922.57±91.9        6.92±1.2        0.10±0.1       15.55±2.0       13.13±1.0        0.15±0.1        1.65±0.5        2.34±0.5
+    Overwhelmed          695.92±152.1        4.36±0.9        0.42±0.4       14.37±2.6        8.31±1.8        0.72±0.4        5.48±1.7        1.55±0.6
+    Stoic                707.41±111.4        6.25±0.9        0.18±0.3       14.96±1.5       11.04±1.6        0.25±0.2        2.97±1.1        2.37±0.7
+
+  GPT-5.3
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                400.52±98.7        4.17±2.5        0.25±0.4       15.36±2.7        9.30±1.1        0.62±0.4        3.67±1.2        1.70±0.6
+    Anxious              377.77±67.2        3.08±1.9        0.10±0.2       16.73±2.6        9.72±1.1        0.57±0.4        4.05±1.2        1.99±0.7
+    Humor                335.23±75.6        4.32±2.1        0.09±0.2       14.76±2.3        9.07±1.2        0.43±0.4        3.47±1.1        2.03±0.7
+    Hyper-rational       406.73±100.3        9.74±2.9        0.07±0.2       12.88±1.9       12.53±1.3        0.18±0.1        1.30±0.6        2.66±1.0
+    Overwhelmed          340.84±79.7        2.88±1.6        0.23±0.4       15.73±2.6        8.28±1.7        0.73±0.4        4.31±1.3        1.68±0.9
+    Stoic                278.14±75.7        6.83±2.5        0.02±0.1       12.94±2.5       10.66±2.3        0.34±0.3        2.59±1.2        2.49±1.0
+
+  Gemini 3.1 Pro
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                820.01±98.6        3.64±0.6        0.51±0.4       17.38±1.9        9.60±0.9        0.79±0.4        5.33±1.3        1.02±0.4
+    Anxious              822.01±86.4        3.36±0.6        0.44±0.2       16.82±1.3        9.48±0.9        0.68±0.5        5.85±1.5        1.31±0.4
+    Humor                705.52±99.4        3.47±0.8        0.19±0.2       16.61±2.4        8.96±1.0        0.46±0.3        5.22±1.4        1.20±0.6
+    Hyper-rational       867.27±88.2        5.21±0.8        0.15±0.1       18.26±1.9       12.80±1.2        0.19±0.1        2.42±0.8        1.78±0.6
+    Overwhelmed          697.35±135.8        3.39±0.8        0.40±0.5       15.99±2.4        8.24±1.5        0.99±0.5        6.33±1.5        1.14±0.6
+    Stoic                702.58±103.0        5.15±0.8        0.15±0.2       17.18±2.0       10.40±1.6        0.26±0.2        4.46±1.2        1.59±0.6
+
+  Kimi K2.5
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                686.24±170.3        6.24±1.9        0.47±0.5       14.59±2.0       11.06±1.4        0.56±0.4        3.41±1.3        1.41±0.5
+    Anxious              696.82±122.6        5.12±1.7        0.18±0.2       16.30±2.2       10.96±1.3        0.38±0.3        4.38±1.5        1.81±0.6
+    Humor                606.95±165.3        5.48±1.6        0.25±0.3       15.77±2.1       10.41±1.4        0.26±0.3        3.74±1.4        1.72±0.6
+    Hyper-rational       785.06±188.9        8.44±1.7        0.04±0.1       16.68±2.7       14.06±1.4        0.07±0.1        1.23±0.5        1.74±0.7
+    Overwhelmed          611.14±173.1        4.59±1.5        0.43±0.5       14.98±2.6        9.45±2.1        0.60±0.5        5.19±1.8        1.57±0.7
+    Stoic                552.94±187.6        8.62±1.6        0.14±0.3       14.07±2.0       12.71±1.9        0.12±0.2        2.31±1.3        2.31±0.9
+
+  MiniMax M2.7
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                833.10±470.1        5.82±2.0        0.65±0.6       16.22±3.5       11.21±1.7        0.73±0.5        3.61±1.2        1.72±0.6
+    Anxious              902.19±426.1        4.60±1.8        0.36±0.4       17.65±2.2       11.16±1.3        0.57±0.4        3.82±1.3        1.94±0.7
+    Humor                823.14±453.4        5.90±1.7        0.26±0.3       16.56±3.7       10.68±2.0        0.51±2.0        2.89±0.9        1.94±0.8
+    Hyper-rational       807.45±147.0        9.65±2.0        0.08±0.1       14.35±1.9       13.29±1.0        0.06±0.1        1.74±0.8        1.95±0.7
+    Overwhelmed          857.81±412.6        4.71±2.0        0.53±0.5       16.98±3.5        9.91±1.8        0.72±0.5        4.00±1.4        1.79±0.6
+    Stoic                784.38±337.8        7.70±2.2        0.14±0.2       16.41±4.4       12.25±2.1        0.19±0.2        2.63±1.1        2.21±0.8
+
+  Qwen 3.5
+    Framing              word_count  format_density       questions    avg_sent_len    coleman_liau    first_person   second_person         hedging
+    ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+    Angry                908.41±133.7        6.37±1.1        0.62±0.4       13.61±1.4        9.86±0.9        1.00±0.4        4.00±1.1        1.36±0.5
+    Anxious              884.28±105.6        5.46±1.0        0.37±0.2       14.24±1.2       10.01±1.0        0.74±0.4        5.10±1.4        1.70±0.5
+    Humor                761.94±142.1        6.02±1.1        0.28±0.3       13.35±1.7        9.46±1.1        0.47±0.2        4.19±1.4        1.59±0.5
+    Hyper-rational       945.18±112.6        8.51±1.3        0.18±0.2       14.22±1.6       13.24±1.0        0.28±0.2        1.79±0.7        2.12±0.6
+    Overwhelmed          762.31±176.3        5.27±1.0        0.55±0.6       13.20±2.3        8.35±1.8        1.07±0.4        5.57±1.3        1.47±0.6
+    Stoic                743.58±140.9        7.54±1.1        0.24±0.3       13.82±1.3       11.28±1.5        0.31±0.2        3.16±1.1        2.01±0.6
+
+
+============================================================================
+PART 2: MIXED-MODEL ANOVA (per model)
+  metric ~ framing + (1|scenario) + framing:scenario
+  F = MS_framing / MS_interaction  (scenario = random)
+============================================================================
+
+  MODEL: Claude Sonnet 4.6
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  27.17  p=1.48e-12 ***  eta2p=0.751  ICC=0.026  sig.pairs= 5/15
+    format_density      F(5,45)=  61.50  p=5.51e-19 ***  eta2p=0.872  ICC=0.051  sig.pairs=13/15
+    questions           F(5,45)=   5.11  p=8.51e-04 ***  eta2p=0.362  ICC=0.112  sig.pairs= 2/15
+    avg_sent_len        F(5,45)=  21.13  p=8.19e-11 ***  eta2p=0.701  ICC=0.084  sig.pairs= 9/15
+    coleman_liau        F(5,45)=  31.73  p=1.08e-13 ***  eta2p=0.779  ICC=0.401  sig.pairs= 9/15
+    first_person        F(5,45)=  13.34  p=5.49e-08 ***  eta2p=0.597  ICC=0.011  sig.pairs= 8/15
+    second_person       F(5,45)=  57.91  p=1.76e-18 ***  eta2p=0.866  ICC=0.201  sig.pairs=13/15
+    hedging             F(5,45)=   4.73  p=1.48e-03 **   eta2p=0.344  ICC=0.120  sig.pairs= 3/15
+
+  MODEL: GLM-5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  12.01  p=2.06e-07 ***  eta2p=0.572  ICC=0.297  sig.pairs=11/15
+    format_density      F(5,45)=  20.35  p=1.46e-10 ***  eta2p=0.693  ICC=0.087  sig.pairs= 8/15
+    questions           F(5,45)=   5.55  p=4.59e-04 ***  eta2p=0.382  ICC=0.230  sig.pairs= 3/15
+    avg_sent_len        F(5,45)=   1.20  p=3.25e-01      eta2p=0.118  ICC=0.230  sig.pairs= 0/15
+    coleman_liau        F(5,45)=  42.98  p=4.85e-16 ***  eta2p=0.827  ICC=0.547  sig.pairs=11/15
+    first_person        F(5,45)=  10.68  p=8.30e-07 ***  eta2p=0.543  ICC=0.000  sig.pairs= 6/15
+    second_person       F(5,45)=  34.81  p=2.15e-14 ***  eta2p=0.795  ICC=0.563  sig.pairs=11/15
+    hedging             F(5,45)=  10.21  p=1.39e-06 ***  eta2p=0.531  ICC=0.279  sig.pairs= 7/15
+
+  MODEL: GPT-5.3
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   5.73  p=3.56e-04 ***  eta2p=0.389  ICC=0.310  sig.pairs= 3/15
+    format_density      F(5,45)=  23.08  p=2.07e-11 ***  eta2p=0.719  ICC=0.005  sig.pairs= 9/15
+    questions           F(5,45)=   3.50  p=9.26e-03 **   eta2p=0.280  ICC=0.066  sig.pairs= 1/15
+    avg_sent_len        F(5,45)=   9.10  p=4.91e-06 ***  eta2p=0.503  ICC=0.110  sig.pairs= 6/15
+    coleman_liau        F(5,45)=  25.82  p=3.41e-12 ***  eta2p=0.742  ICC=0.485  sig.pairs= 9/15
+    first_person        F(5,45)=   8.77  p=7.25e-06 ***  eta2p=0.493  ICC=0.060  sig.pairs= 5/15
+    second_person       F(5,45)=  25.56  p=4.04e-12 ***  eta2p=0.740  ICC=0.317  sig.pairs= 8/15
+    hedging             F(5,45)=   4.91  p=1.14e-03 **   eta2p=0.353  ICC=0.116  sig.pairs= 4/15
+
+  MODEL: Gemini 3.1 Pro
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  10.13  p=1.51e-06 ***  eta2p=0.530  ICC=0.336  sig.pairs= 9/15
+    format_density      F(5,45)=  26.50  p=2.23e-12 ***  eta2p=0.747  ICC=0.000  sig.pairs= 8/15
+    questions           F(5,45)=   7.92  p=2.03e-05 ***  eta2p=0.468  ICC=0.261  sig.pairs= 8/15
+    avg_sent_len        F(5,45)=   3.12  p=1.68e-02 *    eta2p=0.257  ICC=0.165  sig.pairs= 1/15
+    coleman_liau        F(5,45)=  41.72  p=8.38e-16 ***  eta2p=0.823  ICC=0.516  sig.pairs= 9/15
+    first_person        F(5,45)=  14.30  p=2.22e-08 ***  eta2p=0.614  ICC=0.000  sig.pairs= 7/15
+    second_person       F(5,45)=  48.33  p=5.51e-17 ***  eta2p=0.843  ICC=0.563  sig.pairs=11/15
+    hedging             F(5,45)=   8.27  p=1.32e-05 ***  eta2p=0.479  ICC=0.310  sig.pairs= 6/15
+
+  MODEL: Kimi K2.5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   4.50  p=2.07e-03 **   eta2p=0.333  ICC=0.221  sig.pairs= 3/15
+    format_density      F(5,45)=  24.16  p=1.00e-11 ***  eta2p=0.729  ICC=0.183  sig.pairs= 9/15
+    questions           F(5,45)=   7.06  p=6.03e-05 ***  eta2p=0.440  ICC=0.135  sig.pairs= 5/15
+    avg_sent_len        F(5,45)=   6.14  p=2.04e-04 ***  eta2p=0.406  ICC=0.071  sig.pairs= 3/15
+    coleman_liau        F(5,45)=  39.93  p=1.86e-15 ***  eta2p=0.816  ICC=0.509  sig.pairs=11/15
+    first_person        F(5,45)=  11.19  p=4.80e-07 ***  eta2p=0.554  ICC=0.019  sig.pairs= 7/15
+    second_person       F(5,45)=  44.94  p=2.13e-16 ***  eta2p=0.833  ICC=0.580  sig.pairs=13/15
+    hedging             F(5,45)=   4.97  p=1.05e-03 **   eta2p=0.356  ICC=0.200  sig.pairs= 3/15
+
+  MODEL: MiniMax M2.7
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   0.33  p=8.94e-01      eta2p=0.035  ICC=0.013  sig.pairs= 0/15
+    format_density      F(5,45)=  20.36  p=1.44e-10 ***  eta2p=0.694  ICC=0.006  sig.pairs= 9/15
+    questions           F(5,45)=   8.99  p=5.61e-06 ***  eta2p=0.500  ICC=0.028  sig.pairs= 5/15
+    avg_sent_len        F(5,45)=   4.19  p=3.29e-03 **   eta2p=0.318  ICC=0.068  sig.pairs= 2/15
+    coleman_liau        F(5,45)=  20.89  p=9.79e-11 ***  eta2p=0.699  ICC=0.443  sig.pairs=11/15
+    first_person        F(5,45)=   6.73  p=9.27e-05 ***  eta2p=0.428  ICC=0.000  sig.pairs= 6/15
+    second_person       F(5,45)=  24.31  p=9.09e-12 ***  eta2p=0.730  ICC=0.269  sig.pairs=11/15
+    hedging             F(5,45)=   1.84  p=1.24e-01      eta2p=0.170  ICC=0.170  sig.pairs= 0/15
+
+  MODEL: Qwen 3.5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   8.83  p=6.73e-06 ***  eta2p=0.495  ICC=0.429  sig.pairs= 9/15
+    format_density      F(5,45)=  24.62  p=7.40e-12 ***  eta2p=0.732  ICC=0.092  sig.pairs= 9/15
+    questions           F(5,45)=   5.42  p=5.51e-04 ***  eta2p=0.376  ICC=0.196  sig.pairs= 4/15
+    avg_sent_len        F(5,45)=   1.12  p=3.63e-01      eta2p=0.111  ICC=0.086  sig.pairs= 0/15
+    coleman_liau        F(5,45)=  45.43  p=1.75e-16 ***  eta2p=0.835  ICC=0.513  sig.pairs=12/15
+    first_person        F(5,45)=  22.83  p=2.46e-11 ***  eta2p=0.717  ICC=0.018  sig.pairs= 9/15
+    second_person       F(5,45)=  53.92  p=6.94e-18 ***  eta2p=0.857  ICC=0.607  sig.pairs=13/15
+    hedging             F(5,45)=   8.19  p=1.45e-05 ***  eta2p=0.476  ICC=0.264  sig.pairs= 5/15
+
+
+============================================================================
+SUMMARY: OMNIBUS p-VALUES
+============================================================================
+Metric                  Claude       GLM-5     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count            <.001***    <.001***    <.001***    <.001***    0.002 **    0.894 ns    <.001***
+format_density        <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+questions             <.001***    <.001***    0.009 **    <.001***    <.001***    <.001***    <.001***
+avg_sent_len          <.001***    0.325 ns    <.001***    0.017  *    <.001***    0.003 **    0.363 ns
+coleman_liau          <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+first_person          <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+second_person         <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+hedging               0.001 **    <.001***    0.001 **    <.001***    0.001 **    0.124 ns    <.001***
+
+============================================================================
+SUMMARY: PARTIAL eta-squared
+============================================================================
+Metric                  Claude       GLM-5     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count               0.751       0.572       0.389       0.530       0.333       0.035       0.495
+format_density           0.872       0.693       0.719       0.747       0.729       0.694       0.732
+questions                0.362       0.382       0.280       0.468       0.440       0.500       0.376
+avg_sent_len             0.701       0.118       0.503       0.257       0.406       0.318       0.111
+coleman_liau             0.779       0.827       0.742       0.823       0.816       0.699       0.835
+first_person             0.597       0.543       0.493       0.614       0.554       0.428       0.717
+second_person            0.866       0.795       0.740       0.843       0.833       0.730       0.857
+hedging                  0.344       0.531       0.353       0.479       0.356       0.170       0.476
+
+============================================================================
+SUMMARY: ICC (scenario)
+============================================================================
+Metric                  Claude       GLM-5     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count               0.026       0.297       0.310       0.336       0.221       0.013       0.429
+format_density           0.051       0.087       0.005       0.000       0.183       0.006       0.092
+questions                0.112       0.230       0.066       0.261       0.135       0.028       0.196
+avg_sent_len             0.084       0.230       0.110       0.165       0.071       0.068       0.086
+coleman_liau             0.401       0.547       0.485       0.516       0.509       0.443       0.513
+first_person             0.011       0.000       0.060       0.000       0.019       0.000       0.018
+second_person            0.201       0.563       0.317       0.563       0.580       0.269       0.607
+hedging                  0.120       0.279       0.116       0.310       0.200       0.170       0.264
+
+
+============================================================================
+PART 3: PERMUTATION F-TESTS (2000 iterations)
+  Restricted: framing labels shuffled within scenario blocks
+============================================================================
+
+  Claude Sonnet 4.6
+    word_count          F=  27.17  p_param=1.48e-12  p_perm=0.0005  agree=Y
+    format_density      F=  61.50  p_param=5.51e-19  p_perm=0.0005  agree=Y
+    questions           F=   5.11  p_param=8.51e-04  p_perm=0.0010  agree=Y
+    avg_sent_len        F=  21.13  p_param=8.19e-11  p_perm=0.0005  agree=Y
+    coleman_liau        F=  31.73  p_param=1.08e-13  p_perm=0.0005  agree=Y
+    first_person        F=  13.34  p_param=5.49e-08  p_perm=0.0005  agree=Y
+    second_person       F=  57.91  p_param=1.76e-18  p_perm=0.0005  agree=Y
+    hedging             F=   4.73  p_param=1.48e-03  p_perm=0.0030  agree=Y
+    -> 8/8 agree
+
+  GLM-5
+    word_count          F=  12.01  p_param=2.06e-07  p_perm=0.0005  agree=Y
+    format_density      F=  20.35  p_param=1.46e-10  p_perm=0.0005  agree=Y
+    questions           F=   5.55  p_param=4.59e-04  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   1.20  p_param=3.25e-01  p_perm=0.3373  agree=Y
+    coleman_liau        F=  42.98  p_param=4.85e-16  p_perm=0.0005  agree=Y
+    first_person        F=  10.68  p_param=8.30e-07  p_perm=0.0005  agree=Y
+    second_person       F=  34.81  p_param=2.15e-14  p_perm=0.0005  agree=Y
+    hedging             F=  10.21  p_param=1.39e-06  p_perm=0.0005  agree=Y
+    -> 8/8 agree
+
+  GPT-5.3
+    word_count          F=   5.73  p_param=3.56e-04  p_perm=0.0005  agree=Y
+    format_density      F=  23.08  p_param=2.07e-11  p_perm=0.0005  agree=Y
+    questions           F=   3.50  p_param=9.26e-03  p_perm=0.0090  agree=Y
+    avg_sent_len        F=   9.10  p_param=4.91e-06  p_perm=0.0005  agree=Y
+    coleman_liau        F=  25.82  p_param=3.41e-12  p_perm=0.0005  agree=Y
+    first_person        F=   8.77  p_param=7.25e-06  p_perm=0.0005  agree=Y
+    second_person       F=  25.56  p_param=4.04e-12  p_perm=0.0005  agree=Y
+    hedging             F=   4.91  p_param=1.14e-03  p_perm=0.0020  agree=Y
+    -> 8/8 agree
+
+  Gemini 3.1 Pro
+    word_count          F=  10.13  p_param=1.51e-06  p_perm=0.0005  agree=Y
+    format_density      F=  26.50  p_param=2.23e-12  p_perm=0.0005  agree=Y
+    questions           F=   7.92  p_param=2.03e-05  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   3.12  p_param=1.68e-02  p_perm=0.0140  agree=Y
+    coleman_liau        F=  41.72  p_param=8.38e-16  p_perm=0.0005  agree=Y
+    first_person        F=  14.30  p_param=2.22e-08  p_perm=0.0005  agree=Y
+    second_person       F=  48.33  p_param=5.51e-17  p_perm=0.0005  agree=Y
+    hedging             F=   8.27  p_param=1.32e-05  p_perm=0.0005  agree=Y
+    -> 8/8 agree
+
+  Kimi K2.5
+    word_count          F=   4.50  p_param=2.07e-03  p_perm=0.0025  agree=Y
+    format_density      F=  24.16  p_param=1.00e-11  p_perm=0.0005  agree=Y
+    questions           F=   7.06  p_param=6.03e-05  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   6.14  p_param=2.04e-04  p_perm=0.0005  agree=Y
+    coleman_liau        F=  39.93  p_param=1.86e-15  p_perm=0.0005  agree=Y
+    first_person        F=  11.19  p_param=4.80e-07  p_perm=0.0005  agree=Y
+    second_person       F=  44.94  p_param=2.13e-16  p_perm=0.0005  agree=Y
+    hedging             F=   4.97  p_param=1.05e-03  p_perm=0.0010  agree=Y
+    -> 8/8 agree
+
+  MiniMax M2.7
+    word_count          F=   0.33  p_param=8.94e-01  p_perm=0.8851  agree=Y
+    format_density      F=  20.36  p_param=1.44e-10  p_perm=0.0005  agree=Y
+    questions           F=   8.99  p_param=5.61e-06  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   4.19  p_param=3.29e-03  p_perm=0.0040  agree=Y
+    coleman_liau        F=  20.89  p_param=9.79e-11  p_perm=0.0005  agree=Y
+    first_person        F=   6.73  p_param=9.27e-05  p_perm=0.0005  agree=Y
+    second_person       F=  24.31  p_param=9.09e-12  p_perm=0.0005  agree=Y
+    hedging             F=   1.84  p_param=1.24e-01  p_perm=0.1259  agree=Y
+    -> 8/8 agree
+
+  Qwen 3.5
+    word_count          F=   8.83  p_param=6.73e-06  p_perm=0.0005  agree=Y
+    format_density      F=  24.62  p_param=7.40e-12  p_perm=0.0005  agree=Y
+    questions           F=   5.42  p_param=5.51e-04  p_perm=0.0015  agree=Y
+    avg_sent_len        F=   1.12  p_param=3.63e-01  p_perm=0.3703  agree=Y
+    coleman_liau        F=  45.43  p_param=1.75e-16  p_perm=0.0005  agree=Y
+    first_person        F=  22.83  p_param=2.46e-11  p_perm=0.0005  agree=Y
+    second_person       F=  53.92  p_param=6.94e-18  p_perm=0.0005  agree=Y
+    hedging             F=   8.19  p_param=1.45e-05  p_perm=0.0005  agree=Y
+    -> 8/8 agree
+
+
+
+============================================================================
+PART 4: WITHIN-FRAMING MODEL COMPARISONS
+  metric ~ model + (1|scenario)
+============================================================================
+
+  Framing: Angry
+    word_count          F(6,54)=  36.84  p=2.17e-17 ***  eta2p=0.804  sig.pairs=11/21
+    format_density      F(6,54)=  20.07  p=3.55e-12 ***  eta2p=0.690  sig.pairs=13/21
+    questions           F(6,54)=   5.10  p=3.28e-04 ***  eta2p=0.362  sig.pairs= 3/21
+    avg_sent_len        F(6,54)=  21.27  p=1.24e-12 ***  eta2p=0.703  sig.pairs=13/21
+    coleman_liau        F(6,54)=  50.27  p=2.34e-20 ***  eta2p=0.848  sig.pairs=14/21
+    first_person        F(6,54)=   7.68  p=5.47e-06 ***  eta2p=0.460  sig.pairs= 6/21
+    second_person       F(6,54)=  18.38  p=1.70e-11 ***  eta2p=0.671  sig.pairs= 9/21
+    hedging             F(6,54)=  11.37  p=3.56e-08 ***  eta2p=0.558  sig.pairs= 8/21
+
+  Framing: Anxious
+    word_count          F(6,54)=  45.67  p=2.01e-19 ***  eta2p=0.835  sig.pairs=12/21
+    format_density      F(6,54)=  16.53  p=1.05e-10 ***  eta2p=0.647  sig.pairs=12/21
+    questions           F(6,54)=   6.37  p=4.07e-05 ***  eta2p=0.415  sig.pairs= 7/21
+    avg_sent_len        F(6,54)=  21.18  p=1.34e-12 ***  eta2p=0.702  sig.pairs=12/21
+    coleman_liau        F(6,54)=  76.19  p=1.44e-24 ***  eta2p=0.894  sig.pairs=14/21
+    first_person        F(6,54)=   9.35  p=4.97e-07 ***  eta2p=0.510  sig.pairs= 7/21
+    second_person       F(6,54)=  13.01  p=4.86e-09 ***  eta2p=0.591  sig.pairs=10/21
+    hedging             F(6,54)=   7.51  p=7.07e-06 ***  eta2p=0.455  sig.pairs= 5/21
+
+  Framing: Humor
+    word_count          F(6,54)=  54.84  p=3.22e-21 ***  eta2p=0.859  sig.pairs=12/21
+    format_density      F(6,54)=  25.34  p=4.49e-14 ***  eta2p=0.738  sig.pairs=15/21
+    questions           F(6,54)=   5.35  p=2.14e-04 ***  eta2p=0.373  sig.pairs= 2/21
+    avg_sent_len        F(6,54)=  23.69  p=1.64e-13 ***  eta2p=0.725  sig.pairs=13/21
+    coleman_liau        F(6,54)=  94.63  p=7.56e-27 ***  eta2p=0.913  sig.pairs=14/21
+    first_person        F(6,54)=   3.16  p=9.99e-03 **   eta2p=0.260  sig.pairs= 1/21
+    second_person       F(6,54)=  12.16  p=1.34e-08 ***  eta2p=0.575  sig.pairs= 8/21
+    hedging             F(6,54)=  10.81  p=7.19e-08 ***  eta2p=0.546  sig.pairs= 8/21
+
+  Framing: Hyper-rational
+    word_count          F(6,54)=  18.27  p=1.89e-11 ***  eta2p=0.670  sig.pairs= 6/21
+    format_density      F(6,54)=  15.41  p=3.35e-10 ***  eta2p=0.631  sig.pairs= 8/21
+    questions           F(6,54)=   4.92  p=4.45e-04 ***  eta2p=0.353  sig.pairs= 4/21
+    avg_sent_len        F(6,54)=  31.16  p=7.21e-16 ***  eta2p=0.776  sig.pairs=13/21
+    coleman_liau        F(6,54)=  34.63  p=8.07e-17 ***  eta2p=0.794  sig.pairs=10/21
+    first_person        F(6,54)=   9.32  p=5.20e-07 ***  eta2p=0.509  sig.pairs= 9/21
+    second_person       F(6,54)=  13.20  p=3.90e-09 ***  eta2p=0.595  sig.pairs= 9/21
+    hedging             F(6,54)=  10.00  p=2.09e-07 ***  eta2p=0.526  sig.pairs= 8/21
+
+  Framing: Overwhelmed
+    word_count          F(6,54)=  29.39  p=2.37e-15 ***  eta2p=0.766  sig.pairs=11/21
+    format_density      F(6,54)=  12.75  p=6.60e-09 ***  eta2p=0.586  sig.pairs=10/21
+    questions           F(6,54)=   3.92  p=2.54e-03 **   eta2p=0.303  sig.pairs= 1/21
+    avg_sent_len        F(6,54)=   8.84  p=1.02e-06 ***  eta2p=0.496  sig.pairs= 8/21
+    coleman_liau        F(6,54)=  52.45  p=8.92e-21 ***  eta2p=0.854  sig.pairs=14/21
+    first_person        F(6,54)=   7.73  p=5.04e-06 ***  eta2p=0.462  sig.pairs= 5/21
+    second_person       F(6,54)=  13.51  p=2.72e-09 ***  eta2p=0.600  sig.pairs=10/21
+    hedging             F(6,54)=   5.80  p=1.03e-04 ***  eta2p=0.392  sig.pairs= 3/21
+
+  Framing: Stoic
+    word_count          F(6,54)=  64.84  p=6.63e-23 ***  eta2p=0.878  sig.pairs=14/21
+    format_density      F(6,54)=  43.80  p=5.07e-19 ***  eta2p=0.830  sig.pairs=12/21
+    questions           F(6,54)=   6.34  p=4.26e-05 ***  eta2p=0.413  sig.pairs= 5/21
+    avg_sent_len        F(6,54)=  40.43  p=2.93e-18 ***  eta2p=0.818  sig.pairs=14/21
+    coleman_liau        F(6,54)=  41.15  p=2.00e-18 ***  eta2p=0.821  sig.pairs=15/21
+    first_person        F(6,54)=   4.27  p=1.36e-03 **   eta2p=0.322  sig.pairs= 2/21
+    second_person       F(6,54)=  22.05  p=6.35e-13 ***  eta2p=0.710  sig.pairs= 8/21
+    hedging             F(6,54)=   6.66  p=2.57e-05 ***  eta2p=0.425  sig.pairs= 6/21

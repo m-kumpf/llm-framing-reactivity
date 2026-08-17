@@ -1,0 +1,58 @@
+Tier-3 inference (module 2) — analysis summary
+======================================================================
+Generated (UTC): 2026-08-13T08:11:37+00:00
+Permutations: 10000, seed 42; TWO Holm families: confirmatory (27 tests) and sensitivity/Ruben (12 tests) — corrected separately so supplementary endpoints cannot affect confirmatory p_holm
+Unit: 420 model x framing x scenario cell means (10 runs aggregated)
+
+endpoint                            effect               F   eta2p    p_perm    p_holm  sig
+--------------------------------------------------------------------------------------------
+composite_relationship              model             14.1   0.187    0.0001    0.0027  *
+composite_relationship              framing          352.6   0.827    0.0001    0.0027  *
+composite_relationship              interaction        2.4   0.163    0.0002    0.0027  *
+item_01_validation_concern          model              6.4   0.094    0.0001    0.0027  *
+item_01_validation_concern          framing          343.2   0.823    0.0001    0.0027  *
+item_01_validation_concern          interaction        1.6   0.117    0.0216    0.1080  
+item_02_reassurance                 model              8.9   0.127    0.0001    0.0027  *
+item_02_reassurance                 framing           90.6   0.551    0.0001    0.0027  *
+item_02_reassurance                 interaction        1.5   0.106    0.0608    0.2432  
+item_04_encourages_followup         model              7.4   0.108    0.0001    0.0027  *
+item_04_encourages_followup         framing           31.4   0.298    0.0001    0.0027  *
+item_04_encourages_followup         interaction        1.7   0.123    0.0103    0.0618  
+item_07_praising_help_seeking       model              6.9   0.101    0.0001    0.0027  *
+item_07_praising_help_seeking       framing            6.2   0.078    0.0001    0.0027  *
+item_07_praising_help_seeking       interaction        1.0   0.073    0.5107    1.0000  
+item_08_medical_jargon              model             17.0   0.216    0.0001    0.0027  *
+item_08_medical_jargon              framing          225.5   0.753    0.0001    0.0027  *
+item_08_medical_jargon              interaction        1.8   0.129    0.0077    0.0539  
+item_10_psychosocial_info           model             12.8   0.172    0.0001    0.0027  *
+item_10_psychosocial_info           framing          313.6   0.810    0.0001    0.0027  *
+item_10_psychosocial_info           interaction        0.6   0.048    0.9467    1.0000  
+item_11_biomedical_info             model             12.5   0.168    0.0001    0.0027  *
+item_11_biomedical_info             framing           45.0   0.379    0.0001    0.0027  *
+item_11_biomedical_info             interaction        2.1   0.148    0.0012    0.0096  *
+item_12_directive_language          model             34.5   0.360    0.0001    0.0027  *
+item_12_directive_language          framing           16.2   0.180    0.0001    0.0027  *
+item_12_directive_language          interaction        1.4   0.104    0.0670    0.2432  
+--- separate Holm family: sensitivity / Ruben composites ---
+composite_relationship_5item        model             15.7   0.204    0.0001    0.0012  *
+composite_relationship_5item        framing          329.9   0.817    0.0001    0.0012  *
+composite_relationship_5item        interaction        2.2   0.149    0.0007    0.0028  *
+composite_conscientious             model             21.8   0.261    0.0001    0.0012  *
+composite_conscientious             framing           68.8   0.482    0.0001    0.0012  *
+composite_conscientious             interaction        0.8   0.063    0.7302    0.7302  
+composite_guiding                   model             35.2   0.364    0.0001    0.0012  *
+composite_guiding                   framing           14.4   0.163    0.0001    0.0012  *
+composite_guiding                   interaction        1.6   0.118    0.0185    0.0370  *
+composite_technical                 model             22.1   0.264    0.0001    0.0012  *
+composite_technical                 framing          172.2   0.700    0.0001    0.0012  *
+composite_technical                 interaction        1.7   0.123    0.0099    0.0297  *
+
+Effect-size fits: PO 278/336 ok, binomial 227/336 ok (failures/degenerates carry notes in the CSVs)
+
+Composite policy: the 6-item Ruben (2026) relationship-oriented
+composite [items 1,2,3,6,7,10] is PRIMARY. Item 6 is retained per
+the validated construct; its human-human reliability was low in
+this application (kappa_w H-H = .10). The 5-item variant (item 6
+removed) is an application-specific sensitivity check. Empirical
+membership (13-item PCA over the 420 cell means): item 6 loads
++0.86 on PC1, the component carrying items 1,2,3,7,10 (their mean loading +0.68).

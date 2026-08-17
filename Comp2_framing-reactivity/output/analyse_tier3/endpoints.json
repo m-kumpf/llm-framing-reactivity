@@ -1,0 +1,139 @@
+{
+  "source_gate": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/analyse_tier3_judge/gate_verdicts.json",
+  "endpoints": {
+    "composite_relationship": {
+      "role": "primary",
+      "kind": "composite",
+      "items": [
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_03_personalised_listening",
+        "item_06_nonjudgmental_language",
+        "item_07_praising_help_seeking",
+        "item_10_psychosocial_info"
+      ]
+    },
+    "item_01_validation_concern": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_01_validation_concern"
+      ]
+    },
+    "item_02_reassurance": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_02_reassurance"
+      ]
+    },
+    "item_04_encourages_followup": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_04_encourages_followup"
+      ]
+    },
+    "item_07_praising_help_seeking": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_07_praising_help_seeking"
+      ]
+    },
+    "item_08_medical_jargon": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_08_medical_jargon"
+      ]
+    },
+    "item_10_psychosocial_info": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_10_psychosocial_info"
+      ]
+    },
+    "item_11_biomedical_info": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_11_biomedical_info"
+      ]
+    },
+    "item_12_directive_language": {
+      "role": "secondary",
+      "kind": "item",
+      "items": [
+        "item_12_directive_language"
+      ]
+    },
+    "composite_relationship_5item": {
+      "role": "sensitivity",
+      "kind": "composite",
+      "items": [
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_03_personalised_listening",
+        "item_07_praising_help_seeking",
+        "item_10_psychosocial_info"
+      ]
+    },
+    "composite_conscientious": {
+      "role": "exploratory_ruben",
+      "kind": "composite",
+      "items": [
+        "item_09_hurried_impression",
+        "item_13_collaborative_language"
+      ],
+      "reverse": [
+        "item_09_hurried_impression"
+      ]
+    },
+    "composite_guiding": {
+      "role": "exploratory_ruben",
+      "kind": "composite",
+      "items": [
+        "item_05_structured_response",
+        "item_12_directive_language"
+      ],
+      "reverse": []
+    },
+    "composite_technical": {
+      "role": "secondary_ruben",
+      "kind": "composite",
+      "items": [
+        "item_08_medical_jargon",
+        "item_11_biomedical_info"
+      ],
+      "reverse": []
+    }
+  },
+  "holm_families": {
+    "confirmatory": {
+      "endpoints": [
+        "composite_relationship",
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_04_encourages_followup",
+        "item_07_praising_help_seeking",
+        "item_08_medical_jargon",
+        "item_10_psychosocial_info",
+        "item_11_biomedical_info",
+        "item_12_directive_language"
+      ],
+      "n_tests": 27
+    },
+    "sensitivity_ruben": {
+      "endpoints": [
+        "composite_relationship_5item",
+        "composite_conscientious",
+        "composite_guiding",
+        "composite_technical"
+      ],
+      "n_tests": 12
+    }
+  },
+  "gate_generated_utc": "2026-07-15T10:46:48+00:00"
+}

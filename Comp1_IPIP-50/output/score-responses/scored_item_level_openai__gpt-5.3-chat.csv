@@ -1,0 +1,501 @@
+model,item_number,repetition,raw_response,parsed_response,scored_value,factor_label,keying
+openai/gpt-5.3-chat,1,1,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,2,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,3,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,4,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,5,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,6,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,7,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,8,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,1,9,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,1,10,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,2,1,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,2,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,3,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,4,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,5,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,6,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,7,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,8,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,9,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,2,10,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,3,1,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,2,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,3,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,4,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,5,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,6,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,7,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,8,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,9,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,3,10,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,4,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,4,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,5,1,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,2,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,3,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,4,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,5,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,6,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,7,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,8,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,9,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,5,10,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,6,1,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,6,2,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,6,3,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,6,4,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,6,5,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,6,6,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,6,7,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,6,8,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,6,9,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,6,10,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,7,1,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,2,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,3,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,4,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,5,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,6,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,7,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,8,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,9,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,7,10,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,8,1,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,2,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,3,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,4,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,5,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,6,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,7,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,8,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,9,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,8,10,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,9,1,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,2,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,3,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,4,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,5,3,3,3,Emotional Stability,+
+openai/gpt-5.3-chat,9,6,4,4,4,Emotional Stability,+
+openai/gpt-5.3-chat,9,7,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,8,4,4,4,Emotional Stability,+
+openai/gpt-5.3-chat,9,9,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,9,10,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,10,1,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,2,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,3,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,4,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,5,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,6,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,7,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,8,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,9,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,10,10,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,11,1,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,11,2,4,4,4,Extraversion,+
+openai/gpt-5.3-chat,11,3,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,11,4,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,11,5,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,11,6,4,4,4,Extraversion,+
+openai/gpt-5.3-chat,11,7,4,4,4,Extraversion,+
+openai/gpt-5.3-chat,11,8,4,4,4,Extraversion,+
+openai/gpt-5.3-chat,11,9,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,11,10,4,4,4,Extraversion,+
+openai/gpt-5.3-chat,12,1,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,2,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,3,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,4,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,5,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,6,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,7,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,8,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,9,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,12,10,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,13,1,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,2,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,3,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,4,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,5,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,6,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,7,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,8,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,9,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,13,10,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,14,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,14,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,15,1,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,2,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,3,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,4,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,5,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,6,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,7,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,8,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,9,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,15,10,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,16,1,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,2,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,3,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,16,4,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,5,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,6,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,7,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,16,8,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,9,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,16,10,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,17,1,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,2,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,3,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,4,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,5,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,6,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,7,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,8,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,9,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,17,10,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,18,1,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,2,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,3,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,4,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,5,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,6,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,7,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,8,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,9,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,18,10,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,19,1,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,2,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,3,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,4,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,5,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,6,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,7,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,8,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,9,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,19,10,5,5,5,Emotional Stability,+
+openai/gpt-5.3-chat,20,1,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,2,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,3,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,4,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,5,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,6,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,7,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,8,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,9,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,20,10,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,21,1,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,2,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,21,3,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,4,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,5,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,6,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,7,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,21,8,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,21,9,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,21,10,3,3,3,Extraversion,+
+openai/gpt-5.3-chat,22,1,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,2,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,3,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,4,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,5,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,6,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,7,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,8,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,9,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,22,10,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,23,1,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,2,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,3,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,4,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,5,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,6,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,7,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,8,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,9,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,23,10,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,24,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,24,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,25,1,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,2,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,3,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,4,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,5,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,6,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,7,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,8,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,9,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,25,10,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,26,1,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,2,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,3,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,4,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,5,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,6,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,7,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,8,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,9,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,26,10,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,27,1,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,2,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,3,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,4,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,27,5,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,6,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,7,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,8,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,27,9,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,27,10,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,28,1,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,2,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,3,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,4,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,5,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,6,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,7,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,8,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,9,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,28,10,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,29,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,29,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,30,1,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,2,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,3,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,4,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,5,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,6,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,7,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,8,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,9,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,30,10,1,1,5,Intellect/Openness,-
+openai/gpt-5.3-chat,31,1,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,2,5,5,5,Extraversion,+
+openai/gpt-5.3-chat,31,3,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,4,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,5,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,6,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,7,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,8,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,9,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,31,10,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,32,1,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,2,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,3,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,4,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,5,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,6,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,7,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,8,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,9,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,32,10,1,1,5,Agreeableness,-
+openai/gpt-5.3-chat,33,1,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,33,2,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,3,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,4,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,5,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,6,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,7,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,33,8,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,9,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,33,10,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,34,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,34,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,35,1,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,2,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,3,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,4,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,5,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,6,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,7,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,8,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,9,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,35,10,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,36,1,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,36,2,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,36,3,5,5,1,Extraversion,-
+openai/gpt-5.3-chat,36,4,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,36,5,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,36,6,5,5,1,Extraversion,-
+openai/gpt-5.3-chat,36,7,5,5,1,Extraversion,-
+openai/gpt-5.3-chat,36,8,4,4,2,Extraversion,-
+openai/gpt-5.3-chat,36,9,5,5,1,Extraversion,-
+openai/gpt-5.3-chat,36,10,5,5,1,Extraversion,-
+openai/gpt-5.3-chat,37,1,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,2,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,3,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,4,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,5,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,6,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,7,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,8,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,9,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,37,10,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,38,1,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,2,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,3,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,4,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,5,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,6,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,7,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,8,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,9,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,38,10,1,1,5,Conscientiousness,-
+openai/gpt-5.3-chat,39,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,39,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,40,1,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,2,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,3,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,4,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,5,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,40,6,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,40,7,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,8,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,40,9,3,3,3,Intellect/Openness,+
+openai/gpt-5.3-chat,40,10,2,2,2,Intellect/Openness,+
+openai/gpt-5.3-chat,41,1,1,1,1,Extraversion,+
+openai/gpt-5.3-chat,41,2,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,3,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,4,3,3,3,Extraversion,+
+openai/gpt-5.3-chat,41,5,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,6,3,3,3,Extraversion,+
+openai/gpt-5.3-chat,41,7,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,8,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,9,2,2,2,Extraversion,+
+openai/gpt-5.3-chat,41,10,3,3,3,Extraversion,+
+openai/gpt-5.3-chat,42,1,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,2,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,3,2,2,2,Agreeableness,+
+openai/gpt-5.3-chat,42,4,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,5,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,6,2,2,2,Agreeableness,+
+openai/gpt-5.3-chat,42,7,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,8,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,9,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,42,10,1,1,1,Agreeableness,+
+openai/gpt-5.3-chat,43,1,2,2,2,Conscientiousness,+
+openai/gpt-5.3-chat,43,2,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,43,3,2,2,2,Conscientiousness,+
+openai/gpt-5.3-chat,43,4,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,43,5,1,1,1,Conscientiousness,+
+openai/gpt-5.3-chat,43,6,3,3,3,Conscientiousness,+
+openai/gpt-5.3-chat,43,7,2,2,2,Conscientiousness,+
+openai/gpt-5.3-chat,43,8,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,43,9,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,43,10,4,4,4,Conscientiousness,+
+openai/gpt-5.3-chat,44,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,44,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,45,1,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,45,2,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,45,3,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,45,4,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,45,5,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,45,6,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,45,7,4,4,4,Intellect/Openness,+
+openai/gpt-5.3-chat,45,8,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,45,9,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,45,10,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,46,1,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,46,2,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,46,3,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,46,4,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,46,5,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,46,6,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,46,7,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,46,8,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,46,9,1,1,5,Extraversion,-
+openai/gpt-5.3-chat,46,10,2,2,4,Extraversion,-
+openai/gpt-5.3-chat,47,1,4,4,4,Agreeableness,+
+openai/gpt-5.3-chat,47,2,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,3,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,4,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,5,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,6,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,7,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,8,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,9,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,47,10,5,5,5,Agreeableness,+
+openai/gpt-5.3-chat,48,1,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,2,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,3,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,4,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,5,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,6,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,7,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,8,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,9,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,48,10,5,5,5,Conscientiousness,+
+openai/gpt-5.3-chat,49,1,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,2,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,3,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,4,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,5,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,6,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,7,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,8,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,9,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,49,10,1,1,5,Emotional Stability,-
+openai/gpt-5.3-chat,50,1,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,2,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,3,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,4,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,5,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,6,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,7,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,8,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,9,5,5,5,Intellect/Openness,+
+openai/gpt-5.3-chat,50,10,5,5,5,Intellect/Openness,+

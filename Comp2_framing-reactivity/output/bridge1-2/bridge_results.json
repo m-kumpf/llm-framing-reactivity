@@ -1,0 +1,250 @@
+{
+  "generated_utc": "2026-08-13T08:13:32+00:00",
+  "prespecified": {
+    "x": "Comp1 Emotional_Stability (IPIP-50 factor mean)",
+    "y": "reactivity_confirmatory_bridge_index",
+    "spearman_rho": 0.1071,
+    "p_exact_permutation": 0.8397,
+    "pearson_r_descriptive": 0.1595,
+    "n_models": 7,
+    "status": "exploratory / hypothesis-generating"
+  },
+  "data": {
+    "Claude Sonnet 4.6": {
+      "traits": {
+        "Extraversion": 33.0,
+        "Agreeableness": 41.0,
+        "Conscientiousness": 40.6,
+        "Emotional_Stability": 33.7,
+        "Intellect_Openness": 43.3
+      },
+      "reactivity_confirmatory_bridge_index": 0.669,
+      "reactivity_primary": 0.8,
+      "reactivity_sensitivity": 0.94
+    },
+    "GPT-5.3": {
+      "traits": {
+        "Extraversion": 28.2,
+        "Agreeableness": 45.3,
+        "Conscientiousness": 46.8,
+        "Emotional_Stability": 49.6,
+        "Intellect_Openness": 46.1
+      },
+      "reactivity_confirmatory_bridge_index": 0.754,
+      "reactivity_primary": 0.711,
+      "reactivity_sensitivity": 0.703
+    },
+    "Gemini 3.1 Pro": {
+      "traits": {
+        "Extraversion": 32.4,
+        "Agreeableness": 49.4,
+        "Conscientiousness": 50.0,
+        "Emotional_Stability": 49.8,
+        "Intellect_Openness": 49.2
+      },
+      "reactivity_confirmatory_bridge_index": 0.586,
+      "reactivity_primary": 0.667,
+      "reactivity_sensitivity": 0.679
+    },
+    "Kimi K2.5": {
+      "traits": {
+        "Extraversion": 27.3,
+        "Agreeableness": 40.7,
+        "Conscientiousness": 42.8,
+        "Emotional_Stability": 48.5,
+        "Intellect_Openness": 43.0
+      },
+      "reactivity_confirmatory_bridge_index": 0.812,
+      "reactivity_primary": 0.792,
+      "reactivity_sensitivity": 0.656
+    },
+    "Qwen 3.5": {
+      "traits": {
+        "Extraversion": 27.2,
+        "Agreeableness": 42.7,
+        "Conscientiousness": 45.3,
+        "Emotional_Stability": 48.6,
+        "Intellect_Openness": 44.3
+      },
+      "reactivity_confirmatory_bridge_index": 0.72,
+      "reactivity_primary": 0.773,
+      "reactivity_sensitivity": 0.696
+    },
+    "MiniMax M2.7": {
+      "traits": {
+        "Extraversion": 29.2,
+        "Agreeableness": 36.7,
+        "Conscientiousness": 37.2,
+        "Emotional_Stability": 47.2,
+        "Intellect_Openness": 41.5
+      },
+      "reactivity_confirmatory_bridge_index": 0.628,
+      "reactivity_primary": 0.665,
+      "reactivity_sensitivity": 0.626
+    },
+    "GLM 5": {
+      "traits": {
+        "Extraversion": 30.6,
+        "Agreeableness": 47.3,
+        "Conscientiousness": 46.1,
+        "Emotional_Stability": 47.8,
+        "Intellect_Openness": 46.7
+      },
+      "reactivity_confirmatory_bridge_index": 0.711,
+      "reactivity_primary": 0.714,
+      "reactivity_sensitivity": 0.632
+    }
+  },
+  "exploratory_grid": [
+    {
+      "factor": "Extraversion",
+      "reactivity_index": "reactivity_confirmatory_bridge_index",
+      "index_label": "Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",
+      "n": 7,
+      "spearman_rho": -0.7143,
+      "p_exact_permutation": 0.0881,
+      "pearson_r_descriptive": -0.7049,
+      "primary": false
+    },
+    {
+      "factor": "Extraversion",
+      "reactivity_index": "reactivity_primary",
+      "index_label": "Interpersonal primary (10 metrics)",
+      "n": 7,
+      "spearman_rho": -0.0357,
+      "p_exact_permutation": 0.9635,
+      "pearson_r_descriptive": -0.1847,
+      "primary": false
+    },
+    {
+      "factor": "Extraversion",
+      "reactivity_index": "reactivity_sensitivity",
+      "index_label": "Deterministic-only sensitivity (7 metrics)",
+      "n": 7,
+      "spearman_rho": 0.1429,
+      "p_exact_permutation": 0.7825,
+      "pearson_r_descriptive": 0.5371,
+      "primary": false
+    },
+    {
+      "factor": "Agreeableness",
+      "reactivity_index": "reactivity_confirmatory_bridge_index",
+      "index_label": "Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",
+      "n": 7,
+      "spearman_rho": -0.2143,
+      "p_exact_permutation": 0.6615,
+      "pearson_r_descriptive": -0.1506,
+      "primary": false
+    },
+    {
+      "factor": "Agreeableness",
+      "reactivity_index": "reactivity_primary",
+      "index_label": "Interpersonal primary (10 metrics)",
+      "n": 7,
+      "spearman_rho": -0.1786,
+      "p_exact_permutation": 0.7131,
+      "pearson_r_descriptive": -0.2736,
+      "primary": false
+    },
+    {
+      "factor": "Agreeableness",
+      "reactivity_index": "reactivity_sensitivity",
+      "index_label": "Deterministic-only sensitivity (7 metrics)",
+      "n": 7,
+      "spearman_rho": 0.2143,
+      "p_exact_permutation": 0.6615,
+      "pearson_r_descriptive": -0.1212,
+      "primary": false
+    },
+    {
+      "factor": "Conscientiousness",
+      "reactivity_index": "reactivity_confirmatory_bridge_index",
+      "index_label": "Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",
+      "n": 7,
+      "spearman_rho": 0.0,
+      "p_exact_permutation": 1.0,
+      "pearson_r_descriptive": -0.0106,
+      "primary": false
+    },
+    {
+      "factor": "Conscientiousness",
+      "reactivity_index": "reactivity_primary",
+      "index_label": "Interpersonal primary (10 metrics)",
+      "n": 7,
+      "spearman_rho": -0.25,
+      "p_exact_permutation": 0.5948,
+      "pearson_r_descriptive": -0.193,
+      "primary": false
+    },
+    {
+      "factor": "Conscientiousness",
+      "reactivity_index": "reactivity_sensitivity",
+      "index_label": "Deterministic-only sensitivity (7 metrics)",
+      "n": 7,
+      "spearman_rho": 0.2143,
+      "p_exact_permutation": 0.6615,
+      "pearson_r_descriptive": -0.1916,
+      "primary": false
+    },
+    {
+      "factor": "Emotional_Stability",
+      "reactivity_index": "reactivity_confirmatory_bridge_index",
+      "index_label": "Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",
+      "n": 7,
+      "spearman_rho": 0.1071,
+      "p_exact_permutation": 0.8397,
+      "pearson_r_descriptive": 0.1595,
+      "primary": true
+    },
+    {
+      "factor": "Emotional_Stability",
+      "reactivity_index": "reactivity_primary",
+      "index_label": "Interpersonal primary (10 metrics)",
+      "n": 7,
+      "spearman_rho": -0.3571,
+      "p_exact_permutation": 0.4444,
+      "pearson_r_descriptive": -0.5218,
+      "primary": false
+    },
+    {
+      "factor": "Emotional_Stability",
+      "reactivity_index": "reactivity_sensitivity",
+      "index_label": "Deterministic-only sensitivity (7 metrics)",
+      "n": 7,
+      "spearman_rho": 0.1429,
+      "p_exact_permutation": 0.7825,
+      "pearson_r_descriptive": -0.9119,
+      "primary": false
+    },
+    {
+      "factor": "Intellect_Openness",
+      "reactivity_index": "reactivity_confirmatory_bridge_index",
+      "index_label": "Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)",
+      "n": 7,
+      "spearman_rho": -0.2143,
+      "p_exact_permutation": 0.6615,
+      "pearson_r_descriptive": -0.2798,
+      "primary": false
+    },
+    {
+      "factor": "Intellect_Openness",
+      "reactivity_index": "reactivity_primary",
+      "index_label": "Interpersonal primary (10 metrics)",
+      "n": 7,
+      "spearman_rho": -0.1786,
+      "p_exact_permutation": 0.7131,
+      "pearson_r_descriptive": -0.399,
+      "primary": false
+    },
+    {
+      "factor": "Intellect_Openness",
+      "reactivity_index": "reactivity_sensitivity",
+      "index_label": "Deterministic-only sensitivity (7 metrics)",
+      "n": 7,
+      "spearman_rho": 0.2143,
+      "p_exact_permutation": 0.6615,
+      "pearson_r_descriptive": -0.1499,
+      "primary": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "script": "analyse_tier3.py",
+  "timestamp_utc": "2026-08-13T08:11:37+00:00",
+  "seed": 42,
+  "n_perm": 10000,
+  "sources": {
+    "judge_files": [
+      "judge_anthropic__claude-sonnet-4.6.csv",
+      "judge_google__gemini-3.1-pro-preview.csv",
+      "judge_minimax__minimax-m2.7.csv",
+      "judge_moonshotai__kimi-k2.5.csv",
+      "judge_openai__gpt-5.3-chat.csv",
+      "judge_qwen__qwen3.5-397b-a17b.csv",
+      "judge_z-ai__glm-5.csv"
+    ],
+    "gate_verdicts": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/analyse_tier3_judge/gate_verdicts.json",
+    "codebook": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/codebook.json"
+  },
+  "endpoints": {
+    "composite_relationship": "primary",
+    "item_01_validation_concern": "secondary",
+    "item_02_reassurance": "secondary",
+    "item_04_encourages_followup": "secondary",
+    "item_07_praising_help_seeking": "secondary",
+    "item_08_medical_jargon": "secondary",
+    "item_10_psychosocial_info": "secondary",
+    "item_11_biomedical_info": "secondary",
+    "item_12_directive_language": "secondary",
+    "composite_relationship_5item": "sensitivity",
+    "composite_conscientious": "exploratory_ruben",
+    "composite_guiding": "exploratory_ruben",
+    "composite_technical": "secondary_ruben"
+  },
+  "design": "420 cell means; restricted permutation (main effects), Freedman-Lane within-scenario (interaction); Holm in two separate families: confirmatory (27 tests: primary composite + gate-confirmed items) and sensitivity/Ruben (12 tests), so supplementary endpoints cannot affect confirmatory p_holm",
+  "composite_policy": {
+    "primary": "6-item Ruben (2026) relationship-oriented composite [1,2,3,6,7,10]; item 6 retained per the validated construct despite low human-human reliability in this application (kappa_w H-H = .10)",
+    "sensitivity": "5-item variant [1,2,3,7,10] (item 6 removed), application-specific robustness check, same Holm family",
+    "ruben_secondary": {
+      "composite_conscientious": [
+        9,
+        13
+      ],
+      "composite_guiding": [
+        5,
+        12
+      ],
+      "composite_technical": [
+        8,
+        11
+      ]
+    },
+    "item_09_reversed_in_conscientious": true,
+    "item6_pca_membership": {
+      "n_cells": 420,
+      "variance_explained": [
+        0.3721,
+        0.1563,
+        0.0965,
+        0.076
+      ],
+      "relationship_component": "PC1",
+      "identified_by": "max mean |loading| of items 1,2,3,7,10",
+      "item_06_loading_on_relationship_component": 0.861,
+      "mean_loading_items_1_2_3_7_10": 0.6805
+    }
+  }
+}

@@ -1,0 +1,501 @@
+model,item_number,repetition,raw_response,parsed_response,scored_value,factor_label,keying
+google/gemini-3.1-pro-preview,1,1,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,1,2,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,3,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,4,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,1,5,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,6,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,7,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,1,8,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,9,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,1,10,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,2,1,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,2,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,3,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,4,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,5,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,6,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,7,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,8,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,9,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,2,10,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,3,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,3,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,4,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,4,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,5,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,5,10,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,6,1,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,2,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,3,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,4,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,5,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,6,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,7,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,8,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,9,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,6,10,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,7,1,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,2,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,7,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,8,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,7,10,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,8,1,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,2,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,3,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,4,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,5,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,6,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,7,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,8,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,9,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,8,10,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,9,1,4,4,4,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,2,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,3,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,4,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,5,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,6,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,7,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,8,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,9,4,4,4,Emotional Stability,+
+google/gemini-3.1-pro-preview,9,10,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,10,1,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,2,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,3,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,4,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,5,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,6,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,7,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,8,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,9,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,10,10,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,11,1,5,5,5,Extraversion,+
+google/gemini-3.1-pro-preview,11,2,5,5,5,Extraversion,+
+google/gemini-3.1-pro-preview,11,3,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,11,4,5,5,5,Extraversion,+
+google/gemini-3.1-pro-preview,11,5,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,11,6,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,11,7,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,11,8,5,5,5,Extraversion,+
+google/gemini-3.1-pro-preview,11,9,5,5,5,Extraversion,+
+google/gemini-3.1-pro-preview,11,10,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,12,1,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,2,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,3,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,4,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,5,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,6,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,7,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,8,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,9,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,12,10,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,13,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,13,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,14,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,14,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,15,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,15,10,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,16,1,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,2,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,3,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,4,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,5,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,6,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,7,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,8,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,16,9,3,3,3,Extraversion,-
+google/gemini-3.1-pro-preview,16,10,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,17,1,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,2,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,7,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,8,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,17,10,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,18,1,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,2,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,3,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,4,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,5,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,6,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,7,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,8,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,9,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,18,10,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,19,1,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,2,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,3,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,4,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,5,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,6,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,7,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,8,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,9,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,19,10,5,5,5,Emotional Stability,+
+google/gemini-3.1-pro-preview,20,1,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,2,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,3,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,4,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,5,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,6,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,7,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,8,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,9,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,20,10,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,21,1,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,21,2,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,21,3,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,21,4,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,21,5,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,21,6,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,21,7,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,21,8,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,21,9,1,1,1,Extraversion,+
+google/gemini-3.1-pro-preview,21,10,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,22,1,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,2,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,3,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,4,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,5,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,6,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,7,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,8,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,9,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,22,10,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,23,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,23,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,24,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,24,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,25,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,25,10,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,26,1,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,26,2,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,3,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,4,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,5,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,6,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,7,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,26,8,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,26,9,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,26,10,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,27,1,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,27,2,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,7,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,8,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,27,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,27,10,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,28,1,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,2,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,3,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,4,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,5,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,6,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,7,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,8,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,9,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,28,10,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,29,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,29,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,30,1,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,2,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,3,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,4,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,5,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,6,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,7,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,8,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,9,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,30,10,1,1,5,Intellect/Openness,-
+google/gemini-3.1-pro-preview,31,1,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,2,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,3,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,4,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,5,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,6,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,31,7,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,8,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,9,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,31,10,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,32,1,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,2,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,3,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,4,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,5,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,6,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,7,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,8,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,9,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,32,10,1,1,5,Agreeableness,-
+google/gemini-3.1-pro-preview,33,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,33,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,34,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,34,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,35,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,35,10,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,36,1,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,2,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,3,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,4,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,5,5,5,1,Extraversion,-
+google/gemini-3.1-pro-preview,36,6,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,7,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,8,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,9,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,36,10,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,37,1,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,2,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,7,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,8,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,37,10,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,38,1,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,2,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,3,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,4,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,5,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,6,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,7,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,8,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,9,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,38,10,1,1,5,Conscientiousness,-
+google/gemini-3.1-pro-preview,39,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,39,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,40,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,2,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,3,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,4,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,5,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,6,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,7,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,8,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,40,10,4,4,4,Intellect/Openness,+
+google/gemini-3.1-pro-preview,41,1,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,41,2,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,41,3,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,41,4,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,41,5,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,41,6,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,41,7,3,3,3,Extraversion,+
+google/gemini-3.1-pro-preview,41,8,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,41,9,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,41,10,4,4,4,Extraversion,+
+google/gemini-3.1-pro-preview,42,1,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,2,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,42,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,7,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,42,8,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,42,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,42,10,4,4,4,Agreeableness,+
+google/gemini-3.1-pro-preview,43,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,43,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,44,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,44,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,45,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,45,10,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,46,1,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,46,2,1,1,5,Extraversion,-
+google/gemini-3.1-pro-preview,46,3,3,3,3,Extraversion,-
+google/gemini-3.1-pro-preview,46,4,3,3,3,Extraversion,-
+google/gemini-3.1-pro-preview,46,5,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,46,6,2,2,4,Extraversion,-
+google/gemini-3.1-pro-preview,46,7,3,3,3,Extraversion,-
+google/gemini-3.1-pro-preview,46,8,3,3,3,Extraversion,-
+google/gemini-3.1-pro-preview,46,9,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,46,10,4,4,2,Extraversion,-
+google/gemini-3.1-pro-preview,47,1,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,2,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,3,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,4,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,5,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,6,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,7,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,8,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,9,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,47,10,5,5,5,Agreeableness,+
+google/gemini-3.1-pro-preview,48,1,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,2,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,3,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,4,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,5,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,6,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,7,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,8,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,9,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,48,10,5,5,5,Conscientiousness,+
+google/gemini-3.1-pro-preview,49,1,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,2,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,3,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,4,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,5,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,6,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,7,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,8,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,9,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,49,10,1,1,5,Emotional Stability,-
+google/gemini-3.1-pro-preview,50,1,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,2,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,3,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,4,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,5,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,6,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,7,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,8,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,9,5,5,5,Intellect/Openness,+
+google/gemini-3.1-pro-preview,50,10,5,5,5,Intellect/Openness,+

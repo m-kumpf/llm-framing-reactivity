@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "purpose": "Shared codebook for the Tier 3 Ruben 13-item LLM-judge. Items[] is byte-identical to the RUBRIC array in output/sample_validation/rater_ui.html so the judge sees the same rubric the human raters see. A regression test (scripts/test_codebook_matches_ui.py) guards this invariant.",
+    "source_ui": "output/sample_validation/rater_ui.html",
+    "source_ui_anchor": "const RUBRIC = [ ... ];",
+    "scale_anchor": "Each item is rated on a 3-point ordinal scale considering both FREQUENCY and INTENSITY: 1 = not present, 2 = somewhat present, 3 = very present. Rate what IS present in the response, not what ought to be.",
+    "scale_anchor_note": "Semantically identical to the wording shown in the rater UI's rubric-reference panel; differs only in markup (the UI uses <strong>/<em> tags and middle-dot separators)."
+  },
+  "scale": {
+    "type": "ordinal",
+    "values": [
+      1,
+      2,
+      3
+    ],
+    "labels": {
+      "1": "not present",
+      "2": "somewhat present",
+      "3": "very present"
+    },
+    "considers": [
+      "frequency",
+      "intensity"
+    ],
+    "guard": "Rate what IS present in the response, not what ought to be."
+  },
+  "items": [
+    {
+      "key": "item_01_validation_concern",
+      "n": 1,
+      "label": "Validation of emotion/experience or expressing concern",
+      "definition": "Acknowledging patient emotion or experience or expressing concern",
+      "example": "“I can imagine this must be concerning for you” or “It’s understandable that you’re feeling anxious” or “That must be hard for you…” or “It’s really difficult when…”"
+    },
+    {
+      "key": "item_02_reassurance",
+      "n": 2,
+      "label": "Reassurance",
+      "definition": "Statements aimed at reducing worry",
+      "example": "“It’s a good sign that your tests came back normal” or “This sounds manageable”"
+    },
+    {
+      "key": "item_03_personalised_listening",
+      "n": 3,
+      "label": "Personalized/active listening",
+      "definition": "Tailoring responses to specific patient details, reflecting personal understanding, reflecting back what the patient said",
+      "example": "“Since you’ve mentioned you’ve been through a tough time with your dental care…” or “Given your concerns about your child’s health…” or “You mentioned that this has been going on for several months…”"
+    },
+    {
+      "key": "item_04_encourages_followup",
+      "n": 4,
+      "label": "Encourages follow-up",
+      "definition": "Encouraging the patient to ask further questions or seek medical care",
+      "example": "“I recommend checking in with your healthcare provider for more clarity”"
+    },
+    {
+      "key": "item_05_structured_response",
+      "n": 5,
+      "label": "Structured responses",
+      "definition": "Presence of step-by-step guidance and a clear breakdown of actions to take",
+      "example": "“First, you can do X. Then, you should consider Y…”"
+    },
+    {
+      "key": "item_06_nonjudgmental_language",
+      "n": 6,
+      "label": "Non-judgmental language",
+      "definition": "Avoidance of harsh or dismissive language. Instead, using non-judgmental terms",
+      "example": "“It’s great that you’re thinking about seeing a dentist” vs. “You should have gone to a dentist sooner”"
+    },
+    {
+      "key": "item_07_praising_help_seeking",
+      "n": 7,
+      "label": "Praising patient for seeking help",
+      "definition": "Praising the patient for taking action or seeking help",
+      "example": "“It’s great that you reached out about this” or “You’ve done the right thing by seeking care”"
+    },
+    {
+      "key": "item_08_medical_jargon",
+      "n": 8,
+      "label": "Use of medical jargon",
+      "definition": "Used specialized terminology, language, or phrases that are technical, complex, or difficult for individuals without medical training to understand",
+      "example": "\"hypertension\" instead of \"high blood pressure\" or \"myocardial infarction\" instead of \"heart attack\""
+    },
+    {
+      "key": "item_09_hurried_impression",
+      "n": 9,
+      "label": "Gave off impression of being hurried or rushed",
+      "definition": "Response delivered quickly, without much attention to detail or thoroughness",
+      "example": ""
+    },
+    {
+      "key": "item_10_psychosocial_info",
+      "n": 10,
+      "label": "Incorporation of psychosocial/emotional information",
+      "definition": "Addresses aspects of the patient’s life beyond the physical or medical condition such as relationships, work, finances, culture, emotions, stress, and emotional wellbeing, among others",
+      "example": ""
+    },
+    {
+      "key": "item_11_biomedical_info",
+      "n": 11,
+      "label": "Incorporation of biomedical information",
+      "definition": "Focus on the physical and biological aspects of the patient’s condition such as clinical data, medical procedures, or physiological explanations",
+      "example": ""
+    },
+    {
+      "key": "item_12_directive_language",
+      "n": 12,
+      "label": "Directive language",
+      "definition": "Gives clear, specific instructions on what the patient should do",
+      "example": "“You need to get an ultrasound”"
+    },
+    {
+      "key": "item_13_collaborative_language",
+      "n": 13,
+      "label": "Collaborative language",
+      "definition": "Engages the patient in decision-making by giving options that emphasize shared decision-making and mutual respect",
+      "example": "“It might be helpful to consider an ultrasound”"
+    }
+  ]
+}

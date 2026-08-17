@@ -1,0 +1,337 @@
+item,model,framing,framing_id,OR,OR_lo,OR_hi,note
+item_01_validation_concern,Claude Sonnet 4.6,Anxious,A,5.921232050590721,,,
+item_01_validation_concern,Claude Sonnet 4.6,Stoic,B,227.96743394774697,,,quasi-separation: OR unstable
+item_01_validation_concern,Claude Sonnet 4.6,Angry,C,4.346436292454953,,,
+item_01_validation_concern,Claude Sonnet 4.6,Hyper-rational,D,1293.7892030541636,,,quasi-separation: OR unstable
+item_01_validation_concern,Claude Sonnet 4.6,Overwhelmed,E,1.4594927616058493e-09,,,quasi-separation: OR unstable
+item_01_validation_concern,Claude Sonnet 4.6,Humor,F,90.26436300377131,,,
+item_01_validation_concern,GPT-5.3,Anxious,A,0.004327480746836088,,,quasi-separation: OR unstable
+item_01_validation_concern,GPT-5.3,Stoic,B,0.5050788243093228,,,
+item_01_validation_concern,GPT-5.3,Angry,C,0.0008305266079786954,,,quasi-separation: OR unstable
+item_01_validation_concern,GPT-5.3,Hyper-rational,D,3836159335.8393984,,,quasi-separation: OR unstable
+item_01_validation_concern,GPT-5.3,Overwhelmed,E,0.0016780027385691482,,,quasi-separation: OR unstable
+item_01_validation_concern,GPT-5.3,Humor,F,0.08557813966702994,7.1333905056721e-16,10266671904540.135,
+item_01_validation_concern,Gemini 3.1 Pro,Anxious,A,2.292674442085238e-06,,,quasi-separation: OR unstable
+item_01_validation_concern,Gemini 3.1 Pro,Stoic,B,516920.5554573484,,,quasi-separation: OR unstable
+item_01_validation_concern,Gemini 3.1 Pro,Angry,C,2.2926788876635887e-06,,,quasi-separation: OR unstable
+item_01_validation_concern,Gemini 3.1 Pro,Hyper-rational,D,1419631.0842891347,,,quasi-separation: OR unstable
+item_01_validation_concern,Gemini 3.1 Pro,Overwhelmed,E,2.292678784177087e-06,,,quasi-separation: OR unstable
+item_01_validation_concern,Gemini 3.1 Pro,Humor,F,113076.37150628991,,,quasi-separation: OR unstable
+item_01_validation_concern,Kimi K2.5,Anxious,A,115.46830517361214,,,
+item_01_validation_concern,Kimi K2.5,Stoic,B,20322.421710553328,,,quasi-separation: OR unstable
+item_01_validation_concern,Kimi K2.5,Angry,C,2.185099747008211e-08,,,quasi-separation: OR unstable
+item_01_validation_concern,Kimi K2.5,Hyper-rational,D,274352.6930924865,,,quasi-separation: OR unstable
+item_01_validation_concern,Kimi K2.5,Overwhelmed,E,2.1850998834721794e-08,,,quasi-separation: OR unstable
+item_01_validation_concern,Kimi K2.5,Humor,F,3253.1939892391065,,,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Anxious,A,1.695731055063024e-06,2.0907251786260144e-46,1.3753619272882354e+34,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Stoic,B,719982.2341607738,5.8709511020610596e-18,8.829479389211034e+28,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Angry,C,1.6957278783724483e-06,,,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Hyper-rational,D,6953594.651137481,3.0633734215226555e-08,1.578406283498207e+21,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Overwhelmed,E,1.6957277514619179e-06,,,quasi-separation: OR unstable
+item_01_validation_concern,Qwen 3.5,Humor,F,40963.73874013084,,,quasi-separation: OR unstable
+item_01_validation_concern,MiniMax M2.7,Anxious,A,0.06410173058455591,0.03032801652716714,0.13548633687449407,
+item_01_validation_concern,MiniMax M2.7,Stoic,B,11.744861525901156,5.739879548151916,24.032171948104157,
+item_01_validation_concern,MiniMax M2.7,Angry,C,0.1322950609926289,0.053458486851288955,0.32739391243396937,
+item_01_validation_concern,MiniMax M2.7,Hyper-rational,D,39.379829822139975,11.311992928344301,137.0908739639467,
+item_01_validation_concern,MiniMax M2.7,Overwhelmed,E,0.10908540116936388,0.04180821226815157,0.2846240990157306,
+item_01_validation_concern,MiniMax M2.7,Humor,F,2.337212744203114,1.38530020492061,3.9432343922727595,
+item_01_validation_concern,GLM 5,Anxious,A,0.03380347313556752,0.004685941744078763,0.24385168626369252,
+item_01_validation_concern,GLM 5,Stoic,B,20.557340731269147,5.187029619054869,81.47326870643558,
+item_01_validation_concern,GLM 5,Angry,C,0.10350135587548467,0.026750038611538338,0.4004678581451837,
+item_01_validation_concern,GLM 5,Hyper-rational,D,38.48525415970132,13.692423501287394,108.1703898216083,
+item_01_validation_concern,GLM 5,Overwhelmed,E,0.17613388631442162,0.043817398629869914,0.7080097604670079,
+item_01_validation_concern,GLM 5,Humor,F,2.0511075148228244,0.6943248950484399,6.059183629112358,
+item_02_reassurance,Claude Sonnet 4.6,Anxious,A,0.3918319797526366,0.110303409296032,1.3919089295310996,
+item_02_reassurance,Claude Sonnet 4.6,Stoic,B,0.6776802253634271,0.34066448554432277,1.348102039796789,
+item_02_reassurance,Claude Sonnet 4.6,Angry,C,1.1834117368286639,0.5066406224425367,2.7642144684572254,
+item_02_reassurance,Claude Sonnet 4.6,Hyper-rational,D,5.229263827378395,1.6022722439440356,17.066513059614145,
+item_02_reassurance,Claude Sonnet 4.6,Overwhelmed,E,0.5445929855041508,0.24840925930112503,1.1939229668601206,
+item_02_reassurance,Claude Sonnet 4.6,Humor,F,1.1174467570723274,0.7314210240889814,1.707207222333756,
+item_02_reassurance,GPT-5.3,Anxious,A,9.628936585956756e-10,5.8180814936340975e-34,1593590943643920.0,quasi-separation: OR unstable
+item_02_reassurance,GPT-5.3,Stoic,B,67.38722906459915,0.00011575189203406816,39230794.08212383,
+item_02_reassurance,GPT-5.3,Angry,C,54.90811257115478,0.046651254613202194,64626.36109412149,
+item_02_reassurance,GPT-5.3,Hyper-rational,D,1078.1956650336024,3.2503318521067447e-06,357657600821.2074,quasi-separation: OR unstable
+item_02_reassurance,GPT-5.3,Overwhelmed,E,14.1867850662311,,,
+item_02_reassurance,GPT-5.3,Humor,F,18.349574111486554,1.405267481178111e-05,23960340.261389844,
+item_02_reassurance,Gemini 3.1 Pro,Anxious,A,1.893096207328446e-09,2.014592081529951e-49,1.778927497560536e+31,quasi-separation: OR unstable
+item_02_reassurance,Gemini 3.1 Pro,Stoic,B,47.559273668369364,2.3772787035054864e-06,951459544.2795659,
+item_02_reassurance,Gemini 3.1 Pro,Angry,C,95.68472916612453,1.8254760266896095e-05,501544104.7559352,
+item_02_reassurance,Gemini 3.1 Pro,Hyper-rational,D,157.0210940162046,5.942933705592409e-07,41487294301.87708,quasi-separation: OR unstable
+item_02_reassurance,Gemini 3.1 Pro,Overwhelmed,E,12.044231643288082,0.00027158503803339,534136.6259629779,
+item_02_reassurance,Gemini 3.1 Pro,Humor,F,61.37794882624948,2.6406733313872685e-10,14266257614449.342,
+item_02_reassurance,Kimi K2.5,Anxious,A,0.03815149740744264,0.010312938862258952,0.1411369517332018,
+item_02_reassurance,Kimi K2.5,Stoic,B,3.020107616586374,1.2636022291952789,7.218292121541872,
+item_02_reassurance,Kimi K2.5,Angry,C,1.7751302411471097,0.876247962605496,3.596113780014205,
+item_02_reassurance,Kimi K2.5,Hyper-rational,D,29.605561987945364,9.152890156612973,95.76093295392724,
+item_02_reassurance,Kimi K2.5,Overwhelmed,E,0.2008129204608692,0.0846149304701625,0.4765805372639685,
+item_02_reassurance,Kimi K2.5,Humor,F,0.8223767218873623,0.34539718916639084,1.9580456758621836,
+item_02_reassurance,Qwen 3.5,Anxious,A,0.019638833118271755,0.003993124462822022,0.0965869633762322,
+item_02_reassurance,Qwen 3.5,Stoic,B,2.577254308641692,1.1989515428166566,5.54004022198243,
+item_02_reassurance,Qwen 3.5,Angry,C,2.577254308641749,1.1705293645503783,5.674560564282696,
+item_02_reassurance,Qwen 3.5,Hyper-rational,D,15.730705325632812,3.014974882112159,82.07534049787387,
+item_02_reassurance,Qwen 3.5,Overwhelmed,E,0.42678537331807537,0.15907198507712836,1.1450523785815143,
+item_02_reassurance,Qwen 3.5,Humor,F,1.1418578682954512,0.5313838901977105,2.453667518793459,
+item_02_reassurance,MiniMax M2.7,Anxious,A,0.14790247525090575,0.07779861294807018,0.281176506320829,
+item_02_reassurance,MiniMax M2.7,Stoic,B,1.2097664001186115,0.7116970966089164,2.0564011709888557,
+item_02_reassurance,MiniMax M2.7,Angry,C,2.2031229749944004,1.0032766284149595,4.83789884612028,
+item_02_reassurance,MiniMax M2.7,Hyper-rational,D,6.624105533458709,2.6052253968207895,16.84260186160647,
+item_02_reassurance,MiniMax M2.7,Overwhelmed,E,0.5567674909636935,0.341373835544786,0.9080661923000184,
+item_02_reassurance,MiniMax M2.7,Humor,F,0.6878332845050303,0.41861299727064644,1.1301957425060418,
+item_02_reassurance,GLM 5,Anxious,A,0.06837669439221168,0.01871777982414543,0.24978241970635906,
+item_02_reassurance,GLM 5,Stoic,B,1.7478042755635073,0.9980382670857589,3.060824305462812,
+item_02_reassurance,GLM 5,Angry,C,2.754603973468766,1.5471853217212437,4.904288415952937,
+item_02_reassurance,GLM 5,Hyper-rational,D,10.83137488333081,2.1302747681780683,55.0720891106395,
+item_02_reassurance,GLM 5,Overwhelmed,E,0.3199792494433391,0.10764443851002355,0.9511566179500175,
+item_02_reassurance,GLM 5,Humor,F,0.8764649006491465,0.49956886696814895,1.537707357009691,
+item_04_encourages_followup,Claude Sonnet 4.6,Anxious,A,1.4198203172618484,0.7190270153786636,2.8036355939253568,
+item_04_encourages_followup,Claude Sonnet 4.6,Stoic,B,0.9077539733313477,0.5484602963436015,1.5024191934991327,
+item_04_encourages_followup,Claude Sonnet 4.6,Angry,C,0.25055652657561867,0.10034890054547925,0.6256029978244431,
+item_04_encourages_followup,Claude Sonnet 4.6,Hyper-rational,D,1.0281457469827155,0.37718090810079624,2.8025906251759585,
+item_04_encourages_followup,Claude Sonnet 4.6,Overwhelmed,E,1.6667455898291232,0.8708809986230803,3.189920167746335,
+item_04_encourages_followup,Claude Sonnet 4.6,Humor,F,1.807044040151448,0.9985536500621719,3.270137926834034,
+item_04_encourages_followup,GPT-5.3,Anxious,A,0.921409144717309,0.5248791195835667,1.6175054032293492,
+item_04_encourages_followup,GPT-5.3,Stoic,B,1.2739329686168033,0.7760349110019175,2.0912786081151076,
+item_04_encourages_followup,GPT-5.3,Angry,C,0.0769804741537244,0.012883473907713848,0.459968595689405,
+item_04_encourages_followup,GPT-5.3,Hyper-rational,D,10.18066770682505,2.5598682746337182,40.48880014016374,
+item_04_encourages_followup,GPT-5.3,Overwhelmed,E,0.7850555901901459,0.3956830260825585,1.5575908974174848,
+item_04_encourages_followup,GPT-5.3,Humor,F,1.3846616056108747,0.7816722581811483,2.4528026189827563,
+item_04_encourages_followup,Gemini 3.1 Pro,Anxious,A,1.1349566848326091,0.5935813349529437,2.1700929604674024,
+item_04_encourages_followup,Gemini 3.1 Pro,Stoic,B,1.4836376939977765,0.8058034674631515,2.7316596365374886,
+item_04_encourages_followup,Gemini 3.1 Pro,Angry,C,0.025517110219588912,0.005224683948671278,0.12462436395300809,
+item_04_encourages_followup,Gemini 3.1 Pro,Hyper-rational,D,2.6293038669690385,0.6138608198094074,11.261899443272453,
+item_04_encourages_followup,Gemini 3.1 Pro,Overwhelmed,E,2.240209695016527,1.0351985310702574,4.84790050122805,
+item_04_encourages_followup,Gemini 3.1 Pro,Humor,F,3.9512263742435305,1.7908817707764748,8.717599405654054,
+item_04_encourages_followup,Kimi K2.5,Anxious,A,8.935511836412624,,,
+item_04_encourages_followup,Kimi K2.5,Stoic,B,38.006526372686864,1.893538149516137e-05,76285552.90987198,
+item_04_encourages_followup,Kimi K2.5,Angry,C,2.202467449278689e-09,,,quasi-separation: OR unstable
+item_04_encourages_followup,Kimi K2.5,Hyper-rational,D,264.2358500196365,,,quasi-separation: OR unstable
+item_04_encourages_followup,Kimi K2.5,Overwhelmed,E,57.801592191794995,,,
+item_04_encourages_followup,Kimi K2.5,Humor,F,87.53492150856148,,,
+item_04_encourages_followup,Qwen 3.5,Anxious,A,1.481954378155642,0.5351537628119442,4.103846280356675,
+item_04_encourages_followup,Qwen 3.5,Stoic,B,1.065089574173748,0.48299913863141125,2.348691147209927,
+item_04_encourages_followup,Qwen 3.5,Angry,C,0.04047237920681637,0.00971928704264744,0.16853226697317128,
+item_04_encourages_followup,Qwen 3.5,Hyper-rational,D,1.4077824873570581,0.3772138632237314,5.253920189390702,
+item_04_encourages_followup,Qwen 3.5,Overwhelmed,E,2.561702558961215,1.0572302181662512,6.207087054294263,
+item_04_encourages_followup,Qwen 3.5,Humor,F,4.3406626693509525,2.1441335716335903,8.78739676406537,
+item_04_encourages_followup,MiniMax M2.7,Anxious,A,0.4092610936025102,0.14281912902103888,1.1727745707793018,
+item_04_encourages_followup,MiniMax M2.7,Stoic,B,1.4453651280392532,0.8601174644475785,2.428831455821753,
+item_04_encourages_followup,MiniMax M2.7,Angry,C,0.1109658358747321,0.03177896063130655,0.38747071920431575,
+item_04_encourages_followup,MiniMax M2.7,Hyper-rational,D,7.5086882275236455,3.516013699345873,16.035318323316353,
+item_04_encourages_followup,MiniMax M2.7,Overwhelmed,E,0.9595281102109292,0.44789321200755444,2.0556109572596695,
+item_04_encourages_followup,MiniMax M2.7,Humor,F,2.1145156502796345,1.314115681505665,3.402422251102428,
+item_04_encourages_followup,GLM 5,Anxious,A,1.094798135195648,0.42352752011719363,2.8300001768390644,
+item_04_encourages_followup,GLM 5,Stoic,B,1.0947981351956493,0.4603780199510846,2.6034756328184847,
+item_04_encourages_followup,GLM 5,Angry,C,0.03804317844309215,0.011010617001587208,0.1314443528318459,
+item_04_encourages_followup,GLM 5,Hyper-rational,D,3.1740349149682663,1.1248470250716407,8.956326875466443,
+item_04_encourages_followup,GLM 5,Overwhelmed,E,2.471037148640852,1.6346852094768913,3.73529077926696,
+item_04_encourages_followup,GLM 5,Humor,F,2.7961736155672576,1.6529292695677502,4.730140020110523,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Anxious,A,1.0496971509877102,0.47707480226159504,2.309625458247382,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Stoic,B,5.469474628099638,1.074158451354894,27.849850894616228,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Angry,C,0.4972249662573376,0.10448390448699388,2.3662272986782003,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Hyper-rational,D,0.251681773043837,0.06420787644570533,0.9865411907221915,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Overwhelmed,E,1.0496971509877153,0.4230012229647183,2.6048721586878973,
+item_07_praising_help_seeking,Claude Sonnet 4.6,Humor,F,1.3259332433528814,0.3023288791172419,5.815186994248433,
+item_07_praising_help_seeking,GPT-5.3,Anxious,A,0.3790431051806133,0.18180028926015707,0.7902829867303662,
+item_07_praising_help_seeking,GPT-5.3,Stoic,B,0.8097739065222177,0.34493300999441096,1.901046755991485,
+item_07_praising_help_seeking,GPT-5.3,Angry,C,0.9820662270588588,0.1456819932314562,6.620269622459925,
+item_07_praising_help_seeking,GPT-5.3,Hyper-rational,D,1.2405047078638176,0.5491331877482922,2.8023291335610625,
+item_07_praising_help_seeking,GPT-5.3,Overwhelmed,E,0.522620038961149,0.11400990392431191,2.395684021495866,
+item_07_praising_help_seeking,GPT-5.3,Humor,F,5.1170819192543515,2.3904605086377453,10.953758605818427,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Anxious,A,0.823966361499391,0.4378028594957065,1.550744930411317,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Stoic,B,1.0264150989703194,0.5254978430724413,2.0048188004627434,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Angry,C,0.8685050837426163,0.3629945051239948,2.077995864507944,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Hyper-rational,D,1.3188410530945507,0.6729279361748495,2.584736982706575,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Overwhelmed,E,0.7827268038670125,0.37879115338706365,1.6174117162283024,
+item_07_praising_help_seeking,Gemini 3.1 Pro,Humor,F,1.3188410530945507,0.6281760099860613,2.7688763908162266,
+item_07_praising_help_seeking,Kimi K2.5,Anxious,A,0.01671200775644049,0.00012020762961212351,2.3234066269547275,
+item_07_praising_help_seeking,Kimi K2.5,Stoic,B,0.049870753304935636,,,
+item_07_praising_help_seeking,Kimi K2.5,Angry,C,0.011286031212141834,,,
+item_07_praising_help_seeking,Kimi K2.5,Hyper-rational,D,148517383.66205066,,,quasi-separation: OR unstable
+item_07_praising_help_seeking,Kimi K2.5,Overwhelmed,E,0.01955418594631197,3.40006273050791e-05,11.245856865876874,
+item_07_praising_help_seeking,Kimi K2.5,Humor,F,0.03660725508553791,3.0999457494097615e-06,432.29502488964505,
+item_07_praising_help_seeking,Qwen 3.5,Anxious,A,0.6205118346395755,0.34414438753470716,1.1188180045183531,
+item_07_praising_help_seeking,Qwen 3.5,Stoic,B,1.57027484684301,0.41753797796796305,5.905482195004145,
+item_07_praising_help_seeking,Qwen 3.5,Angry,C,0.7909821188812194,0.12168848442521892,5.1414290788895896,
+item_07_praising_help_seeking,Qwen 3.5,Hyper-rational,D,5.791443789969315,2.6327066243380304,12.740052713168401,
+item_07_praising_help_seeking,Qwen 3.5,Overwhelmed,E,0.44462979534264474,0.259459957307749,0.7619505412619513,
+item_07_praising_help_seeking,Qwen 3.5,Humor,F,0.5038742717373987,0.26385983022229503,0.9622127078039836,
+item_07_praising_help_seeking,MiniMax M2.7,Anxious,A,0.8357383092394809,0.5236326464949043,1.3338712286291021,
+item_07_praising_help_seeking,MiniMax M2.7,Stoic,B,1.9594200695460324,0.7908030226666434,4.854972602397622,
+item_07_praising_help_seeking,MiniMax M2.7,Angry,C,0.7200651868533939,0.36646931616259754,1.414835705066681,
+item_07_praising_help_seeking,MiniMax M2.7,Hyper-rational,D,0.9870031615905174,0.4615292975914431,2.110754931644752,
+item_07_praising_help_seeking,MiniMax M2.7,Overwhelmed,E,0.7200651868533932,0.48157274506135267,1.0766678111157548,
+item_07_praising_help_seeking,MiniMax M2.7,Humor,F,1.1932734147964794,0.7650875986682749,1.8610959646170178,
+item_07_praising_help_seeking,GLM 5,Anxious,A,0.5802958610796723,0.35162377897745056,0.957680641978976,
+item_07_praising_help_seeking,GLM 5,Stoic,B,6.383254471023335,2.2073025403984903,18.459607097848686,
+item_07_praising_help_seeking,GLM 5,Angry,C,0.6519373254104983,0.0844240776638435,5.03437275270843,
+item_07_praising_help_seeking,GLM 5,Hyper-rational,D,0.8566272234985687,0.13345831915342818,5.498422314125309,
+item_07_praising_help_seeking,GLM 5,Overwhelmed,E,0.6519373254104989,0.23606408008369956,1.8004529791770845,
+item_07_praising_help_seeking,GLM 5,Humor,F,0.7414891558240221,0.4323493679312962,1.271671035013493,
+item_08_medical_jargon,Claude Sonnet 4.6,Anxious,A,23338114.10566322,6.253353410437347e-14,8.71000780317106e+27,quasi-separation: OR unstable
+item_08_medical_jargon,Claude Sonnet 4.6,Stoic,B,0.0001830311221539505,4.2846118099202714e-80,7.818769392216647e+71,quasi-separation: OR unstable
+item_08_medical_jargon,Claude Sonnet 4.6,Angry,C,23337931.441648073,1.3886337894506746e-31,3.922265525387608e+45,quasi-separation: OR unstable
+item_08_medical_jargon,Claude Sonnet 4.6,Hyper-rational,D,1.9636687417807226e-16,1.2463162660521123e-51,3.09391366579938e+19,quasi-separation: OR unstable
+item_08_medical_jargon,Claude Sonnet 4.6,Overwhelmed,E,23337932.862671852,8.297406830886473e-58,6.564208811301411e+71,quasi-separation: OR unstable
+item_08_medical_jargon,Claude Sonnet 4.6,Humor,F,0.0021888516389097995,1.6327948987848566e-62,2.9342763752652674e+56,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Anxious,A,7990.779749703517,,,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Stoic,B,1.2168869987438948e-07,,,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Angry,C,7990.779750429366,,,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Hyper-rational,D,2.0155478240066424e-09,,,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Overwhelmed,E,7990.779750426555,,,quasi-separation: OR unstable
+item_08_medical_jargon,GPT-5.3,Humor,F,7990.779750749366,,,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Anxious,A,17342115.602699097,,,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Stoic,B,0.0002654397565346757,1.1730776626517673e-15,60062744.85690507,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Angry,C,0.0013826104490206655,1.8920230889395592e-10,10103.53237714738,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Hyper-rational,D,4.229124518359335e-06,,,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Overwhelmed,E,17342196.016358353,1.4766274491202666e-37,2.036747744659446e+51,quasi-separation: OR unstable
+item_08_medical_jargon,Gemini 3.1 Pro,Humor,F,0.0021422865199110584,,,quasi-separation: OR unstable
+item_08_medical_jargon,Kimi K2.5,Anxious,A,452.28796862188005,3.1324350572161864e-08,6530523468917.663,quasi-separation: OR unstable
+item_08_medical_jargon,Kimi K2.5,Stoic,B,12.262991174756047,1.8247756403313917e-10,824106532487.657,
+item_08_medical_jargon,Kimi K2.5,Angry,C,30.29680172586768,1.535715295356999e-10,5976994548349.261,
+item_08_medical_jargon,Kimi K2.5,Hyper-rational,D,5.102149603956305e-10,3.8956252014426326e-45,6.6823498758328454e+25,quasi-separation: OR unstable
+item_08_medical_jargon,Kimi K2.5,Overwhelmed,E,452.28796862187767,7.08229861877298e-11,2888390020972406.5,quasi-separation: OR unstable
+item_08_medical_jargon,Kimi K2.5,Humor,F,25.78834908808998,,,
+item_08_medical_jargon,Qwen 3.5,Anxious,A,32205782304.571114,3.9315979981655306e-45,2.638144628045353e+65,quasi-separation: OR unstable
+item_08_medical_jargon,Qwen 3.5,Stoic,B,0.22519198338247912,3.4211796618512163e-08,1482279.0496858796,
+item_08_medical_jargon,Qwen 3.5,Angry,C,1.3331844548122236,,,
+item_08_medical_jargon,Qwen 3.5,Hyper-rational,D,2.002297423719496e-12,2.7120429252731817e-41,1.4782933321860634e+17,quasi-separation: OR unstable
+item_08_medical_jargon,Qwen 3.5,Overwhelmed,E,25.14004971931574,1.0792985429929403e-08,58558598452.01363,
+item_08_medical_jargon,Qwen 3.5,Humor,F,2.0546046143426504,1.1258578121838742e-29,3.7494966731986576e+29,
+item_08_medical_jargon,MiniMax M2.7,Anxious,A,0.3576798356575503,6.354174508292773e-06,20133.986667984285,
+item_08_medical_jargon,MiniMax M2.7,Stoic,B,0.008921719256764646,1.0650493742235729e-05,7.473557228701417,
+item_08_medical_jargon,MiniMax M2.7,Angry,C,0.11436021956397842,0.00038114994913729757,34.3126369249765,
+item_08_medical_jargon,MiniMax M2.7,Hyper-rational,D,0.0002257604685404332,1.5757981159533474e-09,32.34411098706046,quasi-separation: OR unstable
+item_08_medical_jargon,MiniMax M2.7,Overwhelmed,E,340570136.2962743,3.2958074212630435e-25,3.519259559541044e+41,quasi-separation: OR unstable
+item_08_medical_jargon,MiniMax M2.7,Humor,F,0.035639167298411226,1.2256175195773527e-14,103633492948.28525,
+item_08_medical_jargon,GLM 5,Anxious,A,12.144922664078624,5.588835110585419e-26,2.639175133957399e+27,
+item_08_medical_jargon,GLM 5,Stoic,B,0.2846466249393475,4.028717125839108e-42,2.0111538874173628e+40,
+item_08_medical_jargon,GLM 5,Angry,C,1.3681780161693635,6.153310002480151e-42,3.0421205549121254e+41,
+item_08_medical_jargon,GLM 5,Hyper-rational,D,3.990061529036487e-12,5.177506822135132e-128,3.074953168083192e+104,quasi-separation: OR unstable
+item_08_medical_jargon,GLM 5,Overwhelmed,E,64177885196.21248,1.641283653399007e-14,2.5094997685064412e+35,quasi-separation: OR unstable
+item_08_medical_jargon,GLM 5,Humor,F,0.8256416723387243,,,
+item_10_psychosocial_info,Claude Sonnet 4.6,Anxious,A,0.0036978126745953366,1.5604281897655308e-08,876.2863082121422,quasi-separation: OR unstable
+item_10_psychosocial_info,Claude Sonnet 4.6,Stoic,B,0.10934960337731366,5.1513431328018915e-06,2321.2073920364232,
+item_10_psychosocial_info,Claude Sonnet 4.6,Angry,C,0.03011076035027591,5.813917782006041e-08,15594.61146282181,
+item_10_psychosocial_info,Claude Sonnet 4.6,Hyper-rational,D,443637505.2001035,,,quasi-separation: OR unstable
+item_10_psychosocial_info,Claude Sonnet 4.6,Overwhelmed,E,0.003169553721081707,2.1519623336602766e-08,466.83302182782774,quasi-separation: OR unstable
+item_10_psychosocial_info,Claude Sonnet 4.6,Humor,F,0.05841034714564645,,,
+item_10_psychosocial_info,GPT-5.3,Anxious,A,0.004032271850228674,0.00013769904828628973,0.11807791322088204,quasi-separation: OR unstable
+item_10_psychosocial_info,GPT-5.3,Stoic,B,0.18004413832846683,1.8116484486688877e-06,17893.0364609413,
+item_10_psychosocial_info,GPT-5.3,Angry,C,0.025367043544559792,,,
+item_10_psychosocial_info,GPT-5.3,Hyper-rational,D,259798546.4339139,2.3075684051774176e-19,2.9249527154964494e+35,quasi-separation: OR unstable
+item_10_psychosocial_info,GPT-5.3,Overwhelmed,E,0.0037122502748137,1.3924474868561908e-07,98.96819975572727,quasi-separation: OR unstable
+item_10_psychosocial_info,GPT-5.3,Humor,F,0.056302462501342423,4.727281436817387e-12,670568766.8659793,
+item_10_psychosocial_info,Gemini 3.1 Pro,Anxious,A,0.000922799306059405,1.1910250964762137e-16,7149795262.779553,quasi-separation: OR unstable
+item_10_psychosocial_info,Gemini 3.1 Pro,Stoic,B,0.18328551931304723,4.5998917606135016e-11,730312436.4250915,
+item_10_psychosocial_info,Gemini 3.1 Pro,Angry,C,0.029837177562589155,1.3055920083885897e-12,681880066.040129,
+item_10_psychosocial_info,Gemini 3.1 Pro,Hyper-rational,D,1392084905.672523,1.4082897651332267e-37,1.3760665117224282e+55,quasi-separation: OR unstable
+item_10_psychosocial_info,Gemini 3.1 Pro,Overwhelmed,E,0.0033152419513987944,1.6366041620055343e-11,671563.0725786521,quasi-separation: OR unstable
+item_10_psychosocial_info,Gemini 3.1 Pro,Humor,F,0.04293642624860477,,,
+item_10_psychosocial_info,Kimi K2.5,Anxious,A,0.006001297120212877,3.3605004407768095e-13,107173225.41624184,quasi-separation: OR unstable
+item_10_psychosocial_info,Kimi K2.5,Stoic,B,0.1997931832937493,8.450453988492538e-06,4723.688945588885,
+item_10_psychosocial_info,Kimi K2.5,Angry,C,0.01623078084784849,1.0379480939412497e-12,253806764.00740764,
+item_10_psychosocial_info,Kimi K2.5,Hyper-rational,D,594993306.425314,,,quasi-separation: OR unstable
+item_10_psychosocial_info,Kimi K2.5,Overwhelmed,E,0.0038092648928622504,1.672927992460685e-12,8673714.044708882,quasi-separation: OR unstable
+item_10_psychosocial_info,Kimi K2.5,Humor,F,0.022671566898581325,,,
+item_10_psychosocial_info,Qwen 3.5,Anxious,A,0.0016756207007461007,,,quasi-separation: OR unstable
+item_10_psychosocial_info,Qwen 3.5,Stoic,B,0.17144245485528897,,,
+item_10_psychosocial_info,Qwen 3.5,Angry,C,0.03159741892835548,,,
+item_10_psychosocial_info,Qwen 3.5,Hyper-rational,D,1876268260.618425,,,quasi-separation: OR unstable
+item_10_psychosocial_info,Qwen 3.5,Overwhelmed,E,0.00124375969539914,,,quasi-separation: OR unstable
+item_10_psychosocial_info,Qwen 3.5,Humor,F,0.04720879191667367,,,
+item_10_psychosocial_info,MiniMax M2.7,Anxious,A,0.11121561665743972,0.0454000907692403,0.2724424814779189,
+item_10_psychosocial_info,MiniMax M2.7,Stoic,B,4.710873836440353,2.1262557831187863,10.437282512787148,
+item_10_psychosocial_info,MiniMax M2.7,Angry,C,0.610500090989369,0.2964251971647941,1.25735047041505,
+item_10_psychosocial_info,MiniMax M2.7,Hyper-rational,D,14.73400965865357,3.632724274561994,59.75984528786507,
+item_10_psychosocial_info,MiniMax M2.7,Overwhelmed,E,0.15490300816148403,0.06334906594355927,0.37877341331054576,
+item_10_psychosocial_info,MiniMax M2.7,Humor,F,1.3698285623691802,0.480948823094832,3.9015175839455716,
+item_10_psychosocial_info,GLM 5,Anxious,A,0.0013017067003202644,6.278596975685204e-12,269875.63307863864,quasi-separation: OR unstable
+item_10_psychosocial_info,GLM 5,Stoic,B,1.3030084070205863,2.3164627309917396e-09,732941171.9218267,
+item_10_psychosocial_info,GLM 5,Angry,C,0.022410464002811065,1.8790520363706122e-08,26727.78013063152,
+item_10_psychosocial_info,GLM 5,Hyper-rational,D,614072797.8386278,6.106191510217039e-44,6.175459783965447e+60,quasi-separation: OR unstable
+item_10_psychosocial_info,GLM 5,Overwhelmed,E,0.0014624112312240244,8.969912788509294e-13,2384244.595945045,quasi-separation: OR unstable
+item_10_psychosocial_info,GLM 5,Humor,F,0.029295399180326764,7.699253493529908e-19,1114680032104282.9,
+item_11_biomedical_info,Claude Sonnet 4.6,Anxious,A,5160.008332685514,1.7526412317503173e-28,1.5191749178919946e+35,quasi-separation: OR unstable
+item_11_biomedical_info,Claude Sonnet 4.6,Stoic,B,3.909067210667263e-08,,,quasi-separation: OR unstable
+item_11_biomedical_info,Claude Sonnet 4.6,Angry,C,2124.709313458675,0.008999092962161837,501649409.07706213,quasi-separation: OR unstable
+item_11_biomedical_info,Claude Sonnet 4.6,Hyper-rational,D,3.909069958000236e-08,3.393569198029206e-29,45028779567584.08,quasi-separation: OR unstable
+item_11_biomedical_info,Claude Sonnet 4.6,Overwhelmed,E,28093.378700175977,3.758652385469063e-21,2.0997896209893987e+29,quasi-separation: OR unstable
+item_11_biomedical_info,Claude Sonnet 4.6,Humor,F,2124.709313458675,1.4041766286859078e-17,3.214972799342787e+23,quasi-separation: OR unstable
+item_11_biomedical_info,GPT-5.3,Anxious,A,69.16136735713337,,,
+item_11_biomedical_info,GPT-5.3,Stoic,B,1.6300658973063158,,,
+item_11_biomedical_info,GPT-5.3,Angry,C,42.897556968349775,,,
+item_11_biomedical_info,GPT-5.3,Hyper-rational,D,3.4588512852230424e-09,,,quasi-separation: OR unstable
+item_11_biomedical_info,GPT-5.3,Overwhelmed,E,687.9736016051739,,,quasi-separation: OR unstable
+item_11_biomedical_info,GPT-5.3,Humor,F,86.89505129486261,3.5727350909005652e-09,2113436834084.8643,
+item_11_biomedical_info,Gemini 3.1 Pro,Anxious,A,4060.9537248968936,1.0654372468370284e-38,1.5478476282589082e+45,quasi-separation: OR unstable
+item_11_biomedical_info,Gemini 3.1 Pro,Stoic,B,1.2808142616377324e-07,6.177054754573919e-95,2.655772431999045e+80,quasi-separation: OR unstable
+item_11_biomedical_info,Gemini 3.1 Pro,Angry,C,676.8256208161721,4.073894501295775e-41,1.1244594597319279e+46,quasi-separation: OR unstable
+item_11_biomedical_info,Gemini 3.1 Pro,Hyper-rational,D,1.2808147603317325e-07,3.835361827026502e-83,4.277266459512837e+68,quasi-separation: OR unstable
+item_11_biomedical_info,Gemini 3.1 Pro,Overwhelmed,E,9137.145881018258,6.109482717657686e-38,1.36652215431781e+45,quasi-separation: OR unstable
+item_11_biomedical_info,Gemini 3.1 Pro,Humor,F,2427.2367091337705,2.1918329491394412e-34,2.6879229297468363e+40,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Anxious,A,45551.489347362236,,,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Stoic,B,8.620079217408854e-06,,,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Angry,C,8.620079292047875e-06,,,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Hyper-rational,D,8.620079187518746e-06,,,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Overwhelmed,E,491163.8851367856,,,quasi-separation: OR unstable
+item_11_biomedical_info,Kimi K2.5,Humor,F,69781.00495766714,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Anxious,A,4796.437241646861,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Stoic,B,1.846482482382014e-07,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Angry,C,724.2649321831177,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Hyper-rational,D,1.8464824716980347e-07,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Overwhelmed,E,17666.134690852992,,,quasi-separation: OR unstable
+item_11_biomedical_info,Qwen 3.5,Humor,F,477.9163157942649,1.5337894578778865e-24,1.4891483555922946e+29,quasi-separation: OR unstable
+item_11_biomedical_info,MiniMax M2.7,Anxious,A,78.3691727544574,,,
+item_11_biomedical_info,MiniMax M2.7,Stoic,B,3.8649086979319014,,,
+item_11_biomedical_info,MiniMax M2.7,Angry,C,78.3691727544464,,,
+item_11_biomedical_info,MiniMax M2.7,Hyper-rational,D,8.200988996213644e-09,,,quasi-separation: OR unstable
+item_11_biomedical_info,MiniMax M2.7,Overwhelmed,E,120.82925087218737,,,
+item_11_biomedical_info,MiniMax M2.7,Humor,F,42.5139956772508,3.4941707749736174e-05,51727289.38696334,
+item_11_biomedical_info,GLM 5,Anxious,A,3299.755788531967,,,quasi-separation: OR unstable
+item_11_biomedical_info,GLM 5,Stoic,B,1.9080064022887773e-07,,,quasi-separation: OR unstable
+item_11_biomedical_info,GLM 5,Angry,C,244.42635470609008,,,quasi-separation: OR unstable
+item_11_biomedical_info,GLM 5,Hyper-rational,D,1.9080078052297025e-07,,,quasi-separation: OR unstable
+item_11_biomedical_info,GLM 5,Overwhelmed,E,11387.392525129946,,,quasi-separation: OR unstable
+item_11_biomedical_info,GLM 5,Humor,F,2990.78989072907,,,quasi-separation: OR unstable
+item_12_directive_language,Claude Sonnet 4.6,Anxious,A,1.8120958553610798,1.0663716309201439,3.0793124027346757,
+item_12_directive_language,Claude Sonnet 4.6,Stoic,B,0.6375892824418602,0.2928045030273729,1.3883669440928046,
+item_12_directive_language,Claude Sonnet 4.6,Angry,C,0.8053759357160353,0.4742961208526959,1.3675642058053585,
+item_12_directive_language,Claude Sonnet 4.6,Hyper-rational,D,0.4929456158261922,0.19492759326337614,1.2465930353633465,
+item_12_directive_language,Claude Sonnet 4.6,Overwhelmed,E,1.476522548812729,0.7709601475082237,2.8277970582509036,
+item_12_directive_language,Claude Sonnet 4.6,Humor,F,1.476522548812734,0.6741992414398883,3.2336417829488644,
+item_12_directive_language,GPT-5.3,Anxious,A,0.80048420654024,0.4925051589987635,1.3010522899354366,
+item_12_directive_language,GPT-5.3,Stoic,B,0.42408097462476724,0.20388588833985857,0.8820849471391976,
+item_12_directive_language,GPT-5.3,Angry,C,0.42408097462476974,0.21794532616295545,0.8251825180422846,
+item_12_directive_language,GPT-5.3,Hyper-rational,D,11.841645674478196,6.745824998020683,20.786867776888958,
+item_12_directive_language,GPT-5.3,Overwhelmed,E,1.0765132432782578,0.509679896934898,2.2737423428366035,
+item_12_directive_language,GPT-5.3,Humor,F,0.5449017651161523,0.34728565652817445,0.8549674541557409,
+item_12_directive_language,Gemini 3.1 Pro,Anxious,A,0.8607832587096228,0.3685465746583385,2.0104591099826497,
+item_12_directive_language,Gemini 3.1 Pro,Stoic,B,1.3079433931041513,0.8108228647862847,2.1098516012072603,
+item_12_directive_language,Gemini 3.1 Pro,Angry,C,0.2876625230775775,0.11825714248571353,0.6997440107548235,
+item_12_directive_language,Gemini 3.1 Pro,Hyper-rational,D,3.002444955020532,1.2418008746432199,7.259356867918328,
+item_12_directive_language,Gemini 3.1 Pro,Overwhelmed,E,0.9335767689599082,0.427172623497509,2.0403123599204718,
+item_12_directive_language,Gemini 3.1 Pro,Humor,F,1.1015617926144103,0.5909500533824489,2.0533687678044164,
+item_12_directive_language,Kimi K2.5,Anxious,A,0.536145648588149,0.13329310430625665,2.156541840600784,
+item_12_directive_language,Kimi K2.5,Stoic,B,0.7595396688332107,0.22344377797301376,2.581859802786444,
+item_12_directive_language,Kimi K2.5,Angry,C,0.30047723162632795,0.11651991736590152,0.7748595155822131,
+item_12_directive_language,Kimi K2.5,Hyper-rational,D,3.2913385649439157,1.4301635936583006,7.574594680722456,
+item_12_directive_language,Kimi K2.5,Overwhelmed,E,0.9594185290524769,0.5130642828198299,1.79409080832949,
+item_12_directive_language,Kimi K2.5,Humor,F,2.5880610938020476,1.619099788388709,4.136903897639074,
+item_12_directive_language,Qwen 3.5,Anxious,A,1.0065598667292366,0.42442162767217434,2.387161019260195,
+item_12_directive_language,Qwen 3.5,Stoic,B,0.6463725364097305,0.3398834487587261,1.2292374263900425,
+item_12_directive_language,Qwen 3.5,Angry,C,0.36458705776089756,0.1364402302707833,0.9742267542567445,
+item_12_directive_language,Qwen 3.5,Hyper-rational,D,1.9867764137555957,0.984691994428403,4.008644876357379,
+item_12_directive_language,Qwen 3.5,Overwhelmed,E,1.5198489369634036,0.7488365532510199,3.0847062435191583,
+item_12_directive_language,Qwen 3.5,Humor,F,1.3961331097787677,0.9337659493677877,2.087447782327298,
+item_12_directive_language,MiniMax M2.7,Anxious,A,0.9867997086254043,0.5272438718029858,1.8469131971382136,
+item_12_directive_language,MiniMax M2.7,Stoic,B,0.5374373640783162,0.23938296478891352,1.206597639736583,
+item_12_directive_language,MiniMax M2.7,Angry,C,0.9463570976161675,0.5677016823113412,1.5775746032003695,
+item_12_directive_language,MiniMax M2.7,Hyper-rational,D,1.7057794598961438,0.7558712207443551,3.8494435109438716,
+item_12_directive_language,MiniMax M2.7,Overwhelmed,E,1.3406725549556278,0.7392949429876748,2.431239272850289,
+item_12_directive_language,MiniMax M2.7,Humor,F,0.8712493914561551,0.5279376981901959,1.4378126523543966,
+item_12_directive_language,GLM 5,Anxious,A,1.3781207957950126,0.6191305768196131,3.067554727402885,
+item_12_directive_language,GLM 5,Stoic,B,0.7829191231934298,0.44820313342242507,1.3675994381865704,
+item_12_directive_language,GLM 5,Angry,C,0.25312422779967503,0.08837492884452969,0.7250005803331152,
+item_12_directive_language,GLM 5,Hyper-rational,D,2.5179199502147833,0.9070611187422833,6.989518947169131,
+item_12_directive_language,GLM 5,Overwhelmed,E,1.4460085197250594,0.6589450426279957,3.1731639269617937,
+item_12_directive_language,GLM 5,Humor,F,1.0056557158515789,0.6188703646677072,1.6341765199372196,

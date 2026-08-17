@@ -1,0 +1,11 @@
+model,repetition,Extraversion,Agreeableness,Conscientiousness,Emotional_Stability,Intellect_Openness,complete
+minimax/minimax-m2.7,1,29,44,35,47,39,True
+minimax/minimax-m2.7,2,29,38,36,48,44,True
+minimax/minimax-m2.7,3,30,35,39,47,42,True
+minimax/minimax-m2.7,4,29,37,34,48,44,True
+minimax/minimax-m2.7,5,30,35,37,47,38,True
+minimax/minimax-m2.7,6,28,33,40,49,42,True
+minimax/minimax-m2.7,7,32,39,39,47,43,True
+minimax/minimax-m2.7,8,29,39,40,43,40,True
+minimax/minimax-m2.7,9,27,33,36,48,43,True
+minimax/minimax-m2.7,10,29,34,36,48,40,True

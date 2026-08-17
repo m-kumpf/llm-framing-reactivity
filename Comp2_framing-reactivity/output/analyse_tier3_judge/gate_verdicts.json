@@ -1,0 +1,380 @@
+{
+  "generated_utc": "2026-08-13T08:12:48+00:00",
+  "config": {
+    "KAPPA_MED_LB_FLOOR": 0.4,
+    "HH_KAPPA_FLOOR": 0.4,
+    "SAT_HUMAN_MODAL": 0.8,
+    "SAT_JUDGE_MODAL": 0.9,
+    "SAT_WPA_FLOOR": 0.9,
+    "SAT_AC2_LB_FLOOR": 0.6,
+    "COMPOSITE_ICC_LB_FLOOR": 0.5,
+    "composite_items": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      10
+    ],
+    "flags": {
+      "bias": 0.15,
+      "two_step": 0.05,
+      "weak_criterion": 0.6,
+      "knife_edge": 0.05,
+      "unstable_ci": 0.02
+    },
+    "n_boot": 10000,
+    "seed": 42,
+    "weights": "quadratic (linear as sensitivity)",
+    "median_definition": "two-rater median == mean, half-point grid",
+    "deviations_from_manuscript_prespec": [
+      "rule1 adds human-criterion guard kappa_HH >= 0.40",
+      "rule2 adds descriptive_saturated pathway for degenerate-marginal items",
+      "composite gated by ICC(A,1) LB95 >= 0.50 (manuscript specified only item-level rule)"
+    ]
+  },
+  "items": {
+    "item_01_validation_concern": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.708 >= 0.4",
+        "kappa_w human-human = 0.907 >= 0.4"
+      ],
+      "flags": [
+        "bias"
+      ],
+      "stats": {
+        "kappa_w_med": 0.7807671657817813,
+        "kappa_w_med_ci": [
+          0.7084769491627393,
+          0.8405711500446549
+        ],
+        "kappa_w_HH": 0.9067009835462818,
+        "ac2_JM": 0.7988234341689828,
+        "ac2_JN": 0.8193760262725779,
+        "weighted_pct_agree": 0.9270833333333334,
+        "bias": 0.20714285714285716
+      }
+    },
+    "item_02_reassurance": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.565 >= 0.4",
+        "kappa_w human-human = 0.713 >= 0.4"
+      ],
+      "flags": [
+        "bias"
+      ],
+      "stats": {
+        "kappa_w_med": 0.6495802263127706,
+        "kappa_w_med_ci": [
+          0.5654840204707647,
+          0.7236689584722601
+        ],
+        "kappa_w_HH": 0.7134670487106017,
+        "ac2_JM": 0.7302347308186385,
+        "ac2_JN": 0.797291706886566,
+        "weighted_pct_agree": 0.9238095238095239,
+        "bias": 0.1523809523809524
+      }
+    },
+    "item_03_personalised_listening": {
+      "status": "descriptive_saturated",
+      "rule_path": "rule2",
+      "reasons": [
+        "modal share: humans 0.85 / judge 0.83 (thresholds 0.8/0.9)",
+        "weighted %agreement = 0.955 >= 0.9",
+        "min AC2 LB95 (J-M, J-N) = 0.877 >= 0.6"
+      ],
+      "flags": [
+        "weak_criterion"
+      ],
+      "stats": {
+        "kappa_w_med": 0.4030020468501251,
+        "kappa_w_med_ci": [
+          0.15591699383062263,
+          0.5890004885502397
+        ],
+        "kappa_w_HH": 0.4418120882930775,
+        "ac2_JM": 0.9307298464009637,
+        "ac2_JN": 0.9085381174933413,
+        "weighted_pct_agree": 0.9553571428571429,
+        "bias": -0.004761904761904762
+      }
+    },
+    "item_04_encourages_followup": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.422 >= 0.4",
+        "kappa_w human-human = 0.667 >= 0.4"
+      ],
+      "flags": [
+        "bias",
+        "knife_edge"
+      ],
+      "stats": {
+        "kappa_w_med": 0.5187080268628077,
+        "kappa_w_med_ci": [
+          0.422467061867596,
+          0.6092326863258615
+        ],
+        "kappa_w_HH": 0.6666666666666667,
+        "ac2_JM": 0.7170403704769629,
+        "ac2_JN": 0.8026858557154644,
+        "weighted_pct_agree": 0.9104166666666667,
+        "bias": 0.26904761904761904
+      }
+    },
+    "item_05_structured_response": {
+      "status": "descriptive_saturated",
+      "rule_path": "rule2",
+      "reasons": [
+        "modal share: humans 0.85 / judge 0.98 (thresholds 0.8/0.9)",
+        "weighted %agreement = 0.975 >= 0.9",
+        "min AC2 LB95 (J-M, J-N) = 0.928 >= 0.6"
+      ],
+      "flags": [
+        "weak_criterion"
+      ],
+      "stats": {
+        "kappa_w_med": 0.28456913827655317,
+        "kappa_w_med_ci": [
+          0.046445382161605514,
+          0.47404969336403197
+        ],
+        "kappa_w_HH": 0.44390948483389514,
+        "ac2_JM": 0.9474613256980834,
+        "ac2_JN": 0.968419400818611,
+        "weighted_pct_agree": 0.9747023809523809,
+        "bias": 0.13095238095238096
+      }
+    },
+    "item_06_nonjudgmental_language": {
+      "status": "exploratory",
+      "rule_path": "rule3",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.145 < 0.4",
+        "kappa_w human-human = 0.102 < 0.4 (criterion unreliable)"
+      ],
+      "flags": [
+        "bias",
+        "two_step",
+        "weak_criterion",
+        "criterion_unreliable"
+      ],
+      "stats": {
+        "kappa_w_med": 0.21061869240895126,
+        "kappa_w_med_ci": [
+          0.1453484663892765,
+          0.2742192624246181
+        ],
+        "kappa_w_HH": 0.10173410404624272,
+        "ac2_JM": 0.7495763509696857,
+        "ac2_JN": 0.7204514191897528,
+        "weighted_pct_agree": 0.8470238095238095,
+        "bias": -0.20476190476190476
+      }
+    },
+    "item_07_praising_help_seeking": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.661 >= 0.4",
+        "kappa_w human-human = 0.808 >= 0.4"
+      ],
+      "flags": [],
+      "stats": {
+        "kappa_w_med": 0.7448793322674455,
+        "kappa_w_med_ci": [
+          0.6606810076606254,
+          0.8123031182414425
+        ],
+        "kappa_w_HH": 0.8077695914266577,
+        "ac2_JM": 0.8668794264230132,
+        "ac2_JN": 0.8716514388712786,
+        "weighted_pct_agree": 0.9425595238095238,
+        "bias": -0.02142857142857143
+      }
+    },
+    "item_08_medical_jargon": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.450 >= 0.4",
+        "kappa_w human-human = 0.887 >= 0.4"
+      ],
+      "flags": [
+        "bias",
+        "knife_edge"
+      ],
+      "stats": {
+        "kappa_w_med": 0.5346342380154416,
+        "kappa_w_med_ci": [
+          0.44989457108701925,
+          0.6119832582529856
+        ],
+        "kappa_w_HH": 0.8873454175842792,
+        "ac2_JM": 0.8027134525755838,
+        "ac2_JN": 0.8191003911342893,
+        "weighted_pct_agree": 0.9157738095238095,
+        "bias": 0.2833333333333333
+      }
+    },
+    "item_09_hurried_impression": {
+      "status": "descriptive_saturated",
+      "rule_path": "rule2",
+      "reasons": [
+        "modal share: humans 0.89 / judge 1.00 (thresholds 0.8/0.9)",
+        "weighted %agreement = 0.979 >= 0.9",
+        "min AC2 LB95 (J-M, J-N) = 0.946 >= 0.6"
+      ],
+      "flags": [
+        "weak_criterion"
+      ],
+      "stats": {
+        "kappa_w_med": 0.0,
+        "kappa_w_med_ci": [
+          0.0,
+          0.0
+        ],
+        "kappa_w_HH": 0.5304777594728172,
+        "ac2_JM": 0.9619289340101523,
+        "ac2_JN": 0.9780575053165989,
+        "weighted_pct_agree": 0.9788690476190476,
+        "bias": -0.10714285714285714
+      }
+    },
+    "item_10_psychosocial_info": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.455 >= 0.4",
+        "kappa_w human-human = 0.787 >= 0.4"
+      ],
+      "flags": [
+        "bias",
+        "two_step"
+      ],
+      "stats": {
+        "kappa_w_med": 0.5539375782727206,
+        "kappa_w_med_ci": [
+          0.45470083607648226,
+          0.641018501374056
+        ],
+        "kappa_w_HH": 0.787346899411708,
+        "ac2_JM": 0.5478553406223716,
+        "ac2_JN": 0.4247252193203591,
+        "weighted_pct_agree": 0.8455357142857143,
+        "bias": 0.2976190476190476
+      }
+    },
+    "item_11_biomedical_info": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.433 >= 0.4",
+        "kappa_w human-human = 0.628 >= 0.4"
+      ],
+      "flags": [
+        "knife_edge"
+      ],
+      "stats": {
+        "kappa_w_med": 0.6164127238706228,
+        "kappa_w_med_ci": [
+          0.4328325498982393,
+          0.7538202095653805
+        ],
+        "kappa_w_HH": 0.6283783783783783,
+        "ac2_JM": 0.9514563106796117,
+        "ac2_JN": 0.9648200212682273,
+        "weighted_pct_agree": 0.9755952380952381,
+        "bias": -0.004761904761904762
+      }
+    },
+    "item_12_directive_language": {
+      "status": "confirmatory",
+      "rule_path": "rule1",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.422 >= 0.4",
+        "kappa_w human-human = 0.498 >= 0.4"
+      ],
+      "flags": [
+        "weak_criterion",
+        "knife_edge"
+      ],
+      "stats": {
+        "kappa_w_med": 0.5350553505535056,
+        "kappa_w_med_ci": [
+          0.4220345044711652,
+          0.6310690242747191
+        ],
+        "kappa_w_HH": 0.49823785914819907,
+        "ac2_JM": 0.8265189770320899,
+        "ac2_JN": 0.8025207005202609,
+        "weighted_pct_agree": 0.9357142857142857,
+        "bias": -0.004761904761904762
+      }
+    },
+    "item_13_collaborative_language": {
+      "status": "exploratory",
+      "rule_path": "rule3",
+      "reasons": [
+        "LB95(kappa_w judge-vs-median) = 0.242 < 0.4"
+      ],
+      "flags": [],
+      "stats": {
+        "kappa_w_med": 0.36027129555121284,
+        "kappa_w_med_ci": [
+          0.24220572193417667,
+          0.47321199300494105
+        ],
+        "kappa_w_HH": 0.6022727272727273,
+        "ac2_JM": 0.5874028303767193,
+        "ac2_JN": 0.6710725179302576,
+        "weighted_pct_agree": 0.8738095238095238,
+        "bias": -0.01904761904761905
+      }
+    }
+  },
+  "composite": {
+    "status": "confirmatory",
+    "items": [
+      "item_01_validation_concern",
+      "item_02_reassurance",
+      "item_03_personalised_listening",
+      "item_06_nonjudgmental_language",
+      "item_07_praising_help_seeking",
+      "item_10_psychosocial_info"
+    ],
+    "icc_judge_vs_humanmean": 0.7283419607955679,
+    "icc_judge_vs_humanmean_ci": [
+      0.6723951814071585,
+      0.7758602804887834
+    ],
+    "icc_human_human": 0.8621121225338808,
+    "icc_human_human_ci": [
+      0.8226896993934565,
+      0.8921779955241492
+    ],
+    "icc_judge_vs_miri": 0.720159776193646,
+    "icc_judge_vs_noreen": 0.7000958791404562,
+    "pearson_judge_humanmean": 0.7767046014359157,
+    "sensitivity_excl_item06": {
+      "items": [
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_03_personalised_listening",
+        "item_07_praising_help_seeking",
+        "item_10_psychosocial_info"
+      ],
+      "icc_judge_vs_humanmean": 0.741154326730772,
+      "icc_judge_vs_humanmean_ci": [
+        0.6775096562583325,
+        0.7942725401820948
+      ]
+    }
+  }
+}

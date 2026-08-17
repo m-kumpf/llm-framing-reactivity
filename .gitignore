@@ -1,0 +1,17 @@
+# secrets — never commit API keys
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# bulky intermediates not tracked in this repo
+_parts/
+_sentence_parts/
+*_sentences.csv
+*.log
+output/collect_responses/
+_to_delete/

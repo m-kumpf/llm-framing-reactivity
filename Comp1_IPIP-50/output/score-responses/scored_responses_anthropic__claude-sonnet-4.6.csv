@@ -1,0 +1,11 @@
+model,repetition,Extraversion,Agreeableness,Conscientiousness,Emotional_Stability,Intellect_Openness,complete
+anthropic/claude-sonnet-4.6,1,33,41,41,34,42,True
+anthropic/claude-sonnet-4.6,2,34,41,41,33,44,True
+anthropic/claude-sonnet-4.6,3,33,41,41,33,44,True
+anthropic/claude-sonnet-4.6,4,33,41,40,34,43,True
+anthropic/claude-sonnet-4.6,5,33,41,41,34,43,True
+anthropic/claude-sonnet-4.6,6,33,41,40,33,44,True
+anthropic/claude-sonnet-4.6,7,32,41,41,34,44,True
+anthropic/claude-sonnet-4.6,8,34,41,40,34,44,True
+anthropic/claude-sonnet-4.6,9,33,41,41,34,43,True
+anthropic/claude-sonnet-4.6,10,32,41,40,34,42,True

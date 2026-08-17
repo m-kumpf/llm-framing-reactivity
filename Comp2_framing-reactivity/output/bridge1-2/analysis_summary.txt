@@ -1,0 +1,26 @@
+Comp1 -> Comp2 bridge — exploratory (n = 7 models)
+================================================================
+Generated (UTC): 2026-08-13T08:13:32+00:00
+
+PRE-SPECIFIED: Emotional_Stability vs confirmatory bridge index
+  Spearman rho = +0.107   exact permutation p = 0.8397   (Pearson r = +0.160, descriptive)
+
+factor                index                                         rho  p_exact
+----------------------------------------------------------------------------------
+Extraversion          Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping) -0.714   0.0881
+Extraversion          Interpersonal primary (10 metrics)         -0.036   0.9635
+Extraversion          Deterministic-only sensitivity (7 metrics) +0.143   0.7825
+Agreeableness         Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping) -0.214   0.6615
+Agreeableness         Interpersonal primary (10 metrics)         -0.179   0.7131
+Agreeableness         Deterministic-only sensitivity (7 metrics) +0.214   0.6615
+Conscientiousness     Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping) +0.000   1.0000
+Conscientiousness     Interpersonal primary (10 metrics)         -0.250   0.5948
+Conscientiousness     Deterministic-only sensitivity (7 metrics) +0.214   0.6615
+Emotional_Stability   Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping) +0.107   0.8397  <- pre-specified
+Emotional_Stability   Interpersonal primary (10 metrics)         -0.357   0.4444
+Emotional_Stability   Deterministic-only sensitivity (7 metrics) +0.143   0.7825
+Intellect_Openness    Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping) -0.214   0.6615
+Intellect_Openness    Interpersonal primary (10 metrics)         -0.179   0.7131
+Intellect_Openness    Deterministic-only sensitivity (7 metrics) +0.214   0.6615
+
+All correlations exploratory; exact two-sided permutation p over all 5,040 orderings; no correction applied, no confirmatory claim intended.

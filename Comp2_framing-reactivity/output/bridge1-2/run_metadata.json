@@ -1,0 +1,15 @@
+{
+  "script": "bridge1_2.py",
+  "timestamp_utc": "2026-08-13T08:13:32+00:00",
+  "sources": {
+    "comp1": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp1_IPIP-50/output/analyse-results/summary_statistics.csv",
+    "comp2": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/analysis/analysis_results.json"
+  },
+  "n_models": 7,
+  "outputs": [
+    "bridge_results.json",
+    "bridge_correlations.csv",
+    "fig_bridge_trait_reactivity.png/pdf",
+    "analysis_summary.txt"
+  ]
+}

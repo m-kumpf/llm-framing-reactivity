@@ -1,0 +1,89 @@
+{
+  "timestamp_utc": "2026-07-15T21:27:14.068616+00:00",
+  "inputs": {
+    "tier1": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/output/score_deterministic/scored_deterministic.csv",
+    "tier2": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/output/score_goemo/scored_goemo.csv",
+    "tier3_dir": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/run-judge-tier3-deepseek"
+  },
+  "merge_key": [
+    "model",
+    "vignette_id",
+    "run_number"
+  ],
+  "rows_per_response": 4200,
+  "rows_cells": 420,
+  "rows_all_three_tiers": 4200,
+  "tier3_composite_items": [
+    "item_01_validation_concern",
+    "item_02_reassurance",
+    "item_03_personalised_listening",
+    "item_06_nonjudgmental_language",
+    "item_07_praising_help_seeking",
+    "item_10_psychosocial_info"
+  ],
+  "tier3_composites": {
+    "relationship_oriented": {
+      "items": [
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_03_personalised_listening",
+        "item_06_nonjudgmental_language",
+        "item_07_praising_help_seeking",
+        "item_10_psychosocial_info"
+      ],
+      "role": "primary (Ruben 2026 relationship-oriented)"
+    },
+    "relationship_oriented_5item": {
+      "items": [
+        "item_01_validation_concern",
+        "item_02_reassurance",
+        "item_03_personalised_listening",
+        "item_07_praising_help_seeking",
+        "item_10_psychosocial_info"
+      ],
+      "role": "sensitivity (item 6 removed; low human-human reliability in this application)"
+    },
+    "composite_conscientious": {
+      "items": [
+        "item_09_hurried_impression",
+        "item_13_collaborative_language"
+      ],
+      "reversed": [
+        "item_09_hurried_impression"
+      ],
+      "role": "Ruben 2026 secondary composite"
+    },
+    "composite_guiding": {
+      "items": [
+        "item_05_structured_response",
+        "item_12_directive_language"
+      ],
+      "reversed": [],
+      "role": "Ruben 2026 secondary composite"
+    },
+    "composite_technical": {
+      "items": [
+        "item_08_medical_jargon",
+        "item_11_biomedical_info"
+      ],
+      "reversed": [],
+      "role": "Ruben 2026 secondary composite"
+    }
+  },
+  "tier3_gate_status": {
+    "item_01_validation_concern": "confirmatory",
+    "item_02_reassurance": "confirmatory",
+    "item_03_personalised_listening": "descriptive_saturated",
+    "item_04_encourages_followup": "confirmatory",
+    "item_05_structured_response": "descriptive_saturated",
+    "item_06_nonjudgmental_language": "exploratory",
+    "item_07_praising_help_seeking": "confirmatory",
+    "item_08_medical_jargon": "confirmatory",
+    "item_09_hurried_impression": "descriptive_saturated",
+    "item_10_psychosocial_info": "confirmatory",
+    "item_11_biomedical_info": "confirmatory",
+    "item_12_directive_language": "confirmatory",
+    "item_13_collaborative_language": "exploratory",
+    "relationship_oriented": "confirmatory"
+  }
+}

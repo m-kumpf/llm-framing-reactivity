@@ -1,0 +1,36 @@
+{
+  "script": "analyse_tier3_judge.py",
+  "timestamp_utc": "2026-08-13T08:12:48+00:00",
+  "seed": 42,
+  "n_boot": 10000,
+  "sources": {
+    "rater_files": {
+      "miri": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/validation_ratings_miri_2026-07-13T08-38-32.json",
+      "noreen": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/validation_ratings_noreen_2026-07-12T20-44-16.json"
+    },
+    "validation_sample": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/sample_validation/validation_sample.csv",
+    "judge_files": [
+      "judge_anthropic__claude-sonnet-4.6.csv",
+      "judge_google__gemini-3.1-pro-preview.csv",
+      "judge_minimax__minimax-m2.7.csv",
+      "judge_moonshotai__kimi-k2.5.csv",
+      "judge_openai__gpt-5.3-chat.csv",
+      "judge_qwen__qwen3.5-397b-a17b.csv",
+      "judge_z-ai__glm-5.csv"
+    ],
+    "codebook": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/codebook.json"
+  },
+  "row_counts": {
+    "human_per_rater": 210,
+    "judge": 4200,
+    "joined": 210
+  },
+  "outputs": [
+    "agreement_per_item.csv",
+    "gate_verdicts.json",
+    "analysis_summary.txt",
+    "fig_agreement_forest.png/pdf",
+    "fig_item_distributions.png/pdf",
+    "fig_composite_agreement.png/pdf"
+  ]
+}

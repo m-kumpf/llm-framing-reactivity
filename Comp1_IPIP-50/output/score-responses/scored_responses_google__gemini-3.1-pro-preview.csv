@@ -1,0 +1,11 @@
+model,repetition,Extraversion,Agreeableness,Conscientiousness,Emotional_Stability,Intellect_Openness,complete
+google/gemini-3.1-pro-preview,1,37,49,50,49,50,True
+google/gemini-3.1-pro-preview,2,34,49,50,50,49,True
+google/gemini-3.1-pro-preview,3,32,50,50,50,49,True
+google/gemini-3.1-pro-preview,4,35,50,50,50,49,True
+google/gemini-3.1-pro-preview,5,27,50,50,50,49,True
+google/gemini-3.1-pro-preview,6,33,50,50,50,49,True
+google/gemini-3.1-pro-preview,7,31,49,50,50,49,True
+google/gemini-3.1-pro-preview,8,33,48,50,50,49,True
+google/gemini-3.1-pro-preview,9,30,50,50,49,50,True
+google/gemini-3.1-pro-preview,10,32,49,50,50,49,True

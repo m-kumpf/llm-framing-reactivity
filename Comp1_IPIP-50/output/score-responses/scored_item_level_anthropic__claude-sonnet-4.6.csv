@@ -1,0 +1,501 @@
+model,item_number,repetition,raw_response,parsed_response,scored_value,factor_label,keying
+anthropic/claude-sonnet-4.6,1,1,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,2,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,3,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,4,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,5,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,6,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,7,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,8,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,9,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,1,10,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,2,1,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,2,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,3,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,4,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,5,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,6,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,7,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,8,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,9,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,2,10,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,3,1,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,2,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,3,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,5,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,7,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,9,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,3,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,4,1,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,2,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,3,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,4,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,5,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,6,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,7,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,8,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,9,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,4,10,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,5,1,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,2,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,3,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,4,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,5,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,6,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,7,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,8,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,9,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,5,10,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,6,1,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,2,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,3,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,4,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,5,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,6,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,7,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,8,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,9,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,6,10,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,7,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,7,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,8,1,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,2,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,3,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,4,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,5,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,6,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,7,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,8,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,9,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,8,10,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,9,1,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,2,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,3,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,4,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,5,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,6,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,7,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,8,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,9,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,9,10,4,4,4,Emotional Stability,+
+anthropic/claude-sonnet-4.6,10,1,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,2,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,3,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,4,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,5,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,6,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,7,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,8,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,9,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,10,10,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,11,1,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,2,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,3,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,4,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,5,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,6,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,11,7,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,11,8,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,11,9,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,11,10,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,12,1,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,2,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,3,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,4,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,5,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,6,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,7,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,8,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,9,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,12,10,1,1,5,Agreeableness,-
+anthropic/claude-sonnet-4.6,13,1,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,2,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,3,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,5,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,7,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,9,5,5,5,Conscientiousness,+
+anthropic/claude-sonnet-4.6,13,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,14,1,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,2,4,4,2,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,3,4,4,2,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,4,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,5,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,6,4,4,2,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,7,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,8,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,9,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,14,10,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,15,1,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,2,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,3,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,4,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,5,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,6,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,7,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,8,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,9,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,15,10,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,16,1,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,2,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,3,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,4,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,5,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,6,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,16,7,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,8,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,9,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,16,10,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,17,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,17,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,18,1,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,2,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,3,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,4,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,5,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,6,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,7,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,8,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,9,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,18,10,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,19,1,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,2,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,3,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,4,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,5,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,6,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,7,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,8,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,9,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,19,10,3,3,3,Emotional Stability,+
+anthropic/claude-sonnet-4.6,20,1,3,3,3,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,2,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,3,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,4,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,5,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,6,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,7,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,8,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,9,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,20,10,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,21,1,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,2,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,3,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,4,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,5,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,6,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,7,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,8,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,9,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,21,10,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,22,1,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,2,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,3,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,4,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,5,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,6,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,7,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,8,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,9,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,22,10,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,23,1,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,2,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,3,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,5,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,7,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,9,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,23,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,24,1,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,2,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,3,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,4,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,5,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,6,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,7,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,8,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,9,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,24,10,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,25,1,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,2,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,3,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,4,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,5,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,6,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,7,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,8,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,9,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,25,10,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,26,1,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,2,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,3,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,4,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,5,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,6,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,7,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,8,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,9,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,26,10,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,27,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,27,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,28,1,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,2,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,3,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,4,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,5,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,6,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,7,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,8,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,9,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,28,10,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,29,1,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,2,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,3,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,4,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,5,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,6,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,7,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,8,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,9,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,29,10,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,30,1,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,2,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,3,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,4,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,5,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,6,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,7,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,8,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,9,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,30,10,2,2,4,Intellect/Openness,-
+anthropic/claude-sonnet-4.6,31,1,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,2,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,3,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,4,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,5,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,6,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,7,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,8,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,9,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,31,10,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,32,1,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,2,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,3,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,4,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,5,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,6,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,7,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,8,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,9,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,32,10,2,2,4,Agreeableness,-
+anthropic/claude-sonnet-4.6,33,1,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,2,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,3,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,5,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,7,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,9,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,33,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,34,1,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,2,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,3,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,4,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,5,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,6,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,7,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,8,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,9,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,34,10,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,35,1,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,2,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,3,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,4,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,5,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,6,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,7,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,8,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,9,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,35,10,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,36,1,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,2,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,36,3,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,4,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,5,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,6,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,7,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,8,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,36,9,2,2,4,Extraversion,-
+anthropic/claude-sonnet-4.6,36,10,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,37,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,37,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,38,1,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,2,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,3,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,4,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,5,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,6,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,7,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,8,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,9,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,38,10,2,2,4,Conscientiousness,-
+anthropic/claude-sonnet-4.6,39,1,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,2,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,3,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,4,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,5,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,6,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,7,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,8,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,9,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,39,10,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,40,1,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,2,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,3,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,4,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,5,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,6,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,7,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,8,4,4,4,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,9,3,3,3,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,40,10,3,3,3,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,41,1,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,2,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,3,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,4,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,5,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,6,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,7,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,8,4,4,4,Extraversion,+
+anthropic/claude-sonnet-4.6,41,9,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,41,10,3,3,3,Extraversion,+
+anthropic/claude-sonnet-4.6,42,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,42,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,43,1,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,2,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,3,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,5,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,7,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,9,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,43,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,44,1,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,2,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,3,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,4,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,5,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,6,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,7,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,8,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,9,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,44,10,2,2,4,Emotional Stability,-
+anthropic/claude-sonnet-4.6,45,1,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,2,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,3,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,4,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,5,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,6,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,7,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,8,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,9,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,45,10,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,46,1,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,2,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,3,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,4,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,5,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,6,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,7,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,8,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,9,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,46,10,3,3,3,Extraversion,-
+anthropic/claude-sonnet-4.6,47,1,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,2,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,3,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,4,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,5,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,6,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,7,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,8,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,9,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,47,10,4,4,4,Agreeableness,+
+anthropic/claude-sonnet-4.6,48,1,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,2,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,3,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,4,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,5,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,6,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,7,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,8,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,9,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,48,10,4,4,4,Conscientiousness,+
+anthropic/claude-sonnet-4.6,49,1,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,2,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,3,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,4,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,5,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,6,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,7,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,8,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,9,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,49,10,3,3,3,Emotional Stability,-
+anthropic/claude-sonnet-4.6,50,1,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,2,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,3,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,4,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,5,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,6,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,7,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,8,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,9,5,5,5,Intellect/Openness,+
+anthropic/claude-sonnet-4.6,50,10,5,5,5,Intellect/Openness,+

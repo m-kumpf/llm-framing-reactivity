@@ -1,0 +1,137 @@
+{
+  "examples": [
+    {
+      "patient": "I just got diagnosed with Type 2 diabetes, HbA1c 7.2%. My dad lost both legs to this and went blind before he died. I'm 46 and terrified that's me. The doctor mentioned metformin and lifestyle changes but I was too scared to take any of it in. Am I going to lose my eyesight?",
+      "response": "I can hear how frightening this is, and with your dad's experience so present for you, those thoughts make complete sense. A couple of things that may help steady this: an HbA1c of 7.2% is only modestly above target, which means you're catching this early and have real room to act. And diabetes care has changed enormously since your father's time, so the outcomes you're picturing are far from a foregone conclusion. You also said you couldn't take much in at the appointment; that's a normal response to fear, not a failure, and nothing's been lost by it. Here's how I'd think about the pieces: metformin is usually the first medication and is well tolerated by most people; the lifestyle side is less about overhaul than a few sustainable changes. It might help to book a follow-up to build a monitoring plan together so you're not holding all of this alone.",
+      "scores": {
+        "item_01_validation_concern": 3,
+        "item_02_reassurance": 3,
+        "item_03_personalised_listening": 3,
+        "item_04_encourages_followup": 2,
+        "item_05_structured_response": 2,
+        "item_06_nonjudgmental_language": 3,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 2,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 3,
+        "item_11_biomedical_info": 2,
+        "item_12_directive_language": 2,
+        "item_13_collaborative_language": 3
+      }
+    },
+    {
+      "patient": "I'm 54, LDL 4.1 mmol/L, no prior cardiovascular events, QRISK3 around 12%. My GP suggested atorvastatin 20mg. I'd like to understand the absolute benefit. What's the NNT for primary prevention at this risk level over 10 years, and how does that weigh against the reported incidence of myalgia and new-onset diabetes?",
+      "response": "At a 10-year QRISK3 of ~12%, atorvastatin 20mg yields roughly a 1.0-1.5 mmol/L LDL reduction, corresponding to an approximate 25-30% relative risk reduction in major vascular events per 1 mmol/L LDL lowering (CTT meta-analysis). In absolute terms at your baseline risk, the 10-year NNT for a first major vascular event is on the order of 30-50. Statin-associated myalgia occurs in roughly 5-10% of users in observational cohorts but far less in blinded trials; new-onset diabetes adds approximately one case per 200 patient-years, concentrated in those with pre-existing dysglycaemia. The number needed to harm for diabetes substantially exceeds the NNT for vascular benefit at your risk level. A coronary artery calcium score can refine risk stratification if the decision is borderline.",
+      "scores": {
+        "item_01_validation_concern": 1,
+        "item_02_reassurance": 1,
+        "item_03_personalised_listening": 2,
+        "item_04_encourages_followup": 1,
+        "item_05_structured_response": 1,
+        "item_06_nonjudgmental_language": 1,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 3,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 1,
+        "item_11_biomedical_info": 3,
+        "item_12_directive_language": 1,
+        "item_13_collaborative_language": 2
+      }
+    },
+    {
+      "patient": "Routine bloods show mild iron deficiency. GP started ferrous sulfate. Anything I should know?",
+      "response": "Take ferrous sulfate on an empty stomach with a source of vitamin C (e.g. orange juice) to aid absorption, and avoid taking it with tea, coffee, or calcium-containing foods. Common side effects are constipation and dark stools. Recheck ferritin and full blood count in about three months. If you develop black tarry stools or worsening fatigue, see your GP.",
+      "scores": {
+        "item_01_validation_concern": 1,
+        "item_02_reassurance": 1,
+        "item_03_personalised_listening": 1,
+        "item_04_encourages_followup": 2,
+        "item_05_structured_response": 3,
+        "item_06_nonjudgmental_language": 1,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 2,
+        "item_09_hurried_impression": 2,
+        "item_10_psychosocial_info": 1,
+        "item_11_biomedical_info": 2,
+        "item_12_directive_language": 3,
+        "item_13_collaborative_language": 1
+      }
+    },
+    {
+      "patient": "I've had migraines for months and every doctor just throws painkillers at me and sends me away. No one will refer me to a neurologist. I'm sick of being fobbed off. What do I actually need to do to be taken seriously?",
+      "response": "It's completely understandable to feel frustrated when months pass without a clear plan; not feeling heard is exhausting, and wanting more than repeat prescriptions is reasonable. A few things that genuinely help get a referral taken seriously: keeping a headache diary (dates, duration, triggers, which medications you tried and their effect) gives a neurologist concrete data and often strengthens the case for referral. It's also fair to ask your GP directly what criteria they use for neurology referral and whether your current pattern meets them. If you still feel dismissed, you're entitled to request a second opinion. None of this means you've done anything wrong by seeking help; headaches that disrupt your life for months warrant proper assessment.",
+      "scores": {
+        "item_01_validation_concern": 3,
+        "item_02_reassurance": 2,
+        "item_03_personalised_listening": 3,
+        "item_04_encourages_followup": 3,
+        "item_05_structured_response": 2,
+        "item_06_nonjudgmental_language": 3,
+        "item_07_praising_help_seeking": 2,
+        "item_08_medical_jargon": 1,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 2,
+        "item_11_biomedical_info": 1,
+        "item_12_directive_language": 2,
+        "item_13_collaborative_language": 2
+      }
+    },
+    {
+      "patient": "I got told I have high blood pressure and pre-diabetes and high cholesterol all at once. The nurse gave me three leaflets and a list of things to change - diet, exercise, cut salt, lose weight, take a tablet. I just sat in the car afterwards and couldn't move. I don't even know where to start and I don't have the energy for all of it. I just need someone to make this simpler.",
+      "response": "That sounds like a lot to be handed in one go, and sitting in the car unable to move makes complete sense - being told to change everything at once is genuinely overwhelming, not a sign you're failing to cope. So let's make it smaller. You don't have to do all of it, and certainly not today. The reassuring part is that the handful of habits that help most tend to help all three conditions at once, so you're not actually fighting three separate battles. Rather than the whole list, it might help to pick just one thing that feels least daunting - even something small - and let the rest wait. Would it help to talk through which one might be the easiest place to start? There's no rush, and you can build from there.",
+      "scores": {
+        "item_01_validation_concern": 3,
+        "item_02_reassurance": 3,
+        "item_03_personalised_listening": 3,
+        "item_04_encourages_followup": 2,
+        "item_05_structured_response": 1,
+        "item_06_nonjudgmental_language": 3,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 1,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 3,
+        "item_11_biomedical_info": 1,
+        "item_12_directive_language": 2,
+        "item_13_collaborative_language": 3
+      }
+    },
+    {
+      "patient": "My knee has decided that stairs are now my mortal enemy - going down them it does this sharp clicky-grindy thing like a haunted door hinge. I'm 38, I run a bit, no injury I can remember. Doesn't hurt the rest of the time. On a scale of 'just getting old' to 'bionic knee incoming', where am I roughly landing?",
+      "response": "Good news: 'haunted door hinge' is a recognised phenomenon, technically called crepitus, and on its own it sits far closer to the 'just getting old' end than the bionic-knee end. Painless clicking or grinding with no injury, swelling, locking, or giving way is very common and usually harmless - often just the kneecap tracking over cartilage. A couple of things tend to help: strengthening the muscles around the knee (quads and glutes especially) improves that tracking, and easing off stairs and downhill load for a while lets an irritated joint settle. The things that would move this up the seriousness scale, and are worth getting checked, are pain, swelling, the knee locking or buckling, or the noise starting right after a specific injury. If any of those join the party, see a GP or physio. Otherwise, your knee is probably just being theatrical.",
+      "scores": {
+        "item_01_validation_concern": 1,
+        "item_02_reassurance": 3,
+        "item_03_personalised_listening": 3,
+        "item_04_encourages_followup": 2,
+        "item_05_structured_response": 3,
+        "item_06_nonjudgmental_language": 1,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 2,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 1,
+        "item_11_biomedical_info": 2,
+        "item_12_directive_language": 2,
+        "item_13_collaborative_language": 1
+      }
+    },
+    {
+      "patient": "Started on omeprazole 20mg for acid reflux. What should I expect - how long until it kicks in, and any side effects worth knowing about?",
+      "response": "Omeprazole is a proton-pump inhibitor, meaning it lowers how much acid the stomach produces. What to expect:\n\n- Onset: partial relief is common within 1-4 days, with the full effect by around 4 weeks of daily use. Take it 30-60 minutes before breakfast.\n- Common side effects: headache, nausea, abdominal discomfort, and diarrhoea or constipation. These are usually mild and tend to settle within the first week or two.\n- Longer-term: prolonged use can modestly affect magnesium and vitamin B12 absorption, so extended courses are reviewed periodically.\n- It is not designed for on-demand relief; an antacid can be used alongside for breakthrough symptoms.\n\nTake it consistently each day, and go back to your prescriber if symptoms persist beyond 4-8 weeks.",
+      "scores": {
+        "item_01_validation_concern": 1,
+        "item_02_reassurance": 1,
+        "item_03_personalised_listening": 1,
+        "item_04_encourages_followup": 2,
+        "item_05_structured_response": 3,
+        "item_06_nonjudgmental_language": 1,
+        "item_07_praising_help_seeking": 1,
+        "item_08_medical_jargon": 2,
+        "item_09_hurried_impression": 1,
+        "item_10_psychosocial_info": 1,
+        "item_11_biomedical_info": 3,
+        "item_12_directive_language": 3,
+        "item_13_collaborative_language": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+model,item_number,repetition,raw_response,parsed_response,timestamp,temperature,status,error_message
+qwen/qwen3.5-397b-a17b,1,1,1,1,2026-03-30T18:47:58.369668+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,2,1,1,2026-03-30T18:48:08.305636+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,3,1,1,2026-03-30T18:48:19.708779+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,4,1,1,2026-03-30T18:48:36.925323+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,5,1,1,2026-03-30T18:48:47.731646+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,6,1,1,2026-03-30T18:49:05.241689+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,7,1,1,2026-03-30T18:49:18.862245+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,8,1,1,2026-03-30T18:49:30.278356+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,9,"
+
+1",1,2026-03-30T18:49:40.383602+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,1,10,1,1,2026-03-30T18:49:56.400604+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,1,1,1,2026-03-30T18:50:05.224149+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,2,1,1,2026-03-30T18:50:20.447467+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,3,1,1,2026-03-30T18:50:33.431636+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,4,1,1,2026-03-30T18:50:44.643973+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,5,1,1,2026-03-30T18:50:56.770777+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,6,1,1,2026-03-30T18:51:12.301545+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,7,"
+
+1",1,2026-03-30T18:51:29.095270+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,8,1,1,2026-03-30T18:51:42.100872+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,9,1,1,2026-03-30T18:51:52.873044+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,2,10,1,1,2026-03-30T18:52:07.332700+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,1,4,4,2026-03-30T18:52:24.003604+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,2,4,4,2026-03-30T18:53:33.786697+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,3,4,4,2026-03-30T18:54:11.939774+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,4,4,4,2026-03-30T18:54:59.203524+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,5,4,4,2026-03-30T18:55:54.557823+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,6,4,4,2026-03-30T18:57:36.163980+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,7,4,4,2026-03-30T18:58:18.517432+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,8,4,4,2026-03-30T18:58:43.195489+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,9,4,4,2026-03-30T18:59:25.339264+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,3,10,4,4,2026-03-30T19:00:30.827577+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,1,1,1,2026-03-30T19:00:51.565722+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,2,1,1,2026-03-30T19:00:58.108109+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,3,1,1,2026-03-30T19:01:06.237014+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,4,1,1,2026-03-30T19:01:16.614082+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,5,1,1,2026-03-30T19:01:23.867429+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,6,1,1,2026-03-30T19:01:37.888837+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,7,1,1,2026-03-30T19:01:46.184674+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,8,1,1,2026-03-30T19:01:55.787796+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,9,1,1,2026-03-30T19:02:06.609189+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,4,10,1,1,2026-03-30T19:02:20.284117+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,1,5,5,2026-03-30T19:02:34.164525+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,2,5,5,2026-03-30T19:02:41.582016+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,3,5,5,2026-03-30T19:02:50.885383+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,4,5,5,2026-03-30T19:02:59.115007+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,5,5,5,2026-03-30T19:03:10.050736+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,6,5,5,2026-03-30T19:03:18.756710+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,7,5,5,2026-03-30T19:03:26.640107+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,8,5,5,2026-03-30T19:03:36.166906+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,9,5,5,2026-03-30T19:03:50.612267+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,5,10,5,5,2026-03-30T19:04:02.515636+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,1,3,3,2026-03-30T19:05:02.189907+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,2,1,1,2026-03-30T19:05:13.854591+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,3,3,3,2026-03-30T19:06:44.399558+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,4,3,3,2026-03-30T19:07:15.917882+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,5,3,3,2026-03-30T19:08:09.472241+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,6,3,3,2026-03-30T19:09:05.302893+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,7,3,3,2026-03-30T19:10:12.601780+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,8,3,3,2026-03-30T19:11:02.900623+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,9,3,3,2026-03-30T19:12:06.146735+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,6,10,3,3,2026-03-30T19:13:23.433322+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,1,4,4,2026-03-30T19:14:10.226249+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,2,5,5,2026-03-30T19:15:13.934797+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,3,5,5,2026-03-30T19:15:35.750275+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,4,4,4,2026-03-30T19:16:28.762894+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,5,4,4,2026-03-30T19:17:16.439223+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,6,5,5,2026-03-30T19:17:47.110695+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,7,4,4,2026-03-30T19:39:03.008819+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,8,4,4,2026-03-30T19:40:01.765743+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,9,3,3,2026-03-30T19:40:54.586412+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,7,10,4,4,2026-03-30T19:41:21.389092+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,1,1,1,2026-03-30T19:41:30.321607+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,2,1,1,2026-03-30T19:41:39.696881+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,3,1,1,2026-03-30T19:41:48.857902+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,4,1,1,2026-03-30T19:42:00.018341+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,5,2,2,2026-03-30T19:42:58.214444+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,6,2,2,2026-03-30T19:43:43.070378+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,7,1,1,2026-03-30T19:43:54.840882+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,8,2,2,2026-03-30T19:44:52.051471+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,9,1,1,2026-03-30T19:44:57.649168+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,8,10,1,1,2026-03-30T19:45:11.811704+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,1,4,4,2026-03-30T19:45:50.415518+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,2,4,4,2026-03-30T19:47:17.360298+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,3,3,3,2026-03-30T19:48:10.869653+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,4,3,3,2026-03-30T19:49:02.316720+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,5,4,4,2026-03-30T19:50:34.142391+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,6,4,4,2026-03-30T19:51:18.980480+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,7,4,4,2026-03-30T19:52:44.422189+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,8,3,3,2026-03-30T19:54:04.854165+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,9,4,4,2026-03-30T19:54:26.139221+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,9,10,3,3,2026-03-30T19:55:32.356479+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,1,1,1,2026-03-30T19:55:40.647664+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,2,1,1,2026-03-30T19:55:57.546711+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,3,1,1,2026-03-30T19:56:10.447577+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,4,1,1,2026-03-30T19:56:31.814112+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,5,1,1,2026-03-30T19:56:43.711651+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,6,1,1,2026-03-30T19:56:51.288281+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,7,1,1,2026-03-30T19:57:03.745993+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,8,1,1,2026-03-30T19:57:20.266197+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,9,1,1,2026-03-30T19:57:26.323332+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,10,10,1,1,2026-03-30T19:57:37.898733+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,1,5,5,2026-03-30T19:59:26.000022+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,2,4,4,2026-03-30T20:00:45.747590+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,3,3,3,2026-03-30T20:01:56.031376+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,4,4,4,2026-03-30T20:02:54.564712+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,5,3,3,2026-03-30T20:04:03.686222+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,6,5,5,2026-03-30T20:04:18.835780+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,7,4,4,2026-03-30T20:05:47.027000+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,8,4,4,2026-03-30T20:05:57.143465+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,9,4,4,2026-03-30T20:06:51.461734+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,11,10,4,4,2026-03-30T20:07:50.654639+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,1,1,1,2026-03-30T20:08:01.969085+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,2,1,1,2026-03-30T20:08:07.208900+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,3,1,1,2026-03-30T20:08:15.953259+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,4,1,1,2026-03-30T20:08:21.013136+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,5,1,1,2026-03-30T20:08:29.205813+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,6,1,1,2026-03-30T20:08:34.122084+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,7,1,1,2026-03-30T20:08:42.966722+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,8,1,1,2026-03-30T20:08:50.504400+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,9,1,1,2026-03-30T20:09:02.624028+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,12,10,1,1,2026-03-30T20:09:07.385737+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,1,5,5,2026-03-30T20:09:15.767681+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,2,5,5,2026-03-30T20:09:28.701896+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,3,5,5,2026-03-30T20:09:39.597699+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,4,,,2026-03-30T20:10:10.178201+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=30)"
+qwen/qwen3.5-397b-a17b,13,5,5,5,2026-03-30T20:10:19.846643+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,6,5,5,2026-03-30T20:10:41.933687+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,7,5,5,2026-03-30T20:10:49.983453+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,8,5,5,2026-03-30T20:10:54.104991+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,9,5,5,2026-03-30T20:11:03.797212+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,10,,,2026-03-30T20:11:34.365837+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=30)"
+qwen/qwen3.5-397b-a17b,14,1,1,1,2026-03-30T20:11:43.104722+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,2,1,1,2026-03-30T20:11:52.612126+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,3,1,1,2026-03-30T20:11:59.950043+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,4,1,1,2026-03-30T20:12:09.369651+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,5,1,1,2026-03-30T20:12:18.511861+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,6,1,1,2026-03-30T20:12:23.786590+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,7,1,1,2026-03-30T20:12:32.106526+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,8,1,1,2026-03-30T20:12:44.185800+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,9,1,1,2026-03-30T20:12:53.504243+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,14,10,1,1,2026-03-30T20:13:03.681890+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,1,5,5,2026-03-30T20:13:59.452477+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,2,4,4,2026-03-30T20:14:47.464710+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,3,4,4,2026-03-30T20:16:24.066292+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,4,4,4,2026-03-30T20:17:42.173882+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,5,4,4,2026-03-30T20:18:40.958427+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,6,4,4,2026-03-30T20:19:42.801621+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,7,4,4,2026-03-30T20:20:41.583194+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,8,5,5,2026-03-30T20:21:56.129791+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,9,4,4,2026-03-30T20:22:28.488628+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,15,10,3,3,2026-03-30T20:23:23.363225+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,1,3,3,2026-03-30T20:24:33.546270+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,2,3,3,2026-03-30T20:26:28.905031+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,3,3,3,2026-03-30T20:28:02.226729+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,4,3,3,2026-03-30T20:29:07.217398+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,5,3,3,2026-03-30T20:30:19.098153+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,6,3,3,2026-03-30T20:31:15.190489+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,7,3,3,2026-03-30T20:32:13.270679+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,8,3,3,2026-03-30T20:33:40.208725+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,9,3,3,2026-03-30T20:34:32.770674+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,16,10,3,3,2026-03-30T20:35:01.295111+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,1,5,5,2026-03-30T20:35:25.912757+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,2,4,4,2026-03-30T20:36:12.953346+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,3,5,5,2026-03-30T20:36:57.350035+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,4,4,4,2026-03-30T20:37:42.673648+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,5,4,4,2026-03-30T20:38:14.060783+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,6,5,5,2026-03-30T20:39:14.885155+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,7,4,4,2026-03-30T20:40:15.182093+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,8,5,5,2026-03-30T20:40:27.894230+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,9,5,5,2026-03-30T20:40:56.558274+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,17,10,4,4,2026-03-30T20:41:57.091907+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,1,1,1,2026-03-30T20:42:07.744520+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,2,1,1,2026-03-30T20:42:20.638597+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,3,1,1,2026-03-30T20:42:31.324642+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,4,1,1,2026-03-30T20:42:43.131956+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,5,1,1,2026-03-30T20:42:52.998998+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,6,1,1,2026-03-30T20:43:04.724645+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,7,1,1,2026-03-30T20:43:13.476764+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,8,1,1,2026-03-30T20:43:26.501883+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,9,1,1,2026-03-30T20:43:36.678793+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,18,10,1,1,2026-03-30T20:43:48.057803+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,1,5,5,2026-03-30T20:44:19.239978+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,2,5,5,2026-03-30T20:44:47.374007+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,3,5,5,2026-03-30T20:44:57.773469+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,4,5,5,2026-03-30T20:45:44.146975+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,5,5,5,2026-03-30T20:46:23.997670+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,6,5,5,2026-03-30T20:47:02.588108+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,7,5,5,2026-03-30T20:47:12.154737+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,8,5,5,2026-03-30T20:47:23.600176+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,9,5,5,2026-03-30T20:47:34.064689+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,19,10,5,5,2026-03-30T20:47:49.527219+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,1,1,1,2026-03-30T20:47:57.106379+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,2,1,1,2026-03-30T20:48:07.857775+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,3,1,1,2026-03-30T20:48:20.791526+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,4,1,1,2026-03-30T20:48:35.078480+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,5,1,1,2026-03-30T20:48:42.573862+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,6,1,1,2026-03-30T20:48:55.008499+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,7,1,1,2026-03-30T20:49:01.970554+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,8,1,1,2026-03-30T20:49:11.859171+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,9,1,1,2026-03-30T20:49:34.473779+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,20,10,1,1,2026-03-30T20:49:54.458797+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,1,1,1,2026-03-30T20:51:12.286501+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,2,4,4,2026-03-30T20:52:11.029319+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,3,4,4,2026-03-30T20:53:22.196626+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,4,2,2,2026-03-30T20:54:29.361573+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,5,3,3,2026-03-30T20:55:48.645108+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,6,2,2,2026-03-30T20:57:43.917585+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,7,3,3,2026-03-30T20:58:43.510044+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,8,1,1,2026-03-30T20:59:48.892565+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,9,1,1,2026-03-30T21:01:14.501891+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,21,10,1,1,2026-03-30T21:01:57.750518+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,1,1,1,2026-03-30T21:02:12.717973+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,2,1,1,2026-03-30T21:02:27.713607+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,3,1,1,2026-03-30T21:02:47.388072+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,4,1,1,2026-03-30T21:02:59.456709+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,5,1,1,2026-03-30T21:03:13.999961+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,6,1,1,2026-03-30T21:03:26.801773+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,7,1,1,2026-03-30T21:03:36.614437+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,8,1,1,2026-03-30T21:03:48.558531+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,9,1,1,2026-03-30T21:03:58.645928+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,22,10,1,1,2026-03-30T21:04:07.276842+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,1,5,5,2026-03-30T21:04:16.914227+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,2,5,5,2026-03-30T21:05:05.871759+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,3,4,4,2026-03-30T21:05:46.711758+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,4,5,5,2026-03-30T21:06:44.704393+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,5,4,4,2026-03-30T21:07:19.100915+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,6,4,4,2026-03-30T21:07:59.080621+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,7,5,5,2026-03-30T21:08:50.708107+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,8,5,5,2026-03-30T21:09:27.594168+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,9,4,4,2026-03-30T21:10:22.648122+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,10,,,2026-03-30T21:19:44.492687+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out."
+qwen/qwen3.5-397b-a17b,24,1,,,2026-03-30T21:19:45.029458+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,2,,,2026-03-30T21:19:45.543430+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,3,,,2026-03-30T21:19:46.056351+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,4,,,2026-03-30T21:19:46.572329+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,5,,,2026-03-30T21:19:47.085423+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,6,,,2026-03-30T21:19:47.596443+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,7,,,2026-03-30T21:19:48.102542+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,8,,,2026-03-30T21:19:48.612179+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,9,,,2026-03-30T21:19:49.122741+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,24,10,,,2026-03-30T21:19:49.637892+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,1,,,2026-03-30T21:19:50.151067+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,2,,,2026-03-30T21:19:50.660861+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,3,,,2026-03-30T21:19:51.176540+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,4,,,2026-03-30T21:19:51.689609+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,5,,,2026-03-30T21:19:52.204242+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,6,,,2026-03-30T21:19:52.710459+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,7,,,2026-03-30T21:19:53.224950+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,8,,,2026-03-30T21:19:53.732434+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,9,,,2026-03-30T21:19:54.244620+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,25,10,,,2026-03-30T21:19:54.757160+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,1,,,2026-03-30T21:19:55.264702+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,2,,,2026-03-30T21:19:55.780058+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,3,,,2026-03-30T21:19:56.291092+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,4,,,2026-03-30T21:19:56.806185+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,5,,,2026-03-30T21:19:57.316875+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,6,,,2026-03-30T21:19:57.825270+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,7,,,2026-03-30T21:19:58.340862+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,8,,,2026-03-30T21:19:58.849473+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,9,,,2026-03-30T21:19:59.363347+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,26,10,,,2026-03-30T21:19:59.888436+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,1,,,2026-03-30T21:20:00.401886+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,2,,,2026-03-30T21:20:00.911467+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,3,,,2026-03-30T21:20:01.427776+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,4,,,2026-03-30T21:20:01.941452+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,5,,,2026-03-30T21:20:02.452602+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,6,,,2026-03-30T21:20:02.965497+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,7,,,2026-03-30T21:20:03.479252+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,8,,,2026-03-30T21:20:03.995227+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,9,,,2026-03-30T21:20:04.508940+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,27,10,,,2026-03-30T21:20:05.024816+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,1,,,2026-03-30T21:20:05.539321+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,2,,,2026-03-30T21:20:06.055249+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,3,,,2026-03-30T21:20:06.571274+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,4,,,2026-03-30T21:20:07.080977+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,5,,,2026-03-30T21:20:07.588377+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,6,,,2026-03-30T21:20:08.100631+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,7,,,2026-03-30T21:20:08.608256+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,8,,,2026-03-30T21:20:09.118998+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,9,,,2026-03-30T21:20:09.633255+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,28,10,,,2026-03-30T21:20:10.152209+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,1,,,2026-03-30T21:20:10.666361+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,2,,,2026-03-30T21:20:11.179996+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,3,,,2026-03-30T21:20:11.688643+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,4,,,2026-03-30T21:38:03.518139+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,5,,,2026-03-30T21:38:04.022295+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,6,,,2026-03-30T21:38:04.533963+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,7,,,2026-03-30T21:38:05.044589+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,8,,,2026-03-30T21:38:05.557649+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,9,,,2026-03-30T21:38:06.069241+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,29,10,,,2026-03-30T21:38:06.580071+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,1,,,2026-03-30T21:38:07.093625+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,2,,,2026-03-30T21:38:07.599989+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,3,,,2026-03-30T21:38:08.109252+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,4,,,2026-03-30T21:38:08.624943+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,5,,,2026-03-30T21:38:09.141379+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,6,,,2026-03-30T21:38:09.656282+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,7,,,2026-03-30T21:38:10.169960+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,8,,,2026-03-30T21:38:10.685931+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,9,,,2026-03-30T21:38:11.202279+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,30,10,,,2026-03-30T21:38:11.714286+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,1,,,2026-03-30T21:38:12.229889+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,2,,,2026-03-30T21:38:12.741534+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,3,,,2026-03-30T21:38:13.255689+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,4,,,2026-03-30T21:38:13.766104+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,5,,,2026-03-30T21:38:14.282535+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,6,,,2026-03-30T21:38:14.793328+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,7,,,2026-03-30T21:38:15.301664+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,8,,,2026-03-30T21:38:15.816620+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,9,,,2026-03-30T21:38:16.322653+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,31,10,,,2026-03-30T21:38:16.835318+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,1,,,2026-03-30T21:38:17.351547+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,2,,,2026-03-30T21:38:17.862341+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,3,,,2026-03-30T21:38:18.369772+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,4,,,2026-03-30T21:38:18.881386+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,5,,,2026-03-30T21:38:19.393580+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,6,,,2026-03-30T21:38:19.900641+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,7,,,2026-03-30T21:38:20.415182+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,8,,,2026-03-30T21:38:20.922302+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,9,,,2026-03-30T21:38:21.434998+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,32,10,,,2026-03-30T21:38:21.951663+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,1,,,2026-03-30T21:38:22.465691+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,2,,,2026-03-30T21:38:22.979127+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,3,,,2026-03-30T21:38:23.487241+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,4,,,2026-03-30T21:38:23.996350+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,5,,,2026-03-30T21:38:24.506339+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,6,,,2026-03-30T21:38:25.013994+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,7,,,2026-03-30T21:38:25.528957+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,8,,,2026-03-30T21:38:26.044467+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,9,,,2026-03-30T21:38:26.557708+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,33,10,,,2026-03-30T21:38:27.066260+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,1,,,2026-03-30T21:38:27.574528+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,2,,,2026-03-30T21:38:28.088969+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,3,,,2026-03-30T21:38:28.604394+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,4,,,2026-03-30T21:38:29.122327+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,5,,,2026-03-30T21:38:29.631292+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,6,,,2026-03-30T21:38:30.141319+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,7,,,2026-03-30T21:38:30.650375+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,8,,,2026-03-30T21:38:31.160365+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,9,,,2026-03-30T21:38:31.673362+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,34,10,,,2026-03-30T21:38:32.183243+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,1,,,2026-03-30T21:38:32.699360+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,2,,,2026-03-30T21:38:33.209406+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,3,,,2026-03-30T21:38:33.724340+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,4,,,2026-03-30T21:38:34.233223+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,5,,,2026-03-30T21:38:34.739737+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,6,,,2026-03-30T21:38:35.254628+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,7,,,2026-03-30T21:38:35.769631+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,8,,,2026-03-30T21:41:09.128496+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,9,,,2026-03-30T21:41:09.638416+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,35,10,,,2026-03-30T21:41:10.152257+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,1,,,2026-03-30T21:41:10.660817+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,2,,,2026-03-30T21:41:11.167066+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,3,,,2026-03-30T21:41:11.681786+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,4,,,2026-03-30T21:41:12.197892+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,5,,,2026-03-30T21:41:12.707233+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,6,,,2026-03-30T21:41:13.215982+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,7,,,2026-03-30T21:41:13.725367+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,8,,,2026-03-30T21:41:14.236348+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,9,,,2026-03-30T21:41:14.744893+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,36,10,,,2026-03-30T21:41:15.255980+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,1,,,2026-03-30T21:41:15.771331+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,2,,,2026-03-30T21:41:16.278748+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,3,,,2026-03-30T21:41:16.791168+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,4,,,2026-03-30T21:41:17.302583+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,5,,,2026-03-30T21:41:17.818666+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,6,,,2026-03-30T21:41:18.328710+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,7,,,2026-03-30T21:41:18.837961+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,8,,,2026-03-30T21:41:19.347031+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,9,,,2026-03-30T21:41:19.859004+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,37,10,,,2026-03-30T21:41:20.370150+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,1,,,2026-03-30T21:41:20.882503+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,2,,,2026-03-30T21:41:21.397174+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,3,,,2026-03-30T21:41:21.913232+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,4,,,2026-03-30T21:41:22.427357+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,5,,,2026-03-30T21:41:22.943257+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,6,,,2026-03-30T21:41:23.451168+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,7,,,2026-03-30T21:41:23.964720+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,8,,,2026-03-30T21:41:24.474447+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,9,,,2026-03-30T21:41:24.982139+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,38,10,,,2026-03-30T21:41:25.498630+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,1,,,2026-03-30T21:41:26.013654+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,2,,,2026-03-30T21:41:26.526524+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,3,,,2026-03-30T21:41:27.039043+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,4,,,2026-03-30T21:41:27.547259+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,5,,,2026-03-30T21:41:28.059841+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,6,,,2026-03-30T21:41:28.570758+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,7,,,2026-03-30T21:41:29.083323+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,8,,,2026-03-30T21:41:29.595192+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,9,,,2026-03-30T21:41:30.110476+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,39,10,,,2026-03-30T21:41:30.619247+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,1,,,2026-03-30T21:41:31.131026+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,2,,,2026-03-30T21:41:31.642818+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,3,,,2026-03-30T21:41:32.157515+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,4,,,2026-03-30T21:41:32.672173+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,5,,,2026-03-30T21:41:33.184229+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,6,,,2026-03-30T21:41:33.697548+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,7,,,2026-03-30T21:41:34.212963+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,8,,,2026-03-30T21:41:34.727559+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,9,,,2026-03-30T21:41:35.236193+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,40,10,,,2026-03-30T21:41:35.747155+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,1,,,2026-03-30T21:41:36.254465+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,2,,,2026-03-30T21:41:36.763582+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,3,,,2026-03-30T21:41:37.277950+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,4,,,2026-03-30T21:41:37.788498+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,5,,,2026-03-30T21:41:38.300304+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,6,,,2026-03-30T21:41:38.813406+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,7,,,2026-03-30T21:41:39.324641+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,8,,,2026-03-30T21:41:39.832135+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,9,,,2026-03-30T21:41:40.347088+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,41,10,,,2026-03-30T21:41:40.856842+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,1,,,2026-03-30T21:41:41.371711+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,2,,,2026-03-30T21:41:41.887836+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,3,,,2026-03-30T21:41:42.398812+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,4,,,2026-03-30T21:41:42.913895+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,5,,,2026-03-30T21:41:43.424150+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,6,,,2026-03-30T21:41:43.934226+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,7,,,2026-03-30T21:41:44.441741+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,8,,,2026-03-30T21:41:44.949929+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,9,,,2026-03-30T21:41:45.461509+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,42,10,,,2026-03-30T21:41:45.975648+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,1,,,2026-03-30T21:41:46.490934+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,2,,,2026-03-30T21:41:46.999669+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,3,,,2026-03-30T21:41:47.516151+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,4,,,2026-03-30T21:41:48.029706+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,5,,,2026-03-30T21:41:48.543110+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,6,,,2026-03-30T21:41:49.058396+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,7,,,2026-03-30T21:41:49.567840+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,8,,,2026-03-30T21:41:50.080396+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,9,,,2026-03-30T21:41:50.589822+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,43,10,,,2026-03-30T21:41:51.098663+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,1,,,2026-03-30T21:41:51.605264+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,2,,,2026-03-30T21:41:52.122033+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,3,,,2026-03-30T21:41:52.635217+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,4,,,2026-03-30T21:41:53.151786+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,5,,,2026-03-30T21:41:53.663842+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,6,,,2026-03-30T21:41:54.172154+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,7,,,2026-03-30T21:41:54.687769+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,8,,,2026-03-30T21:41:55.198218+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,9,,,2026-03-30T21:41:55.706269+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,44,10,,,2026-03-30T21:44:14.806955+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,1,,,2026-03-30T21:44:15.318011+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,2,,,2026-03-30T21:44:15.831914+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,3,,,2026-03-30T21:44:16.343581+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,4,,,2026-03-30T21:44:16.852027+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,5,,,2026-03-30T21:44:17.360933+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,6,,,2026-03-30T21:44:17.868525+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,7,,,2026-03-30T21:44:18.387707+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,8,,,2026-03-30T21:44:18.902767+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,9,,,2026-03-30T21:44:19.416426+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,45,10,,,2026-03-30T21:44:19.928249+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,1,,,2026-03-30T21:44:20.439414+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,2,,,2026-03-30T21:44:20.949638+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,3,,,2026-03-30T21:44:21.465625+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,4,,,2026-03-30T21:44:21.982211+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,5,,,2026-03-30T21:44:22.489758+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,6,,,2026-03-30T21:44:23.004497+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,7,,,2026-03-30T21:44:23.516710+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,8,,,2026-03-30T21:44:24.033803+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,9,,,2026-03-30T21:44:24.542263+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,46,10,,,2026-03-30T21:44:25.056448+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,1,,,2026-03-30T21:44:25.563269+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,2,,,2026-03-30T21:44:26.077148+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,3,,,2026-03-30T21:44:26.590386+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,4,,,2026-03-30T21:44:27.101380+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,5,,,2026-03-30T21:44:27.613022+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,6,,,2026-03-30T21:44:28.126238+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,7,,,2026-03-30T21:44:28.635473+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,8,,,2026-03-30T21:44:29.142168+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,9,,,2026-03-30T21:44:29.651174+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,47,10,,,2026-03-30T21:44:30.166359+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,1,,,2026-03-30T21:44:30.682280+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,2,,,2026-03-30T21:44:31.192729+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,3,,,2026-03-30T21:44:31.703020+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,4,,,2026-03-30T21:44:32.215635+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,5,,,2026-03-30T21:44:32.727597+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,6,,,2026-03-30T21:44:33.240743+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,7,,,2026-03-30T21:44:33.756167+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,8,,,2026-03-30T21:44:34.267528+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,9,,,2026-03-30T21:44:34.780510+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,48,10,,,2026-03-30T21:44:35.295386+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,1,,,2026-03-30T21:44:35.809682+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,2,,,2026-03-30T21:44:36.324859+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,3,,,2026-03-30T21:44:36.834482+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,4,,,2026-03-30T21:44:37.348283+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,5,,,2026-03-30T21:44:37.864435+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,6,,,2026-03-30T21:44:38.373359+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,7,,,2026-03-30T21:44:38.887522+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,8,,,2026-03-30T21:44:39.401437+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,9,,,2026-03-30T21:44:39.912635+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,49,10,,,2026-03-30T21:44:40.426697+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,1,,,2026-03-30T21:44:40.944216+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,2,,,2026-03-30T21:44:41.460220+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,3,,,2026-03-30T21:44:41.973135+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,4,,,2026-03-30T21:44:42.481246+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,5,,,2026-03-30T21:44:42.996451+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,6,,,2026-03-30T21:44:43.510499+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,7,,,2026-03-30T21:44:44.017572+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,8,,,2026-03-30T21:44:44.533376+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,9,,,2026-03-30T21:44:45.047860+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,50,10,,,2026-03-30T21:44:45.563523+00:00,1.0,error,"HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError(""HTTPSConnection(host='openrouter.ai', port=443): Failed to resolve 'openrouter.ai' ([Errno 8] nodename nor servname provided, or not known)""))"
+qwen/qwen3.5-397b-a17b,13,4,5,5,2026-03-30T22:06:18.871637+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,13,10,5,5,2026-03-30T22:06:32.724563+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,23,10,4,4,2026-03-30T22:07:24.970054+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,1,1,1,2026-03-30T22:07:34.468931+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,2,1,1,2026-03-30T22:07:43.061064+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,3,1,1,2026-03-30T22:07:52.629050+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,4,1,1,2026-03-30T22:08:16.402820+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,5,1,1,2026-03-30T22:08:24.996634+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,6,1,1,2026-03-30T22:08:33.930185+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,7,1,1,2026-03-30T22:08:37.262233+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,8,1,1,2026-03-30T22:08:45.035278+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,9,1,1,2026-03-30T22:08:53.154786+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,24,10,1,1,2026-03-30T22:09:00.532104+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,1,4,4,2026-03-30T22:09:51.135090+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,2,4,4,2026-03-30T22:11:02.700006+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,3,4,4,2026-03-30T22:11:53.266899+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,4,4,4,2026-03-30T22:13:19.885009+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,5,4,4,2026-03-30T22:13:50.307867+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,6,4,4,2026-03-30T22:14:48.600732+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,7,4,4,2026-03-30T22:15:46.849718+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,8,4,4,2026-03-30T22:16:13.131204+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,9,4,4,2026-03-30T22:17:55.294397+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,25,10,4,4,2026-03-30T22:18:44.328249+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,1,1,1,2026-03-30T22:18:58.995125+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,2,1,1,2026-03-30T22:19:08.495315+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,3,1,1,2026-03-30T22:19:14.771835+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,4,2,2,2026-03-30T22:20:12.159974+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,5,2,2,2026-03-30T22:21:34.026313+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,6,1,1,2026-03-30T22:21:57.051620+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,7,2,2,2026-03-30T22:22:59.528889+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,8,1,1,2026-03-30T22:23:08.777194+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,9,2,2,2026-03-30T22:24:12.774676+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,26,10,1,1,2026-03-30T22:24:36.241582+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,1,4,4,2026-03-30T22:25:51.511920+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,2,4,4,2026-03-30T22:27:21.850189+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,3,4,4,2026-03-30T22:27:57.853631+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,4,4,4,2026-03-30T22:28:46.080191+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,5,3,3,2026-03-30T22:29:55.819987+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,6,4,4,2026-03-30T22:30:14.792974+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,7,4,4,2026-03-30T22:31:28.736667+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,8,4,4,2026-03-30T22:32:26.622061+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,9,4,4,2026-03-30T22:34:13.622061+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,27,10,4,4,2026-03-30T22:35:28.573463+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,1,1,1,2026-03-30T22:35:43.121404+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,2,1,1,2026-03-30T22:35:51.359780+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,3,1,1,2026-03-30T22:36:20.082781+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,4,1,1,2026-03-30T22:36:50.303262+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,5,1,1,2026-03-30T22:37:19.164884+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,6,1,1,2026-03-30T22:38:14.368414+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,7,1,1,2026-03-30T22:38:29.414301+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,8,1,1,2026-03-30T22:38:47.378523+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,9,1,1,2026-03-30T22:38:58.748738+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,28,10,1,1,2026-03-30T22:39:14.928350+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,1,1,1,2026-03-30T22:39:41.099048+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,2,1,1,2026-03-30T22:39:48.364551+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,3,1,1,2026-03-30T22:39:57.766996+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,4,1,1,2026-03-30T22:40:08.746713+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,5,1,1,2026-03-30T22:40:20.672886+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,6,1,1,2026-03-30T22:40:25.477030+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,7,1,1,2026-03-30T22:40:34.587214+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,8,1,1,2026-03-30T22:40:45.072932+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,9,1,1,2026-03-30T22:40:55.216781+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,29,10,1,1,2026-03-30T22:41:05.369880+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,1,1,1,2026-03-30T22:41:34.795786+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,2,1,1,2026-03-30T22:42:24.642567+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,3,2,2,2026-03-30T22:43:34.468428+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,4,1,1,2026-03-30T22:43:53.263796+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,5,2,2,2026-03-30T22:44:42.666921+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,6,1,1,2026-03-30T22:46:13.402999+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,7,1,1,2026-03-30T22:47:21.424453+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,8,1,1,2026-03-30T22:48:32.112348+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,9,1,1,2026-03-30T22:49:09.787915+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,30,10,1,1,2026-03-30T22:49:51.409050+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,1,1,1,2026-03-30T22:50:24.162218+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,2,1,1,2026-03-30T22:50:32.366881+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,3,1,1,2026-03-30T22:50:44.349297+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,4,1,1,2026-03-30T22:50:53.906371+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,5,1,1,2026-03-30T22:51:07.253887+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,6,3,3,2026-03-30T22:52:27.790252+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,7,1,1,2026-03-30T22:52:56.529008+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,8,1,1,2026-03-30T22:54:10.376172+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,9,1,1,2026-03-30T22:55:07.932032+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,31,10,1,1,2026-03-30T22:56:05.019209+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,1,1,1,2026-03-30T22:56:21.355696+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,2,1,1,2026-03-30T22:56:49.738360+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,3,1,1,2026-03-30T22:57:00.425150+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,4,1,1,2026-03-30T22:57:06.100130+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,5,1,1,2026-03-30T22:57:14.189495+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,6,1,1,2026-03-30T22:57:28.429038+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,7,1,1,2026-03-30T22:57:41.533894+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,8,1,1,2026-03-30T22:57:55.790082+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,9,1,1,2026-03-30T22:58:05.402398+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,32,10,1,1,2026-03-30T22:58:22.813563+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,1,4,4,2026-03-30T22:58:42.533033+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,2,4,4,2026-03-30T22:59:44.551348+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,3,5,5,2026-03-30T23:00:08.123816+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,4,4,4,2026-03-30T23:00:58.806860+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,5,4,4,2026-03-30T23:01:33.409856+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,6,4,4,2026-03-30T23:02:23.575466+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,7,5,5,2026-03-30T23:02:35.032007+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,8,5,5,2026-03-30T23:02:44.963465+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,9,4,4,2026-03-30T23:04:10.165178+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,33,10,4,4,2026-03-30T23:05:11.736214+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,1,1,1,2026-03-30T23:05:23.480754+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,2,1,1,2026-03-30T23:06:00.142848+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,3,1,1,2026-03-30T23:06:10.075051+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,4,1,1,2026-03-30T23:06:15.737143+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,5,1,1,2026-03-30T23:06:28.456522+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,6,1,1,2026-03-30T23:06:35.114215+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,7,1,1,2026-03-30T23:06:46.323806+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,8,1,1,2026-03-30T23:07:18.071982+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,9,1,1,2026-03-30T23:07:29.089599+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,34,10,1,1,2026-03-30T23:07:40.826771+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,1,5,5,2026-03-30T23:08:02.512265+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,2,4,4,2026-03-30T23:08:28.916422+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,3,4,4,2026-03-30T23:09:01.803585+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,4,5,5,2026-03-30T23:09:20.755661+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,5,5,5,2026-03-30T23:09:29.561821+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,6,5,5,2026-03-30T23:09:39.267651+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,7,5,5,2026-03-30T23:09:48.675471+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,8,5,5,2026-03-30T23:10:10.105844+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,9,5,5,2026-03-30T23:10:38.576999+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,35,10,5,5,2026-03-30T23:10:50.720734+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,1,3,3,2026-03-30T23:11:42.001185+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,2,3,3,2026-03-30T23:12:40.699611+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,3,3,3,2026-03-30T23:15:11.104591+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,4,5,5,2026-03-30T23:15:24.165166+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,5,4,4,2026-03-30T23:16:34.940049+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,6,4,4,2026-03-30T23:17:31.691043+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,7,4,4,2026-03-30T23:18:36.465848+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,8,3,3,2026-03-30T23:20:32.816043+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,9,4,4,2026-03-30T23:21:37.466366+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,36,10,4,4,2026-03-30T23:22:28.449997+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,1,5,5,2026-03-30T23:22:36.503021+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,2,5,5,2026-03-30T23:23:30.484656+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,3,5,5,2026-03-30T23:23:38.570860+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,4,5,5,2026-03-30T23:23:48.195420+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,5,5,5,2026-03-30T23:23:54.757990+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,6,4,4,2026-03-30T23:24:46.624052+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,7,5,5,2026-03-30T23:25:21.880909+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,8,5,5,2026-03-30T23:25:38.600980+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,9,5,5,2026-03-30T23:25:53.980721+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,37,10,5,5,2026-03-30T23:26:09.136006+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,1,1,1,2026-03-30T23:26:19.975265+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,2,1,1,2026-03-30T23:26:32.856673+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,3,1,1,2026-03-30T23:26:53.382501+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,4,1,1,2026-03-30T23:27:07.364634+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,5,1,1,2026-03-30T23:27:12.980203+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,6,1,1,2026-03-30T23:27:18.324682+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,7,1,1,2026-03-30T23:27:28.681476+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,8,1,1,2026-03-30T23:27:40.388855+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,9,1,1,2026-03-30T23:27:50.067549+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,38,10,1,1,2026-03-30T23:27:58.910215+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,1,1,1,2026-03-30T23:28:07.505901+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,2,1,1,2026-03-30T23:28:20.533776+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,3,1,1,2026-03-30T23:28:29.303331+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,4,1,1,2026-03-30T23:28:35.839802+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,5,1,1,2026-03-30T23:28:44.351473+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,6,1,1,2026-03-30T23:28:53.111480+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,7,1,1,2026-03-30T23:29:01.933690+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,8,1,1,2026-03-30T23:29:11.011274+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,9,1,1,2026-03-30T23:29:22.676977+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,39,10,1,1,2026-03-30T23:29:30.936423+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,1,2,2,2026-03-30T23:30:11.762773+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,2,3,3,2026-03-30T23:31:18.355676+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,3,3,3,2026-03-30T23:32:05.045264+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,4,3,3,2026-03-30T23:32:57.790310+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,5,3,3,2026-03-30T23:34:18.883274+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,6,2,2,2026-03-30T23:35:31.378586+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,7,3,3,2026-03-30T23:36:31.297455+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,8,3,3,2026-03-30T23:37:49.716381+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,9,3,3,2026-03-30T23:39:06.268155+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,40,10,3,3,2026-03-30T23:39:57.847323+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,1,4,4,2026-03-30T23:40:48.301569+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,2,3,3,2026-03-30T23:41:57.011311+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,3,3,3,2026-03-30T23:43:05.966454+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,4,3,3,2026-03-30T23:44:38.798125+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,5,3,3,2026-03-30T23:45:53.366778+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,6,3,3,2026-03-30T23:47:34.635174+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,7,3,3,2026-03-30T23:49:03.398124+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,8,3,3,2026-03-30T23:50:03.124859+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,9,3,3,2026-03-30T23:51:14.913699+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,41,10,3,3,2026-03-30T23:52:55.747114+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,1,1,1,2026-03-30T23:53:06.113082+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,2,1,1,2026-03-30T23:53:16.646699+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,3,1,1,2026-03-30T23:53:30.283437+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,4,1,1,2026-03-30T23:54:11.409934+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,5,1,1,2026-03-30T23:54:25.746300+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,6,1,1,2026-03-30T23:54:30.336158+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,7,1,1,2026-03-30T23:55:34.972074+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,8,1,1,2026-03-30T23:55:41.155505+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,9,1,1,2026-03-30T23:55:57.640140+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,42,10,1,1,2026-03-30T23:56:02.554011+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,1,4,4,2026-03-30T23:56:50.792023+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,2,4,4,2026-03-30T23:58:01.451501+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,3,4,4,2026-03-30T23:58:43.827837+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,4,3,3,2026-03-30T23:59:34.016252+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,5,4,4,2026-03-31T00:00:55.616142+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,6,4,4,2026-03-31T00:01:59.351063+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,7,3,3,2026-03-31T00:02:58.822159+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,8,3,3,2026-03-31T00:03:51.349297+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,9,3,3,2026-03-31T00:04:44.502228+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,43,10,4,4,2026-03-31T00:21:52.538207+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,1,1,1,2026-03-31T00:22:00.904757+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,2,1,1,2026-03-31T00:22:10.462124+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,3,1,1,2026-03-31T00:22:17.623786+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,4,1,1,2026-03-31T00:22:23.294517+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,5,1,1,2026-03-31T00:22:29.414801+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,6,1,1,2026-03-31T00:22:38.188466+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,7,1,1,2026-03-31T00:22:47.362403+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,8,1,1,2026-03-31T00:22:55.222682+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,9,1,1,2026-03-31T00:23:03.835847+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,44,10,1,1,2026-03-31T00:23:10.078531+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,1,4,4,2026-03-31T00:23:56.022587+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,2,4,4,2026-03-31T00:24:29.712849+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,3,4,4,2026-03-31T00:25:21.015457+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,4,4,4,2026-03-31T00:25:38.079548+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,5,4,4,2026-03-31T00:26:38.977934+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,6,4,4,2026-03-31T00:27:19.765088+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,7,4,4,2026-03-31T00:28:01.031991+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,8,4,4,2026-03-31T00:29:35.097978+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,9,4,4,2026-03-31T00:30:22.200906+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,45,10,4,4,2026-03-31T00:31:06.959046+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,1,4,4,2026-03-31T00:31:50.473712+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,2,3,3,2026-03-31T00:33:04.737665+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,3,3,3,2026-03-31T00:33:46.594823+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,4,3,3,2026-03-31T00:34:54.697286+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,5,3,3,2026-03-31T00:35:41.688563+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,6,4,4,2026-03-31T00:36:13.841869+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,7,3,3,2026-03-31T00:36:57.979517+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,8,3,3,2026-03-31T00:37:53.915836+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,9,4,4,2026-03-31T00:38:47.591050+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,46,10,4,4,2026-03-31T00:39:36.099338+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,1,4,4,2026-03-31T00:40:05.854605+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,2,4,4,2026-03-31T00:40:44.646159+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,3,4,4,2026-03-31T00:41:20.071470+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,4,4,4,2026-03-31T00:41:57.997614+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,5,4,4,2026-03-31T00:42:27.798424+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,6,5,5,2026-03-31T00:42:42.461245+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,7,5,5,2026-03-31T00:42:59.910879+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,8,4,4,2026-03-31T00:43:34.100348+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,9,4,4,2026-03-31T00:43:56.265065+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,47,10,4,4,2026-03-31T00:44:08.831180+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,1,4,4,2026-03-31T00:44:46.077839+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,2,5,5,2026-03-31T00:45:04.447670+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,3,4,4,2026-03-31T00:46:14.363400+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,4,4,4,2026-03-31T00:46:39.894920+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,5,4,4,2026-03-31T00:47:12.636280+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,6,4,4,2026-03-31T00:47:52.049270+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,7,4,4,2026-03-31T00:48:07.737781+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,8,4,4,2026-03-31T00:48:35.870277+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,9,5,5,2026-03-31T00:49:03.000202+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,48,10,4,4,2026-03-31T00:49:42.411726+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,1,1,1,2026-03-31T00:49:49.130270+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,2,1,1,2026-03-31T00:49:55.161080+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,3,1,1,2026-03-31T00:49:59.970289+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,4,1,1,2026-03-31T00:50:08.246498+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,5,1,1,2026-03-31T00:50:16.047291+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,6,1,1,2026-03-31T00:50:21.966917+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,7,1,1,2026-03-31T00:50:28.581584+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,8,1,1,2026-03-31T00:50:35.405936+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,9,1,1,2026-03-31T00:50:40.652678+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,49,10,1,1,2026-03-31T00:50:47.268350+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,1,5,5,2026-03-31T00:50:51.686012+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,2,5,5,2026-03-31T00:50:59.521443+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,3,5,5,2026-03-31T00:51:04.279706+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,4,5,5,2026-03-31T00:51:30.139313+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,5,5,5,2026-03-31T00:51:38.515963+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,6,4,4,2026-03-31T00:52:57.237866+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,7,5,5,2026-03-31T00:53:21.005977+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,8,5,5,2026-03-31T00:53:43.226133+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,9,4,4,2026-03-31T00:54:19.970885+00:00,1.0,success,
+qwen/qwen3.5-397b-a17b,50,10,5,5,2026-03-31T00:54:46.276311+00:00,1.0,success,

@@ -1,0 +1,771 @@
+Loading scored data from /Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/output/merge_scores/scored_merged.csv...
+  4200 responses  |  7 models  |  6 framings  |  10 scenarios
+
+============================================================================
+PART 1: DESCRIPTIVE STATISTICS
+============================================================================
+
+
+  REACTIVITY — Primary (10 interpersonal)  (mean standardized |delta|)
+    Claude Sonnet 4.6           0.800  ||||||||||||||||||||||||||||||||
+    Kimi K2.5                   0.792  |||||||||||||||||||||||||||||||
+    Qwen 3.5                    0.773  ||||||||||||||||||||||||||||||
+    GLM 5                       0.714  ||||||||||||||||||||||||||||
+    GPT-5.3                     0.711  ||||||||||||||||||||||||||||
+    Gemini 3.1 Pro              0.667  ||||||||||||||||||||||||||
+    MiniMax M2.7                0.665  ||||||||||||||||||||||||||
+
+  REACTIVITY — Sensitivity (7 deterministic/classifier-only)  (mean standardized |delta|)
+    Claude Sonnet 4.6           0.940  |||||||||||||||||||||||||||||||||||||
+    GPT-5.3                     0.703  ||||||||||||||||||||||||||||
+    Qwen 3.5                    0.696  |||||||||||||||||||||||||||
+    Gemini 3.1 Pro              0.679  |||||||||||||||||||||||||||
+    Kimi K2.5                   0.656  ||||||||||||||||||||||||||
+    GLM 5                       0.632  |||||||||||||||||||||||||
+    MiniMax M2.7                0.626  |||||||||||||||||||||||||
+
+  REACTIVITY — Confirmatory bridge index (8 confirmatory Tier-3 items, non-overlapping)  (mean standardized |delta|)
+    Kimi K2.5                   0.812  ||||||||||||||||||||||||||||||||
+    GPT-5.3                     0.754  ||||||||||||||||||||||||||||||
+    Qwen 3.5                    0.720  ||||||||||||||||||||||||||||
+    GLM 5                       0.711  ||||||||||||||||||||||||||||
+    Claude Sonnet 4.6           0.669  ||||||||||||||||||||||||||
+    MiniMax M2.7                0.628  |||||||||||||||||||||||||
+    Gemini 3.1 Pro              0.586  |||||||||||||||||||||||
+
+  CONVERGENT VALIDITY — relationship_oriented [Ruben 6-item composite (primary)] vs deterministic shadows (n=42 model x framing cells)
+    vs pos_emotion       cells: r=+0.753 rho=+0.732   deltas: r=+0.870 rho=+0.887
+    vs second_person     cells: r=+0.897 rho=+0.858   deltas: r=+0.933 rho=+0.918
+    vs questions         cells: r=+0.604 rho=+0.586   deltas: r=+0.720 rho=+0.700
+    vs first_person      cells: r=+0.718 rho=+0.756   deltas: r=+0.799 rho=+0.785
+    vs neg_emotion       cells: r=+0.879 rho=+0.855   deltas: r=+0.937 rho=+0.909
+
+  CONVERGENT VALIDITY — relationship_oriented_5item [5-item sensitivity (item 6 removed)] vs deterministic shadows (n=42 model x framing cells)
+    vs pos_emotion       cells: r=+0.745 rho=+0.730   deltas: r=+0.873 rho=+0.893
+    vs second_person     cells: r=+0.895 rho=+0.858   deltas: r=+0.931 rho=+0.921
+    vs questions         cells: r=+0.592 rho=+0.586   deltas: r=+0.712 rho=+0.695
+    vs first_person      cells: r=+0.711 rho=+0.752   deltas: r=+0.802 rho=+0.779
+    vs neg_emotion       cells: r=+0.882 rho=+0.844   deltas: r=+0.948 rho=+0.924
+
+  REACTIVITY — Ruben 6-item composite alone (primary)  (mean standardized |delta|)
+    Kimi K2.5                   1.108  ||||||||||||||||||||||||||||||||||||||||||||
+    GPT-5.3                     0.928  |||||||||||||||||||||||||||||||||||||
+    GLM 5                       0.909  ||||||||||||||||||||||||||||||||||||
+    MiniMax M2.7                0.850  ||||||||||||||||||||||||||||||||||
+    Qwen 3.5                    0.846  |||||||||||||||||||||||||||||||||
+    Claude Sonnet 4.6           0.689  |||||||||||||||||||||||||||
+    Gemini 3.1 Pro              0.584  |||||||||||||||||||||||
+
+  REACTIVITY — 5-item composite alone (sensitivity, item 6 removed)  (mean standardized |delta|)
+    Kimi K2.5                   1.071  ||||||||||||||||||||||||||||||||||||||||||
+    GPT-5.3                     0.912  ||||||||||||||||||||||||||||||||||||
+    GLM 5                       0.900  ||||||||||||||||||||||||||||||||||||
+    Qwen 3.5                    0.894  |||||||||||||||||||||||||||||||||||
+    MiniMax M2.7                0.824  ||||||||||||||||||||||||||||||||
+    Claude Sonnet 4.6           0.667  ||||||||||||||||||||||||||
+    Gemini 3.1 Pro              0.596  |||||||||||||||||||||||
+
+
+============================================================================
+PART 2: MIXED-MODEL ANOVA
+  metric ~ framing + (1|scenario) + framing:scenario
+  F = MS_framing / MS_interaction  (scenario = random)
+============================================================================
+
+
+  MODEL: Claude Sonnet 4.6
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  27.17  p=1.48e-12 ***  eta2p=0.751  ICC=0.026  sig.pairs= 5/15
+    format_density      F(5,45)=  61.50  p=5.51e-19 ***  eta2p=0.872  ICC=0.051  sig.pairs=13/15
+    questions           F(5,45)=   5.11  p=8.51e-04 ***  eta2p=0.362  ICC=0.112  sig.pairs= 2/15
+    avg_sent_len        F(5,45)=  21.13  p=8.19e-11 ***  eta2p=0.701  ICC=0.084  sig.pairs= 9/15
+    coleman_liau        F(5,45)=  31.73  p=1.08e-13 ***  eta2p=0.779  ICC=0.401  sig.pairs= 9/15
+    first_person        F(5,45)=  13.34  p=5.49e-08 ***  eta2p=0.597  ICC=0.011  sig.pairs= 8/15
+    second_person       F(5,45)=  57.91  p=1.76e-18 ***  eta2p=0.866  ICC=0.201  sig.pairs=13/15
+    hedging             F(5,45)=   4.73  p=1.48e-03 **   eta2p=0.344  ICC=0.120  sig.pairs= 3/15
+    pos_emotion         F(5,45)=  47.85  p=6.64e-17 ***  eta2p=0.842  ICC=0.194  sig.pairs=14/15
+    neg_emotion         F(5,45)=  18.48  p=6.12e-10 ***  eta2p=0.672  ICC=0.228  sig.pairs=10/15
+    item_01_validation_concern  F(5,45)=  37.52  p=5.68e-15 ***  eta2p=0.806  ICC=0.164  sig.pairs=12/15
+    item_02_reassurance  F(5,45)=   4.59  p=1.81e-03 **   eta2p=0.338  ICC=0.292  sig.pairs= 2/15
+    item_04_encourages_followup  F(5,45)=   2.73  p=3.07e-02 *    eta2p=0.233  ICC=0.252  sig.pairs= 1/15
+    item_07_praising_help_seeking  F(5,45)=   1.26  p=2.96e-01      eta2p=0.123  ICC=0.134  sig.pairs= 0/15
+    item_08_medical_jargon  F(5,45)=  49.28  p=3.82e-17 ***  eta2p=0.846  ICC=0.137  sig.pairs=10/15
+    item_10_psychosocial_info  F(5,45)=  53.43  p=8.27e-18 ***  eta2p=0.856  ICC=0.342  sig.pairs=13/15
+    item_11_biomedical_info  F(5,45)=  17.89  p=9.80e-10 ***  eta2p=0.665  ICC=0.124  sig.pairs= 7/15
+    item_12_directive_language  F(5,45)=   2.09  p=8.43e-02      eta2p=0.188  ICC=0.387  sig.pairs= 0/15
+    relationship_oriented  F(5,45)=  34.66  p=2.31e-14 ***  eta2p=0.794  ICC=0.138  sig.pairs=10/15
+    relationship_oriented_5item  F(5,45)=  34.99  p=1.97e-14 ***  eta2p=0.795  ICC=0.146  sig.pairs=10/15
+
+  MODEL: GLM 5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  12.01  p=2.06e-07 ***  eta2p=0.572  ICC=0.297  sig.pairs=11/15
+    format_density      F(5,45)=  20.35  p=1.46e-10 ***  eta2p=0.693  ICC=0.087  sig.pairs= 8/15
+    questions           F(5,45)=   5.55  p=4.59e-04 ***  eta2p=0.382  ICC=0.230  sig.pairs= 3/15
+    avg_sent_len        F(5,45)=   1.20  p=3.25e-01      eta2p=0.118  ICC=0.230  sig.pairs= 0/15
+    coleman_liau        F(5,45)=  42.98  p=4.85e-16 ***  eta2p=0.827  ICC=0.547  sig.pairs=11/15
+    first_person        F(5,45)=  10.68  p=8.30e-07 ***  eta2p=0.543  ICC=0.000  sig.pairs= 6/15
+    second_person       F(5,45)=  34.81  p=2.15e-14 ***  eta2p=0.795  ICC=0.563  sig.pairs=11/15
+    hedging             F(5,45)=  10.21  p=1.39e-06 ***  eta2p=0.531  ICC=0.279  sig.pairs= 7/15
+    pos_emotion         F(5,45)=  20.90  p=9.71e-11 ***  eta2p=0.699  ICC=0.303  sig.pairs=11/15
+    neg_emotion         F(5,45)=  39.64  p=2.12e-15 ***  eta2p=0.815  ICC=0.324  sig.pairs=11/15
+    item_01_validation_concern  F(5,45)=  39.55  p=2.21e-15 ***  eta2p=0.815  ICC=0.154  sig.pairs= 8/15
+    item_02_reassurance  F(5,45)=  15.07  p=1.09e-08 ***  eta2p=0.626  ICC=0.468  sig.pairs= 9/15
+    item_04_encourages_followup  F(5,45)=   5.24  p=7.10e-04 ***  eta2p=0.368  ICC=0.344  sig.pairs= 3/15
+    item_07_praising_help_seeking  F(5,45)=   1.29  p=2.87e-01      eta2p=0.125  ICC=0.260  sig.pairs= 0/15
+    item_08_medical_jargon  F(5,45)=  28.24  p=7.80e-13 ***  eta2p=0.758  ICC=0.211  sig.pairs=11/15
+    item_10_psychosocial_info  F(5,45)=  53.41  p=8.31e-18 ***  eta2p=0.856  ICC=0.316  sig.pairs=12/15
+    item_11_biomedical_info  F(5,45)=   2.98  p=2.09e-02 *    eta2p=0.249  ICC=0.092  sig.pairs= 3/15
+    item_12_directive_language  F(5,45)=   4.53  p=1.98e-03 **   eta2p=0.335  ICC=0.196  sig.pairs= 1/15
+    relationship_oriented  F(5,45)=  57.25  p=2.21e-18 ***  eta2p=0.864  ICC=0.407  sig.pairs=12/15
+    relationship_oriented_5item  F(5,45)=  59.99  p=8.92e-19 ***  eta2p=0.870  ICC=0.471  sig.pairs=11/15
+
+  MODEL: GPT-5.3
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   5.73  p=3.56e-04 ***  eta2p=0.389  ICC=0.310  sig.pairs= 3/15
+    format_density      F(5,45)=  23.08  p=2.07e-11 ***  eta2p=0.719  ICC=0.005  sig.pairs= 9/15
+    questions           F(5,45)=   3.50  p=9.26e-03 **   eta2p=0.280  ICC=0.066  sig.pairs= 1/15
+    avg_sent_len        F(5,45)=   9.10  p=4.91e-06 ***  eta2p=0.503  ICC=0.110  sig.pairs= 6/15
+    coleman_liau        F(5,45)=  25.82  p=3.41e-12 ***  eta2p=0.742  ICC=0.485  sig.pairs= 9/15
+    first_person        F(5,45)=   8.77  p=7.25e-06 ***  eta2p=0.493  ICC=0.060  sig.pairs= 5/15
+    second_person       F(5,45)=  25.56  p=4.04e-12 ***  eta2p=0.740  ICC=0.317  sig.pairs= 8/15
+    hedging             F(5,45)=   4.91  p=1.14e-03 **   eta2p=0.353  ICC=0.116  sig.pairs= 4/15
+    pos_emotion         F(5,45)=  15.61  p=6.76e-09 ***  eta2p=0.634  ICC=0.118  sig.pairs= 9/15
+    neg_emotion         F(5,45)=  11.25  p=4.53e-07 ***  eta2p=0.555  ICC=0.233  sig.pairs= 6/15
+    item_01_validation_concern  F(5,45)=  66.31  p=1.27e-19 ***  eta2p=0.880  ICC=0.151  sig.pairs=12/15
+    item_02_reassurance  F(5,45)=  14.77  p=1.43e-08 ***  eta2p=0.621  ICC=0.202  sig.pairs= 7/15
+    item_04_encourages_followup  F(5,45)=  12.55  p=1.19e-07 ***  eta2p=0.582  ICC=0.402  sig.pairs= 9/15
+    item_07_praising_help_seeking  F(5,45)=   1.52  p=2.03e-01      eta2p=0.144  ICC=0.230  sig.pairs= 0/15
+    item_08_medical_jargon  F(5,45)=  25.33  p=4.67e-12 ***  eta2p=0.738  ICC=0.056  sig.pairs= 5/15
+    item_10_psychosocial_info  F(5,45)=  40.40  p=1.50e-15 ***  eta2p=0.818  ICC=0.274  sig.pairs=12/15
+    item_11_biomedical_info  F(5,45)=  11.21  p=4.72e-07 ***  eta2p=0.555  ICC=0.066  sig.pairs= 5/15
+    item_12_directive_language  F(5,45)=   5.87  p=2.96e-04 ***  eta2p=0.395  ICC=0.382  sig.pairs= 5/15
+    relationship_oriented  F(5,45)=  66.19  p=1.31e-19 ***  eta2p=0.880  ICC=0.148  sig.pairs=11/15
+    relationship_oriented_5item  F(5,45)=  63.21  p=3.23e-19 ***  eta2p=0.875  ICC=0.197  sig.pairs=12/15
+
+  MODEL: Gemini 3.1 Pro
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=  10.13  p=1.51e-06 ***  eta2p=0.530  ICC=0.336  sig.pairs= 9/15
+    format_density      F(5,45)=  26.50  p=2.23e-12 ***  eta2p=0.747  ICC=0.000  sig.pairs= 8/15
+    questions           F(5,45)=   7.92  p=2.03e-05 ***  eta2p=0.468  ICC=0.261  sig.pairs= 8/15
+    avg_sent_len        F(5,45)=   3.12  p=1.68e-02 *    eta2p=0.257  ICC=0.165  sig.pairs= 1/15
+    coleman_liau        F(5,45)=  41.72  p=8.38e-16 ***  eta2p=0.823  ICC=0.516  sig.pairs= 9/15
+    first_person        F(5,45)=  14.30  p=2.22e-08 ***  eta2p=0.614  ICC=0.000  sig.pairs= 7/15
+    second_person       F(5,45)=  48.33  p=5.51e-17 ***  eta2p=0.843  ICC=0.563  sig.pairs=11/15
+    hedging             F(5,45)=   8.27  p=1.32e-05 ***  eta2p=0.479  ICC=0.310  sig.pairs= 6/15
+    pos_emotion         F(5,45)=  20.63  p=1.19e-10 ***  eta2p=0.696  ICC=0.172  sig.pairs=10/15
+    neg_emotion         F(5,45)=  27.30  p=1.37e-12 ***  eta2p=0.752  ICC=0.346  sig.pairs=10/15
+    item_01_validation_concern  F(5,45)=  20.72  p=1.11e-10 ***  eta2p=0.697  ICC=0.072  sig.pairs= 8/15
+    item_02_reassurance  F(5,45)=   7.79  p=2.40e-05 ***  eta2p=0.464  ICC=0.402  sig.pairs= 5/15
+    item_04_encourages_followup  F(5,45)=   4.04  p=4.13e-03 **   eta2p=0.310  ICC=0.258  sig.pairs= 1/15
+    item_07_praising_help_seeking  F(5,45)=   0.25  p=9.36e-01      eta2p=0.027  ICC=0.307  sig.pairs= 0/15
+    item_08_medical_jargon  F(5,45)=  44.25  p=2.84e-16 ***  eta2p=0.831  ICC=0.127  sig.pairs= 9/15
+    item_10_psychosocial_info  F(5,45)=  41.55  p=9.01e-16 ***  eta2p=0.822  ICC=0.345  sig.pairs=13/15
+    item_11_biomedical_info  F(5,45)=   3.59  p=8.12e-03 **   eta2p=0.285  ICC=0.130  sig.pairs= 2/15
+    item_12_directive_language  F(5,45)=   5.09  p=8.79e-04 ***  eta2p=0.361  ICC=0.231  sig.pairs= 2/15
+    relationship_oriented  F(5,45)=  28.82  p=5.55e-13 ***  eta2p=0.762  ICC=0.391  sig.pairs=11/15
+    relationship_oriented_5item  F(5,45)=  29.29  p=4.22e-13 ***  eta2p=0.765  ICC=0.435  sig.pairs=12/15
+
+  MODEL: Kimi K2.5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   4.50  p=2.07e-03 **   eta2p=0.333  ICC=0.221  sig.pairs= 3/15
+    format_density      F(5,45)=  24.16  p=1.00e-11 ***  eta2p=0.729  ICC=0.183  sig.pairs= 9/15
+    questions           F(5,45)=   7.06  p=6.03e-05 ***  eta2p=0.440  ICC=0.135  sig.pairs= 5/15
+    avg_sent_len        F(5,45)=   6.14  p=2.04e-04 ***  eta2p=0.406  ICC=0.071  sig.pairs= 3/15
+    coleman_liau        F(5,45)=  39.93  p=1.86e-15 ***  eta2p=0.816  ICC=0.509  sig.pairs=11/15
+    first_person        F(5,45)=  11.19  p=4.80e-07 ***  eta2p=0.554  ICC=0.019  sig.pairs= 7/15
+    second_person       F(5,45)=  44.94  p=2.13e-16 ***  eta2p=0.833  ICC=0.580  sig.pairs=13/15
+    hedging             F(5,45)=   4.97  p=1.05e-03 **   eta2p=0.356  ICC=0.200  sig.pairs= 3/15
+    pos_emotion         F(5,45)=  27.88  p=9.66e-13 ***  eta2p=0.756  ICC=0.152  sig.pairs=11/15
+    neg_emotion         F(5,45)=  24.00  p=1.11e-11 ***  eta2p=0.727  ICC=0.172  sig.pairs=10/15
+    item_01_validation_concern  F(5,45)=  87.11  p=5.46e-22 ***  eta2p=0.906  ICC=0.093  sig.pairs=12/15
+    item_02_reassurance  F(5,45)=  24.08  p=1.05e-11 ***  eta2p=0.728  ICC=0.328  sig.pairs= 9/15
+    item_04_encourages_followup  F(5,45)=   8.36  p=1.18e-05 ***  eta2p=0.482  ICC=0.131  sig.pairs= 5/15
+    item_07_praising_help_seeking  F(5,45)=   3.24  p=1.39e-02 *    eta2p=0.265  ICC=0.119  sig.pairs= 1/15
+    item_08_medical_jargon  F(5,45)=  23.59  p=1.47e-11 ***  eta2p=0.724  ICC=0.280  sig.pairs=11/15
+    item_10_psychosocial_info  F(5,45)=  40.26  p=1.60e-15 ***  eta2p=0.817  ICC=0.426  sig.pairs=11/15
+    item_11_biomedical_info  F(5,45)=   4.75  p=1.44e-03 **   eta2p=0.345  ICC=0.064  sig.pairs= 5/15
+    item_12_directive_language  F(5,45)=   3.73  p=6.55e-03 **   eta2p=0.293  ICC=0.186  sig.pairs= 1/15
+    relationship_oriented  F(5,45)=  88.94  p=3.58e-22 ***  eta2p=0.908  ICC=0.253  sig.pairs=11/15
+    relationship_oriented_5item  F(5,45)=  76.41  p=7.62e-21 ***  eta2p=0.895  ICC=0.294  sig.pairs=11/15
+
+  MODEL: MiniMax M2.7
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   0.33  p=8.94e-01      eta2p=0.035  ICC=0.013  sig.pairs= 0/15
+    format_density      F(5,45)=  20.36  p=1.44e-10 ***  eta2p=0.694  ICC=0.006  sig.pairs= 9/15
+    questions           F(5,45)=   8.99  p=5.61e-06 ***  eta2p=0.500  ICC=0.028  sig.pairs= 5/15
+    avg_sent_len        F(5,45)=   4.19  p=3.29e-03 **   eta2p=0.318  ICC=0.068  sig.pairs= 2/15
+    coleman_liau        F(5,45)=  20.89  p=9.79e-11 ***  eta2p=0.699  ICC=0.443  sig.pairs=11/15
+    first_person        F(5,45)=   6.73  p=9.27e-05 ***  eta2p=0.428  ICC=0.000  sig.pairs= 6/15
+    second_person       F(5,45)=  24.31  p=9.09e-12 ***  eta2p=0.730  ICC=0.269  sig.pairs=11/15
+    hedging             F(5,45)=   1.84  p=1.24e-01      eta2p=0.170  ICC=0.170  sig.pairs= 0/15
+    pos_emotion         F(5,45)=  25.93  p=3.18e-12 ***  eta2p=0.742  ICC=0.152  sig.pairs=12/15
+    neg_emotion         F(5,45)=  12.45  p=1.32e-07 ***  eta2p=0.580  ICC=0.193  sig.pairs= 7/15
+    item_01_validation_concern  F(5,45)=  62.01  p=4.70e-19 ***  eta2p=0.873  ICC=0.154  sig.pairs=11/15
+    item_02_reassurance  F(5,45)=  15.34  p=8.56e-09 ***  eta2p=0.630  ICC=0.210  sig.pairs= 7/15
+    item_04_encourages_followup  F(5,45)=  10.96  p=6.13e-07 ***  eta2p=0.549  ICC=0.106  sig.pairs= 6/15
+    item_07_praising_help_seeking  F(5,45)=   3.25  p=1.36e-02 *    eta2p=0.266  ICC=0.143  sig.pairs= 1/15
+    item_08_medical_jargon  F(5,45)=  46.85  p=9.85e-17 ***  eta2p=0.839  ICC=0.077  sig.pairs= 9/15
+    item_10_psychosocial_info  F(5,45)=  35.19  p=1.77e-14 ***  eta2p=0.796  ICC=0.312  sig.pairs=11/15
+    item_11_biomedical_info  F(5,45)=   2.67  p=3.40e-02 *    eta2p=0.229  ICC=0.101  sig.pairs= 0/15
+    item_12_directive_language  F(5,45)=   1.46  p=2.23e-01      eta2p=0.139  ICC=0.202  sig.pairs= 0/15
+    relationship_oriented  F(5,45)=  40.77  p=1.27e-15 ***  eta2p=0.819  ICC=0.096  sig.pairs=10/15
+    relationship_oriented_5item  F(5,45)=  36.51  p=9.24e-15 ***  eta2p=0.802  ICC=0.094  sig.pairs=11/15
+
+  MODEL: Qwen 3.5
+  ──────────────────────────────────────────────────────────────────────
+    word_count          F(5,45)=   8.83  p=6.73e-06 ***  eta2p=0.495  ICC=0.429  sig.pairs= 9/15
+    format_density      F(5,45)=  24.62  p=7.40e-12 ***  eta2p=0.732  ICC=0.092  sig.pairs= 9/15
+    questions           F(5,45)=   5.42  p=5.51e-04 ***  eta2p=0.376  ICC=0.196  sig.pairs= 4/15
+    avg_sent_len        F(5,45)=   1.12  p=3.63e-01      eta2p=0.111  ICC=0.086  sig.pairs= 0/15
+    coleman_liau        F(5,45)=  45.43  p=1.75e-16 ***  eta2p=0.835  ICC=0.513  sig.pairs=12/15
+    first_person        F(5,45)=  22.83  p=2.46e-11 ***  eta2p=0.717  ICC=0.018  sig.pairs= 9/15
+    second_person       F(5,45)=  53.92  p=6.94e-18 ***  eta2p=0.857  ICC=0.607  sig.pairs=13/15
+    hedging             F(5,45)=   8.19  p=1.45e-05 ***  eta2p=0.476  ICC=0.264  sig.pairs= 5/15
+    pos_emotion         F(5,45)=  22.30  p=3.57e-11 ***  eta2p=0.712  ICC=0.260  sig.pairs=11/15
+    neg_emotion         F(5,45)=  34.15  p=3.01e-14 ***  eta2p=0.791  ICC=0.234  sig.pairs=11/15
+    item_01_validation_concern  F(5,45)=  42.55  p=5.83e-16 ***  eta2p=0.825  ICC=0.118  sig.pairs= 9/15
+    item_02_reassurance  F(5,45)=  13.18  p=6.37e-08 ***  eta2p=0.594  ICC=0.340  sig.pairs= 7/15
+    item_04_encourages_followup  F(5,45)=   3.39  p=1.10e-02 *    eta2p=0.274  ICC=0.144  sig.pairs= 1/15
+    item_07_praising_help_seeking  F(5,45)=   2.95  p=2.18e-02 *    eta2p=0.247  ICC=0.314  sig.pairs= 0/15
+    item_08_medical_jargon  F(5,45)=  34.21  p=2.92e-14 ***  eta2p=0.792  ICC=0.158  sig.pairs=10/15
+    item_10_psychosocial_info  F(5,45)=  44.15  p=2.96e-16 ***  eta2p=0.831  ICC=0.278  sig.pairs=13/15
+    item_11_biomedical_info  F(5,45)=   6.87  p=7.70e-05 ***  eta2p=0.433  ICC=0.092  sig.pairs= 4/15
+    item_12_directive_language  F(5,45)=   2.61  p=3.74e-02 *    eta2p=0.225  ICC=0.221  sig.pairs= 1/15
+    relationship_oriented  F(5,45)=  53.26  p=8.79e-18 ***  eta2p=0.855  ICC=0.346  sig.pairs= 9/15
+    relationship_oriented_5item  F(5,45)=  50.02  p=2.88e-17 ***  eta2p=0.848  ICC=0.380  sig.pairs= 9/15
+
+
+============================================================================
+SUMMARY: OMNIBUS p-VALUES
+============================================================================
+Metric                  Claude         GLM     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count            <.001***    <.001***    <.001***    <.001***    0.002 **    0.894 ns    <.001***
+format_density        <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+questions             <.001***    <.001***    0.009 **    <.001***    <.001***    <.001***    <.001***
+avg_sent_len          <.001***    0.325 ns    <.001***    0.017  *    <.001***    0.003 **    0.363 ns
+coleman_liau          <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+first_person          <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+second_person         <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+hedging               0.001 **    <.001***    0.001 **    <.001***    0.001 **    0.124 ns    <.001***
+pos_emotion           <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+neg_emotion           <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+item_01_validation_concern    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+item_02_reassurance    0.002 **    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+item_04_encourages_followup    0.031  *    <.001***    <.001***    0.004 **    <.001***    <.001***    0.011  *
+item_07_praising_help_seeking    0.296 ns    0.287 ns    0.203 ns    0.936 ns    0.014  *    0.014  *    0.022  *
+item_08_medical_jargon    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+item_10_psychosocial_info    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+item_11_biomedical_info    <.001***    0.021  *    <.001***    0.008 **    0.001 **    0.034  *    <.001***
+item_12_directive_language    0.084 ns    0.002 **    <.001***    <.001***    0.007 **    0.223 ns    0.037  *
+relationship_oriented    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+relationship_oriented_5item    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***    <.001***
+
+============================================================================
+SUMMARY: PARTIAL eta-squared
+============================================================================
+Metric                  Claude         GLM     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count               0.751       0.572       0.389       0.530       0.333       0.035       0.495
+format_density           0.872       0.693       0.719       0.747       0.729       0.694       0.732
+questions                0.362       0.382       0.280       0.468       0.440       0.500       0.376
+avg_sent_len             0.701       0.118       0.503       0.257       0.406       0.318       0.111
+coleman_liau             0.779       0.827       0.742       0.823       0.816       0.699       0.835
+first_person             0.597       0.543       0.493       0.614       0.554       0.428       0.717
+second_person            0.866       0.795       0.740       0.843       0.833       0.730       0.857
+hedging                  0.344       0.531       0.353       0.479       0.356       0.170       0.476
+pos_emotion              0.842       0.699       0.634       0.696       0.756       0.742       0.712
+neg_emotion              0.672       0.815       0.555       0.752       0.727       0.580       0.791
+item_01_validation_concern       0.806       0.815       0.880       0.697       0.906       0.873       0.825
+item_02_reassurance       0.338       0.626       0.621       0.464       0.728       0.630       0.594
+item_04_encourages_followup       0.233       0.368       0.582       0.310       0.482       0.549       0.274
+item_07_praising_help_seeking       0.123       0.125       0.144       0.027       0.265       0.266       0.247
+item_08_medical_jargon       0.846       0.758       0.738       0.831       0.724       0.839       0.792
+item_10_psychosocial_info       0.856       0.856       0.818       0.822       0.817       0.796       0.831
+item_11_biomedical_info       0.665       0.249       0.555       0.285       0.345       0.229       0.433
+item_12_directive_language       0.188       0.335       0.395       0.361       0.293       0.139       0.225
+relationship_oriented       0.794       0.864       0.880       0.762       0.908       0.819       0.855
+relationship_oriented_5item       0.795       0.870       0.875       0.765       0.895       0.802       0.848
+
+============================================================================
+SUMMARY: ICC (scenario)
+============================================================================
+Metric                  Claude         GLM     GPT-5.3      Gemini        Kimi     MiniMax        Qwen
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+word_count               0.026       0.297       0.310       0.336       0.221       0.013       0.429
+format_density           0.051       0.087       0.005       0.000       0.183       0.006       0.092
+questions                0.112       0.230       0.066       0.261       0.135       0.028       0.196
+avg_sent_len             0.084       0.230       0.110       0.165       0.071       0.068       0.086
+coleman_liau             0.401       0.547       0.485       0.516       0.509       0.443       0.513
+first_person             0.011       0.000       0.060       0.000       0.019       0.000       0.018
+second_person            0.201       0.563       0.317       0.563       0.580       0.269       0.607
+hedging                  0.120       0.279       0.116       0.310       0.200       0.170       0.264
+pos_emotion              0.194       0.303       0.118       0.172       0.152       0.152       0.260
+neg_emotion              0.228       0.324       0.233       0.346       0.172       0.193       0.234
+item_01_validation_concern       0.164       0.154       0.151       0.072       0.093       0.154       0.118
+item_02_reassurance       0.292       0.468       0.202       0.402       0.328       0.210       0.340
+item_04_encourages_followup       0.252       0.344       0.402       0.258       0.131       0.106       0.144
+item_07_praising_help_seeking       0.134       0.260       0.230       0.307       0.119       0.143       0.314
+item_08_medical_jargon       0.137       0.211       0.056       0.127       0.280       0.077       0.158
+item_10_psychosocial_info       0.342       0.316       0.274       0.345       0.426       0.312       0.278
+item_11_biomedical_info       0.124       0.092       0.066       0.130       0.064       0.101       0.092
+item_12_directive_language       0.387       0.196       0.382       0.231       0.186       0.202       0.221
+relationship_oriented       0.138       0.407       0.148       0.391       0.253       0.096       0.346
+relationship_oriented_5item       0.146       0.471       0.197       0.435       0.294       0.094       0.380
+
+
+============================================================================
+PART 3: PERMUTATION F-TESTS (2000 iterations)
+  Restricted: framing labels shuffled within scenario blocks
+============================================================================
+
+  Claude Sonnet 4.6
+    word_count          F=  27.17  p_param=1.48e-12  p_perm=0.0005  agree=Y
+    format_density      F=  61.50  p_param=5.51e-19  p_perm=0.0005  agree=Y
+    questions           F=   5.11  p_param=8.51e-04  p_perm=0.0005  agree=Y
+    avg_sent_len        F=  21.13  p_param=8.19e-11  p_perm=0.0005  agree=Y
+    coleman_liau        F=  31.73  p_param=1.08e-13  p_perm=0.0005  agree=Y
+    first_person        F=  13.34  p_param=5.49e-08  p_perm=0.0005  agree=Y
+    second_person       F=  57.91  p_param=1.76e-18  p_perm=0.0005  agree=Y
+    hedging             F=   4.73  p_param=1.48e-03  p_perm=0.0020  agree=Y
+    pos_emotion         F=  47.85  p_param=6.64e-17  p_perm=0.0005  agree=Y
+    neg_emotion         F=  18.48  p_param=6.12e-10  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  37.52  p_param=5.68e-15  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=   4.59  p_param=1.81e-03  p_perm=0.0030  agree=Y
+    item_04_encourages_followup  F=   2.73  p_param=3.07e-02  p_perm=0.0280  agree=Y
+    item_07_praising_help_seeking  F=   1.26  p_param=2.96e-01  p_perm=0.3043  agree=Y
+    item_08_medical_jargon  F=  49.28  p_param=3.82e-17  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  53.43  p_param=8.27e-18  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=  17.89  p_param=9.80e-10  p_perm=0.0005  agree=Y
+    item_12_directive_language  F=   2.09  p_param=8.43e-02  p_perm=0.0825  agree=Y
+    relationship_oriented  F=  34.66  p_param=2.31e-14  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  34.99  p_param=1.97e-14  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  GLM 5
+    word_count          F=  12.01  p_param=2.06e-07  p_perm=0.0005  agree=Y
+    format_density      F=  20.35  p_param=1.46e-10  p_perm=0.0005  agree=Y
+    questions           F=   5.55  p_param=4.59e-04  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   1.20  p_param=3.25e-01  p_perm=0.3193  agree=Y
+    coleman_liau        F=  42.98  p_param=4.85e-16  p_perm=0.0005  agree=Y
+    first_person        F=  10.68  p_param=8.30e-07  p_perm=0.0005  agree=Y
+    second_person       F=  34.81  p_param=2.15e-14  p_perm=0.0005  agree=Y
+    hedging             F=  10.21  p_param=1.39e-06  p_perm=0.0005  agree=Y
+    pos_emotion         F=  20.90  p_param=9.71e-11  p_perm=0.0005  agree=Y
+    neg_emotion         F=  39.64  p_param=2.12e-15  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  39.55  p_param=2.21e-15  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=  15.07  p_param=1.09e-08  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=   5.24  p_param=7.10e-04  p_perm=0.0010  agree=Y
+    item_07_praising_help_seeking  F=   1.29  p_param=2.87e-01  p_perm=0.2879  agree=Y
+    item_08_medical_jargon  F=  28.24  p_param=7.80e-13  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  53.41  p_param=8.31e-18  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=   2.98  p_param=2.09e-02  p_perm=0.0105  agree=Y
+    item_12_directive_language  F=   4.53  p_param=1.98e-03  p_perm=0.0015  agree=Y
+    relationship_oriented  F=  57.25  p_param=2.21e-18  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  59.99  p_param=8.92e-19  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  GPT-5.3
+    word_count          F=   5.73  p_param=3.56e-04  p_perm=0.0005  agree=Y
+    format_density      F=  23.08  p_param=2.07e-11  p_perm=0.0005  agree=Y
+    questions           F=   3.50  p_param=9.26e-03  p_perm=0.0055  agree=Y
+    avg_sent_len        F=   9.10  p_param=4.91e-06  p_perm=0.0005  agree=Y
+    coleman_liau        F=  25.82  p_param=3.41e-12  p_perm=0.0005  agree=Y
+    first_person        F=   8.77  p_param=7.25e-06  p_perm=0.0005  agree=Y
+    second_person       F=  25.56  p_param=4.04e-12  p_perm=0.0005  agree=Y
+    hedging             F=   4.91  p_param=1.14e-03  p_perm=0.0010  agree=Y
+    pos_emotion         F=  15.61  p_param=6.76e-09  p_perm=0.0005  agree=Y
+    neg_emotion         F=  11.25  p_param=4.53e-07  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  66.31  p_param=1.27e-19  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=  14.77  p_param=1.43e-08  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=  12.55  p_param=1.19e-07  p_perm=0.0005  agree=Y
+    item_07_praising_help_seeking  F=   1.52  p_param=2.03e-01  p_perm=0.2099  agree=Y
+    item_08_medical_jargon  F=  25.33  p_param=4.67e-12  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  40.40  p_param=1.50e-15  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=  11.21  p_param=4.72e-07  p_perm=0.0005  agree=Y
+    item_12_directive_language  F=   5.87  p_param=2.96e-04  p_perm=0.0005  agree=Y
+    relationship_oriented  F=  66.19  p_param=1.31e-19  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  63.21  p_param=3.23e-19  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  Gemini 3.1 Pro
+    word_count          F=  10.13  p_param=1.51e-06  p_perm=0.0005  agree=Y
+    format_density      F=  26.50  p_param=2.23e-12  p_perm=0.0005  agree=Y
+    questions           F=   7.92  p_param=2.03e-05  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   3.12  p_param=1.68e-02  p_perm=0.0145  agree=Y
+    coleman_liau        F=  41.72  p_param=8.38e-16  p_perm=0.0005  agree=Y
+    first_person        F=  14.30  p_param=2.22e-08  p_perm=0.0005  agree=Y
+    second_person       F=  48.33  p_param=5.51e-17  p_perm=0.0005  agree=Y
+    hedging             F=   8.27  p_param=1.32e-05  p_perm=0.0005  agree=Y
+    pos_emotion         F=  20.63  p_param=1.19e-10  p_perm=0.0005  agree=Y
+    neg_emotion         F=  27.29  p_param=1.37e-12  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  20.72  p_param=1.11e-10  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=   7.79  p_param=2.40e-05  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=   4.04  p_param=4.13e-03  p_perm=0.0030  agree=Y
+    item_07_praising_help_seeking  F=   0.25  p_param=9.36e-01  p_perm=0.9385  agree=Y
+    item_08_medical_jargon  F=  44.25  p_param=2.84e-16  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  41.55  p_param=9.01e-16  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=   3.59  p_param=8.12e-03  p_perm=0.0045  agree=Y
+    item_12_directive_language  F=   5.09  p_param=8.79e-04  p_perm=0.0010  agree=Y
+    relationship_oriented  F=  28.82  p_param=5.55e-13  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  29.29  p_param=4.22e-13  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  Kimi K2.5
+    word_count          F=   4.50  p_param=2.07e-03  p_perm=0.0035  agree=Y
+    format_density      F=  24.16  p_param=1.00e-11  p_perm=0.0005  agree=Y
+    questions           F=   7.06  p_param=6.03e-05  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   6.14  p_param=2.04e-04  p_perm=0.0005  agree=Y
+    coleman_liau        F=  39.93  p_param=1.86e-15  p_perm=0.0005  agree=Y
+    first_person        F=  11.19  p_param=4.80e-07  p_perm=0.0005  agree=Y
+    second_person       F=  44.94  p_param=2.13e-16  p_perm=0.0005  agree=Y
+    hedging             F=   4.97  p_param=1.05e-03  p_perm=0.0010  agree=Y
+    pos_emotion         F=  27.88  p_param=9.66e-13  p_perm=0.0005  agree=Y
+    neg_emotion         F=  24.00  p_param=1.11e-11  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  87.11  p_param=5.46e-22  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=  24.08  p_param=1.05e-11  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=   8.36  p_param=1.18e-05  p_perm=0.0005  agree=Y
+    item_07_praising_help_seeking  F=   3.24  p_param=1.39e-02  p_perm=0.0125  agree=Y
+    item_08_medical_jargon  F=  23.59  p_param=1.47e-11  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  40.26  p_param=1.60e-15  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=   4.75  p_param=1.44e-03  p_perm=0.0005  agree=Y
+    item_12_directive_language  F=   3.73  p_param=6.55e-03  p_perm=0.0025  agree=Y
+    relationship_oriented  F=  88.94  p_param=3.58e-22  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  76.41  p_param=7.62e-21  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  MiniMax M2.7
+    word_count          F=   0.33  p_param=8.94e-01  p_perm=0.8971  agree=Y
+    format_density      F=  20.36  p_param=1.44e-10  p_perm=0.0005  agree=Y
+    questions           F=   8.99  p_param=5.61e-06  p_perm=0.0005  agree=Y
+    avg_sent_len        F=   4.19  p_param=3.29e-03  p_perm=0.0040  agree=Y
+    coleman_liau        F=  20.89  p_param=9.79e-11  p_perm=0.0005  agree=Y
+    first_person        F=   6.73  p_param=9.27e-05  p_perm=0.0005  agree=Y
+    second_person       F=  24.31  p_param=9.09e-12  p_perm=0.0005  agree=Y
+    hedging             F=   1.84  p_param=1.24e-01  p_perm=0.1149  agree=Y
+    pos_emotion         F=  25.93  p_param=3.18e-12  p_perm=0.0005  agree=Y
+    neg_emotion         F=  12.45  p_param=1.32e-07  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  62.01  p_param=4.70e-19  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=  15.34  p_param=8.56e-09  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=  10.96  p_param=6.13e-07  p_perm=0.0005  agree=Y
+    item_07_praising_help_seeking  F=   3.25  p_param=1.36e-02  p_perm=0.0155  agree=Y
+    item_08_medical_jargon  F=  46.85  p_param=9.85e-17  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  35.19  p_param=1.77e-14  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=   2.67  p_param=3.40e-02  p_perm=0.0280  agree=Y
+    item_12_directive_language  F=   1.46  p_param=2.23e-01  p_perm=0.2199  agree=Y
+    relationship_oriented  F=  40.77  p_param=1.27e-15  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  36.51  p_param=9.24e-15  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+  Qwen 3.5
+    word_count          F=   8.83  p_param=6.73e-06  p_perm=0.0005  agree=Y
+    format_density      F=  24.62  p_param=7.40e-12  p_perm=0.0005  agree=Y
+    questions           F=   5.42  p_param=5.51e-04  p_perm=0.0010  agree=Y
+    avg_sent_len        F=   1.12  p_param=3.63e-01  p_perm=0.3758  agree=Y
+    coleman_liau        F=  45.43  p_param=1.75e-16  p_perm=0.0005  agree=Y
+    first_person        F=  22.83  p_param=2.46e-11  p_perm=0.0005  agree=Y
+    second_person       F=  53.92  p_param=6.94e-18  p_perm=0.0005  agree=Y
+    hedging             F=   8.19  p_param=1.45e-05  p_perm=0.0005  agree=Y
+    pos_emotion         F=  22.30  p_param=3.57e-11  p_perm=0.0005  agree=Y
+    neg_emotion         F=  34.15  p_param=3.01e-14  p_perm=0.0005  agree=Y
+    item_01_validation_concern  F=  42.55  p_param=5.83e-16  p_perm=0.0005  agree=Y
+    item_02_reassurance  F=  13.18  p_param=6.37e-08  p_perm=0.0005  agree=Y
+    item_04_encourages_followup  F=   3.39  p_param=1.10e-02  p_perm=0.0110  agree=Y
+    item_07_praising_help_seeking  F=   2.95  p_param=2.18e-02  p_perm=0.0190  agree=Y
+    item_08_medical_jargon  F=  34.21  p_param=2.92e-14  p_perm=0.0005  agree=Y
+    item_10_psychosocial_info  F=  44.15  p_param=2.96e-16  p_perm=0.0005  agree=Y
+    item_11_biomedical_info  F=   6.87  p_param=7.70e-05  p_perm=0.0005  agree=Y
+    item_12_directive_language  F=   2.61  p_param=3.74e-02  p_perm=0.0340  agree=Y
+    relationship_oriented  F=  53.26  p_param=8.79e-18  p_perm=0.0005  agree=Y
+    relationship_oriented_5item  F=  50.02  p_param=2.88e-17  p_perm=0.0005  agree=Y
+    -> 20/20 agree
+
+
+
+============================================================================
+PART 4: WITHIN-FRAMING MODEL COMPARISONS
+  metric ~ model + (1|scenario)
+============================================================================
+
+  Framing: Angry
+    word_count          F(6,54)=  36.84  p=2.17e-17 ***  eta2p=0.804  sig.pairs=11/21
+    format_density      F(6,54)=  20.07  p=3.55e-12 ***  eta2p=0.690  sig.pairs=13/21
+    questions           F(6,54)=   5.10  p=3.28e-04 ***  eta2p=0.362  sig.pairs= 3/21
+    avg_sent_len        F(6,54)=  21.27  p=1.24e-12 ***  eta2p=0.703  sig.pairs=13/21
+    coleman_liau        F(6,54)=  50.27  p=2.34e-20 ***  eta2p=0.848  sig.pairs=14/21
+    first_person        F(6,54)=   7.68  p=5.47e-06 ***  eta2p=0.460  sig.pairs= 6/21
+    second_person       F(6,54)=  18.38  p=1.70e-11 ***  eta2p=0.671  sig.pairs= 9/21
+    hedging             F(6,54)=  11.37  p=3.56e-08 ***  eta2p=0.558  sig.pairs= 8/21
+    pos_emotion         F(6,54)=  13.25  p=3.67e-09 ***  eta2p=0.596  sig.pairs=10/21
+    neg_emotion         F(6,54)=   6.44  p=3.68e-05 ***  eta2p=0.417  sig.pairs= 4/21
+    item_01_validation_concern  F(6,54)=   1.74  p=1.29e-01      eta2p=0.162  sig.pairs= 0/21
+    item_02_reassurance  F(6,54)=   3.37  p=6.79e-03 **   eta2p=0.272  sig.pairs= 0/21
+    item_04_encourages_followup  F(6,54)=   1.71  p=1.36e-01      eta2p=0.160  sig.pairs= 0/21
+    item_07_praising_help_seeking  F(6,54)=   2.15  p=6.21e-02      eta2p=0.193  sig.pairs= 0/21
+    item_08_medical_jargon  F(6,54)=   8.62  p=1.38e-06 ***  eta2p=0.489  sig.pairs= 7/21
+    item_10_psychosocial_info  F(6,54)=   4.90  p=4.60e-04 ***  eta2p=0.353  sig.pairs= 3/21
+    item_11_biomedical_info  F(6,54)=   4.19  p=1.58e-03 **   eta2p=0.317  sig.pairs= 4/21
+    item_12_directive_language  F(6,54)=  18.01  p=2.43e-11 ***  eta2p=0.667  sig.pairs=12/21
+    relationship_oriented  F(6,54)=   7.54  p=6.76e-06 ***  eta2p=0.456  sig.pairs= 7/21
+    relationship_oriented_5item  F(6,54)=   7.06  p=1.40e-05 ***  eta2p=0.439  sig.pairs= 7/21
+
+  Framing: Anxious
+    word_count          F(6,54)=  45.67  p=2.01e-19 ***  eta2p=0.835  sig.pairs=12/21
+    format_density      F(6,54)=  16.53  p=1.05e-10 ***  eta2p=0.647  sig.pairs=12/21
+    questions           F(6,54)=   6.37  p=4.07e-05 ***  eta2p=0.415  sig.pairs= 7/21
+    avg_sent_len        F(6,54)=  21.18  p=1.34e-12 ***  eta2p=0.702  sig.pairs=12/21
+    coleman_liau        F(6,54)=  76.19  p=1.44e-24 ***  eta2p=0.894  sig.pairs=14/21
+    first_person        F(6,54)=   9.35  p=4.97e-07 ***  eta2p=0.510  sig.pairs= 7/21
+    second_person       F(6,54)=  13.01  p=4.86e-09 ***  eta2p=0.591  sig.pairs=10/21
+    hedging             F(6,54)=   7.51  p=7.07e-06 ***  eta2p=0.455  sig.pairs= 5/21
+    pos_emotion         F(6,54)=  14.93  p=5.63e-10 ***  eta2p=0.624  sig.pairs= 9/21
+    neg_emotion         F(6,54)=   5.16  p=2.94e-04 ***  eta2p=0.365  sig.pairs= 5/21
+    item_01_validation_concern  F(6,54)=   1.03  p=4.19e-01      eta2p=0.102  sig.pairs= 0/21
+    item_02_reassurance  F(6,54)=  14.17  p=1.29e-09 ***  eta2p=0.612  sig.pairs= 6/21
+    item_04_encourages_followup  F(6,54)=   6.98  p=1.57e-05 ***  eta2p=0.437  sig.pairs= 5/21
+    item_07_praising_help_seeking  F(6,54)=   2.57  p=2.90e-02 *    eta2p=0.222  sig.pairs= 1/21
+    item_08_medical_jargon  F(6,54)=   4.62  p=7.38e-04 ***  eta2p=0.339  sig.pairs= 5/21
+    item_10_psychosocial_info  F(6,54)=   5.06  p=3.51e-04 ***  eta2p=0.360  sig.pairs= 3/21
+    item_11_biomedical_info  F(6,54)=   5.88  p=9.01e-05 ***  eta2p=0.395  sig.pairs= 5/21
+    item_12_directive_language  F(6,54)=  13.92  p=1.71e-09 ***  eta2p=0.607  sig.pairs=12/21
+    relationship_oriented  F(6,54)=   8.05  p=3.15e-06 ***  eta2p=0.472  sig.pairs= 6/21
+    relationship_oriented_5item  F(6,54)=   7.60  p=6.10e-06 ***  eta2p=0.458  sig.pairs= 6/21
+
+  Framing: Humor
+    word_count          F(6,54)=  54.84  p=3.22e-21 ***  eta2p=0.859  sig.pairs=12/21
+    format_density      F(6,54)=  25.34  p=4.49e-14 ***  eta2p=0.738  sig.pairs=15/21
+    questions           F(6,54)=   5.35  p=2.14e-04 ***  eta2p=0.373  sig.pairs= 2/21
+    avg_sent_len        F(6,54)=  23.69  p=1.64e-13 ***  eta2p=0.725  sig.pairs=13/21
+    coleman_liau        F(6,54)=  94.63  p=7.56e-27 ***  eta2p=0.913  sig.pairs=14/21
+    first_person        F(6,54)=   3.16  p=9.99e-03 **   eta2p=0.260  sig.pairs= 1/21
+    second_person       F(6,54)=  12.16  p=1.34e-08 ***  eta2p=0.575  sig.pairs= 8/21
+    hedging             F(6,54)=  10.81  p=7.19e-08 ***  eta2p=0.546  sig.pairs= 8/21
+    pos_emotion         F(6,54)=  25.00  p=5.85e-14 ***  eta2p=0.735  sig.pairs=13/21
+    neg_emotion         F(6,54)=   4.77  p=5.75e-04 ***  eta2p=0.346  sig.pairs= 2/21
+    item_01_validation_concern  F(6,54)=   5.22  p=2.65e-04 ***  eta2p=0.367  sig.pairs= 4/21
+    item_02_reassurance  F(6,54)=   6.29  p=4.62e-05 ***  eta2p=0.411  sig.pairs= 6/21
+    item_04_encourages_followup  F(6,54)=   5.03  p=3.68e-04 ***  eta2p=0.359  sig.pairs= 2/21
+    item_07_praising_help_seeking  F(6,54)=   3.03  p=1.26e-02 *    eta2p=0.252  sig.pairs= 1/21
+    item_08_medical_jargon  F(6,54)=  12.29  p=1.14e-08 ***  eta2p=0.577  sig.pairs=10/21
+    item_10_psychosocial_info  F(6,54)=   7.93  p=3.76e-06 ***  eta2p=0.468  sig.pairs= 6/21
+    item_11_biomedical_info  F(6,54)=   4.89  p=4.72e-04 ***  eta2p=0.352  sig.pairs= 3/21
+    item_12_directive_language  F(6,54)=   9.05  p=7.58e-07 ***  eta2p=0.501  sig.pairs=10/21
+    relationship_oriented  F(6,54)=   6.78  p=2.14e-05 ***  eta2p=0.430  sig.pairs= 5/21
+    relationship_oriented_5item  F(6,54)=   6.83  p=1.98e-05 ***  eta2p=0.432  sig.pairs= 5/21
+
+  Framing: Hyper-rational
+    word_count          F(6,54)=  18.27  p=1.89e-11 ***  eta2p=0.670  sig.pairs= 6/21
+    format_density      F(6,54)=  15.41  p=3.35e-10 ***  eta2p=0.631  sig.pairs= 8/21
+    questions           F(6,54)=   4.92  p=4.45e-04 ***  eta2p=0.353  sig.pairs= 4/21
+    avg_sent_len        F(6,54)=  31.16  p=7.21e-16 ***  eta2p=0.776  sig.pairs=13/21
+    coleman_liau        F(6,54)=  34.63  p=8.07e-17 ***  eta2p=0.794  sig.pairs=10/21
+    first_person        F(6,54)=   9.32  p=5.20e-07 ***  eta2p=0.509  sig.pairs= 9/21
+    second_person       F(6,54)=  13.20  p=3.90e-09 ***  eta2p=0.595  sig.pairs= 9/21
+    hedging             F(6,54)=  10.00  p=2.09e-07 ***  eta2p=0.526  sig.pairs= 8/21
+    pos_emotion         F(6,54)=  12.11  p=1.43e-08 ***  eta2p=0.574  sig.pairs= 9/21
+    neg_emotion         F(6,54)=   4.11  p=1.80e-03 **   eta2p=0.314  sig.pairs= 2/21
+    item_01_validation_concern  F(6,54)=   6.83  p=1.97e-05 ***  eta2p=0.432  sig.pairs= 5/21
+    item_02_reassurance  F(6,54)=   5.58  p=1.47e-04 ***  eta2p=0.383  sig.pairs= 3/21
+    item_04_encourages_followup  F(6,54)=  11.40  p=3.40e-08 ***  eta2p=0.559  sig.pairs= 9/21
+    item_07_praising_help_seeking  F(6,54)=   5.39  p=2.02e-04 ***  eta2p=0.375  sig.pairs= 5/21
+    item_08_medical_jargon  F(6,54)=   1.27  p=2.87e-01      eta2p=0.124  sig.pairs= 0/21
+    item_10_psychosocial_info  F(6,54)=   5.07  p=3.45e-04 ***  eta2p=0.360  sig.pairs= 2/21
+    item_11_biomedical_info  F(6,54)=   0.00  p=1.00e+00      eta2p=0.000  sig.pairs= 0/21
+    item_12_directive_language  F(6,54)=  15.88  p=2.06e-10 ***  eta2p=0.638  sig.pairs=10/21
+    relationship_oriented  F(6,54)=   9.32  p=5.18e-07 ***  eta2p=0.509  sig.pairs= 7/21
+    relationship_oriented_5item  F(6,54)=  11.31  p=3.83e-08 ***  eta2p=0.557  sig.pairs= 7/21
+
+  Framing: Overwhelmed
+    word_count          F(6,54)=  29.39  p=2.37e-15 ***  eta2p=0.766  sig.pairs=11/21
+    format_density      F(6,54)=  12.75  p=6.60e-09 ***  eta2p=0.586  sig.pairs=10/21
+    questions           F(6,54)=   3.92  p=2.54e-03 **   eta2p=0.303  sig.pairs= 1/21
+    avg_sent_len        F(6,54)=   8.84  p=1.02e-06 ***  eta2p=0.496  sig.pairs= 8/21
+    coleman_liau        F(6,54)=  52.45  p=8.92e-21 ***  eta2p=0.854  sig.pairs=14/21
+    first_person        F(6,54)=   7.73  p=5.04e-06 ***  eta2p=0.462  sig.pairs= 5/21
+    second_person       F(6,54)=  13.51  p=2.72e-09 ***  eta2p=0.600  sig.pairs=10/21
+    hedging             F(6,54)=   5.80  p=1.03e-04 ***  eta2p=0.392  sig.pairs= 3/21
+    pos_emotion         F(6,54)=  15.96  p=1.89e-10 ***  eta2p=0.639  sig.pairs=12/21
+    neg_emotion         F(6,54)=   5.19  p=2.83e-04 ***  eta2p=0.366  sig.pairs= 4/21
+    item_01_validation_concern  F(6,54)=   1.26  p=2.89e-01      eta2p=0.123  sig.pairs= 0/21
+    item_02_reassurance  F(6,54)=   6.44  p=3.67e-05 ***  eta2p=0.417  sig.pairs= 6/21
+    item_04_encourages_followup  F(6,54)=   3.47  p=5.71e-03 **   eta2p=0.278  sig.pairs= 2/21
+    item_07_praising_help_seeking  F(6,54)=   2.88  p=1.67e-02 *    eta2p=0.242  sig.pairs= 0/21
+    item_08_medical_jargon  F(6,54)=   2.92  p=1.53e-02 *    eta2p=0.245  sig.pairs= 2/21
+    item_10_psychosocial_info  F(6,54)=   3.84  p=2.95e-03 **   eta2p=0.299  sig.pairs= 2/21
+    item_11_biomedical_info  F(6,54)=   9.99  p=2.11e-07 ***  eta2p=0.526  sig.pairs=10/21
+    item_12_directive_language  F(6,54)=  11.55  p=2.84e-08 ***  eta2p=0.562  sig.pairs=10/21
+    relationship_oriented  F(6,54)=   8.59  p=1.45e-06 ***  eta2p=0.488  sig.pairs= 5/21
+    relationship_oriented_5item  F(6,54)=   8.59  p=1.45e-06 ***  eta2p=0.488  sig.pairs= 5/21
+
+  Framing: Stoic
+    word_count          F(6,54)=  64.84  p=6.63e-23 ***  eta2p=0.878  sig.pairs=14/21
+    format_density      F(6,54)=  43.80  p=5.07e-19 ***  eta2p=0.830  sig.pairs=12/21
+    questions           F(6,54)=   6.34  p=4.26e-05 ***  eta2p=0.413  sig.pairs= 5/21
+    avg_sent_len        F(6,54)=  40.43  p=2.93e-18 ***  eta2p=0.818  sig.pairs=14/21
+    coleman_liau        F(6,54)=  41.15  p=2.00e-18 ***  eta2p=0.821  sig.pairs=15/21
+    first_person        F(6,54)=   4.27  p=1.36e-03 **   eta2p=0.322  sig.pairs= 2/21
+    second_person       F(6,54)=  22.05  p=6.35e-13 ***  eta2p=0.710  sig.pairs= 8/21
+    hedging             F(6,54)=   6.66  p=2.57e-05 ***  eta2p=0.425  sig.pairs= 6/21
+    pos_emotion         F(6,54)=   7.79  p=4.61e-06 ***  eta2p=0.464  sig.pairs= 4/21
+    neg_emotion         F(6,54)=   4.18  p=1.61e-03 **   eta2p=0.317  sig.pairs= 1/21
+    item_01_validation_concern  F(6,54)=   6.38  p=4.00e-05 ***  eta2p=0.415  sig.pairs= 5/21
+    item_02_reassurance  F(6,54)=   2.84  p=1.76e-02 *    eta2p=0.240  sig.pairs= 1/21
+    item_04_encourages_followup  F(6,54)=   3.24  p=8.57e-03 **   eta2p=0.265  sig.pairs= 2/21
+    item_07_praising_help_seeking  F(6,54)=   2.14  p=6.32e-02      eta2p=0.192  sig.pairs= 0/21
+    item_08_medical_jargon  F(6,54)=   7.09  p=1.33e-05 ***  eta2p=0.441  sig.pairs= 6/21
+    item_10_psychosocial_info  F(6,54)=   7.72  p=5.11e-06 ***  eta2p=0.462  sig.pairs= 9/21
+    item_11_biomedical_info  F(6,54)=   0.82  p=5.61e-01      eta2p=0.083  sig.pairs= 0/21
+    item_12_directive_language  F(6,54)=  11.52  p=2.93e-08 ***  eta2p=0.561  sig.pairs= 8/21
+    relationship_oriented  F(6,54)=   7.19  p=1.13e-05 ***  eta2p=0.444  sig.pairs= 6/21
+    relationship_oriented_5item  F(6,54)=   7.31  p=9.51e-06 ***  eta2p=0.448  sig.pairs= 6/21
+
+
+============================================================================
+PART 5: PCA + WARD CLUSTERING
+  A: all 18 metrics  |  B: 10 interpersonal only
+  (composites excluded from feature matrices - double-counting fix)
+============================================================================
+
+  Analysis A: all 18 metrics
+  ────────────────────────────────────────────────────────────
+  PCA variance explained:
+    PC1:  51.9%  cumul:  51.9%  ||||||||||||||||||||
+    PC2:  17.8%  cumul:  69.7%  |||||||
+    PC3:   9.9%  cumul:  79.6%  |||
+    PC4:   5.4%  cumul:  85.0%  ||
+    PC5:   4.2%  cumul:  89.2%  |
+
+  Loadings (PC1, PC2):
+    word_count           -0.031    0.484
+    format_density       -0.262   -0.103
+    questions             0.207   -0.061
+    avg_sent_len          0.075    0.341
+    coleman_liau         -0.240   -0.119
+    first_person          0.266   -0.186
+    second_person         0.306   -0.000
+    hedging              -0.214   -0.284
+    pos_emotion           0.268   -0.208
+    neg_emotion           0.301   -0.106
+    item_01_validation_concern    0.315    0.020
+    item_02_reassurance    0.268    0.060
+    item_04_encourages_followup    0.115    0.242
+    item_07_praising_help_seeking    0.178    0.305
+    item_08_medical_jargon   -0.295    0.168
+    item_10_psychosocial_info    0.316    0.039
+    item_11_biomedical_info   -0.211    0.324
+    item_12_directive_language    0.061    0.402
+
+  Ward clustering (k=3):
+    Cluster 1 (13 members):
+      Claude Sonnet 4.6         x Hyper-rational
+      Claude Sonnet 4.6         x Stoic
+      GLM 5                     x Hyper-rational
+      GLM 5                     x Stoic
+      GPT-5.3                   x Hyper-rational
+      GPT-5.3                   x Stoic
+      Gemini 3.1 Pro            x Hyper-rational
+      Kimi K2.5                 x Hyper-rational
+      Kimi K2.5                 x Stoic
+      MiniMax M2.7              x Hyper-rational
+      MiniMax M2.7              x Stoic
+      Qwen 3.5                  x Hyper-rational
+      Qwen 3.5                  x Stoic
+    Cluster 2 (4 members):
+      Claude Sonnet 4.6         x Angry
+      Claude Sonnet 4.6         x Anxious
+      Claude Sonnet 4.6         x Humor
+      Claude Sonnet 4.6         x Overwhelmed
+    Cluster 3 (25 members):
+      GLM 5                     x Angry
+      GLM 5                     x Anxious
+      GLM 5                     x Humor
+      GLM 5                     x Overwhelmed
+      GPT-5.3                   x Angry
+      GPT-5.3                   x Anxious
+      GPT-5.3                   x Humor
+      GPT-5.3                   x Overwhelmed
+      Gemini 3.1 Pro            x Angry
+      Gemini 3.1 Pro            x Anxious
+      Gemini 3.1 Pro            x Humor
+      Gemini 3.1 Pro            x Overwhelmed
+      Gemini 3.1 Pro            x Stoic
+      Kimi K2.5                 x Angry
+      Kimi K2.5                 x Anxious
+      Kimi K2.5                 x Humor
+      Kimi K2.5                 x Overwhelmed
+      MiniMax M2.7              x Angry
+      MiniMax M2.7              x Anxious
+      MiniMax M2.7              x Humor
+      MiniMax M2.7              x Overwhelmed
+      Qwen 3.5                  x Angry
+      Qwen 3.5                  x Anxious
+      Qwen 3.5                  x Humor
+      Qwen 3.5                  x Overwhelmed
+
+  Analysis B: 10 interpersonal
+  ────────────────────────────────────────────────────────────
+  PCA variance explained:
+    PC1:  68.3%  cumul:  68.3%  |||||||||||||||||||||||||||
+    PC2:  11.3%  cumul:  79.6%  ||||
+    PC3:   9.9%  cumul:  89.5%  |||
+    PC4:   4.5%  cumul:  94.0%  |
+    PC5:   2.4%  cumul:  96.4%  
+
+  Loadings (PC1, PC2):
+    questions            -0.265   -0.232
+    first_person         -0.319   -0.359
+    second_person        -0.359    0.011
+    hedging               0.254   -0.525
+    pos_emotion          -0.307   -0.310
+    neg_emotion          -0.351   -0.165
+    item_01_validation_concern   -0.369    0.013
+    item_02_reassurance   -0.304    0.103
+    item_07_praising_help_seeking   -0.224    0.637
+    item_10_psychosocial_info   -0.372    0.035
+
+  Ward clustering (k=3):
+    Cluster 1 (13 members):
+      Claude Sonnet 4.6         x Hyper-rational
+      Claude Sonnet 4.6         x Stoic
+      GLM 5                     x Hyper-rational
+      GLM 5                     x Stoic
+      GPT-5.3                   x Hyper-rational
+      GPT-5.3                   x Stoic
+      Gemini 3.1 Pro            x Hyper-rational
+      Kimi K2.5                 x Hyper-rational
+      Kimi K2.5                 x Stoic
+      MiniMax M2.7              x Hyper-rational
+      MiniMax M2.7              x Stoic
+      Qwen 3.5                  x Hyper-rational
+      Qwen 3.5                  x Stoic
+    Cluster 2 (13 members):
+      Claude Sonnet 4.6         x Anxious
+      Claude Sonnet 4.6         x Overwhelmed
+      GLM 5                     x Anxious
+      GLM 5                     x Overwhelmed
+      GPT-5.3                   x Anxious
+      GPT-5.3                   x Overwhelmed
+      Gemini 3.1 Pro            x Anxious
+      Gemini 3.1 Pro            x Overwhelmed
+      Kimi K2.5                 x Anxious
+      Kimi K2.5                 x Overwhelmed
+      MiniMax M2.7              x Anxious
+      Qwen 3.5                  x Anxious
+      Qwen 3.5                  x Overwhelmed
+    Cluster 3 (16 members):
+      Claude Sonnet 4.6         x Angry
+      Claude Sonnet 4.6         x Humor
+      GLM 5                     x Angry
+      GLM 5                     x Humor
+      GPT-5.3                   x Angry
+      GPT-5.3                   x Humor
+      Gemini 3.1 Pro            x Angry
+      Gemini 3.1 Pro            x Humor
+      Gemini 3.1 Pro            x Stoic
+      Kimi K2.5                 x Angry
+      Kimi K2.5                 x Humor
+      MiniMax M2.7              x Angry
+      MiniMax M2.7              x Humor
+      MiniMax M2.7              x Overwhelmed
+      Qwen 3.5                  x Angry
+      Qwen 3.5                  x Humor
