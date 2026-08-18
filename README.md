@@ -2,7 +2,7 @@
 
 Materials, data, and analysis code for:
 
-> Kumpf M, Kliebisch N, Stambollxhiu E, et al. *Effect of Emotional Framing of Patient Messages on the Communication Style of Large Language Models in Clinical Scenarios.* (submitted; citation to be added upon publication)
+> *Emotional Framing of Patient Messages Shapes the Communication Style of Large Language Models* (citation will be added upon publication)
 
 Ten clinical scenarios were rewritten in six emotional framings with clinical content held constant and presented to seven frontier LLMs (10 repetitions; 4,200 responses). Communication style was quantified with deterministic text metrics, a GoEmotions classifier, and a 13-item interpersonal rubric scored by an LLM judge validated against 210 double-coded human ratings. A companion IPIP-50 assessment characterized model trait profiles.
 
