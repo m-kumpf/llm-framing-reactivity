@@ -1,9 +1,9 @@
 {
   "timestamp_utc": "2026-07-15T21:27:14.068616+00:00",
   "inputs": {
-    "tier1": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/output/score_deterministic/scored_deterministic.csv",
-    "tier2": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/output/score_goemo/scored_goemo.csv",
-    "tier3_dir": "/Users/miri/Documents/Research/LLM-Personality/00-Juli/prs-smol-analyse/Comp2_framing-reactivity/run-judge-tier3-deepseek"
+    "tier1": "output/score_deterministic/scored_deterministic.csv",
+    "tier2": "output/score_goemo/scored_goemo.csv",
+    "tier3_dir": "run-judge-tier3-deepseek"
   },
   "merge_key": [
     "model",

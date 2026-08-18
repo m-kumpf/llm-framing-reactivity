@@ -22,6 +22,7 @@ Usage:
 import argparse
 import csv
 import json
+import os
 import sys
 from pathlib import Path
 from collections import defaultdict
@@ -34,6 +35,11 @@ from scipy.spatial.distance import pdist
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = PROJECT_ROOT / "output" / "analysis"
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, PROJECT_ROOT)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -483,7 +489,7 @@ def main():
     # 1. LOAD
     # ══════════════════════════════════════════════════════════════════════════
 
-    log(f"Loading scored data from {input_path}...")
+    log(f"Loading scored data from {_rel(input_path)}...")
     records = load_scored(input_path)
     if not records:
         print(f"ERROR: No valid records loaded from {input_path}", file=sys.stderr)

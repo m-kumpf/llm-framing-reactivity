@@ -55,6 +55,7 @@ import argparse
 import csv
 import glob
 import json
+import os
 import logging
 import random
 import sys
@@ -66,6 +67,11 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "output" / "clean_responses"
 PILOT_CSV = PROJECT_ROOT / "output" / "sample_pilot" / "pilot_sample.csv"
 OUT_DIR = PROJECT_ROOT / "output" / "sample_validation"
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, PROJECT_ROOT)
 
 # Model display names (for internal metadata, hidden from raters).
 # Mirrors sample_pilot.py so _model_short matches the pilot exactly.
@@ -579,9 +585,9 @@ def main() -> int:
         "n_new": n_new_expected,
         "set": SET_NAME,
         "rubric_items": RUBEN_ITEMS,
-        "source_dir": str(args.dir),
+        "source_dir": _rel(args.dir),
         "source_files": [f.name for f in csv_files],
-        "pilot_csv": str(args.pilot_csv),
+        "pilot_csv": _rel(args.pilot_csv),
         "design": {
             "n_models": len(models),
             "n_framings": len(framings),

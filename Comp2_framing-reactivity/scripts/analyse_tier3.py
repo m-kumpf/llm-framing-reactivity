@@ -50,6 +50,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 import warnings
 from datetime import datetime, timezone
@@ -69,6 +70,11 @@ JUDGE_DIR = BASE / "run-judge-tier3-deepseek"
 GATE_JSON = BASE / "output" / "analyse_tier3_judge" / "gate_verdicts.json"
 CODEBOOK = BASE / "codebook.json"
 DEFAULT_OUTDIR = BASE / "output" / "analyse_tier3"
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, BASE)
 
 MODEL_SHORT = {
     "anthropic/claude-sonnet-4.6": "Claude Sonnet 4.6",
@@ -718,7 +724,7 @@ def main():
     pd.DataFrame(bin_rows).to_csv(outdir / "effects_binomial_ceiling.csv", index=False)
 
     with open(outdir / "endpoints.json", "w") as f:
-        json.dump({"source_gate": str(GATE_JSON), "endpoints": endpoints,
+        json.dump({"source_gate": _rel(GATE_JSON), "endpoints": endpoints,
                    "holm_families": {
                        name: {"endpoints": eps,
                               "n_tests": family_sizes[name]}
@@ -779,7 +785,7 @@ def main():
         "script": "analyse_tier3.py", "timestamp_utc": now,
         "seed": args.seed, "n_perm": args.n_perm,
         "sources": {"judge_files": [f.name for f in judge_files],
-                    "gate_verdicts": str(GATE_JSON), "codebook": str(CODEBOOK)},
+                    "gate_verdicts": _rel(GATE_JSON), "codebook": _rel(CODEBOOK)},
         "endpoints": {k: v["role"] for k, v in endpoints.items()},
         "design": "420 cell means; restricted permutation (main effects), "
                   "Freedman-Lane within-scenario (interaction); Holm in two "

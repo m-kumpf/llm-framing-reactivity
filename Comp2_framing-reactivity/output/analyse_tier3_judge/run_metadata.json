@@ -5,10 +5,10 @@
   "n_boot": 10000,
   "sources": {
     "rater_files": {
-      "miri": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/validation_ratings_miri_2026-07-13T08-38-32.json",
-      "noreen": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/validation_ratings_noreen_2026-07-12T20-44-16.json"
+      "miri": "validation_ratings_miri_2026-07-13T08-38-32.json",
+      "noreen": "validation_ratings_noreen_2026-07-12T20-44-16.json"
     },
-    "validation_sample": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/sample_validation/validation_sample.csv",
+    "validation_sample": "output/sample_validation/validation_sample.csv",
     "judge_files": [
       "judge_anthropic__claude-sonnet-4.6.csv",
       "judge_google__gemini-3.1-pro-preview.csv",
@@ -18,7 +18,7 @@
       "judge_qwen__qwen3.5-397b-a17b.csv",
       "judge_z-ai__glm-5.csv"
     ],
-    "codebook": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/codebook.json"
+    "codebook": "codebook.json"
   },
   "row_counts": {
     "human_per_rater": 210,

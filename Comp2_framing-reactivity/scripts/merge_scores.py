@@ -34,6 +34,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -41,6 +42,11 @@ from pathlib import Path
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, PROJECT_ROOT)
 
 MERGE_KEY = ["model", "vignette_id", "run_number"]
 ID_COLS = ["vignette_id", "scenario_id", "scenario_label",
@@ -174,8 +180,8 @@ def main():
 
     meta = {
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
-        "inputs": {"tier1": str(args.deterministic), "tier2": str(args.goemo),
-                   "tier3_dir": str(args.judge_dir)},
+        "inputs": {"tier1": _rel(args.deterministic), "tier2": _rel(args.goemo),
+                   "tier3_dir": _rel(args.judge_dir)},
         "merge_key": MERGE_KEY,
         "rows_per_response": len(merged),
         "rows_cells": len(cells),

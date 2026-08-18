@@ -20,7 +20,7 @@
     "item_12_directive_language",
     "item_13_collaborative_language"
   ],
-  "source_dir": "/Users/miri/Documents/Research/LLM-Personality/01.06./pwd-cleaning-workingontier3/Comp2_framing-reactivity/output/clean_responses",
+  "source_dir": "output/clean_responses",
   "source_files": [
     "responses_anthropic_claude-sonnet-4.6_20260402_004442.csv",
     "responses_google_gemini-3.1-pro-preview_20260402_090034.csv",
@@ -30,7 +30,7 @@
     "responses_qwen_qwen3.5-397b-a17b_20260402_154329.csv",
     "responses_z-ai_glm-5_20260403_224622.csv"
   ],
-  "pilot_csv": "/Users/miri/Documents/Research/LLM-Personality/01.06./pwd-cleaning-workingontier3/Comp2_framing-reactivity/output/sample_pilot/pilot_sample.csv",
+  "pilot_csv": "output/sample_pilot/pilot_sample.csv",
   "design": {
     "n_models": 7,
     "n_framings": 6,

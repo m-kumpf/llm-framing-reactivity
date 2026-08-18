@@ -42,6 +42,7 @@ Usage:
 
 import argparse
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -60,6 +61,11 @@ RATER_FILES = {
     "miri": BASE / "validation_ratings_miri_2026-07-13T08-38-32.json",
     "noreen": BASE / "validation_ratings_noreen_2026-07-12T20-44-16.json",
 }
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, BASE)
 SAMPLE_CSV = BASE / "output" / "sample_validation" / "validation_sample.csv"
 JUDGE_DIR = BASE / "run-judge-tier3-deepseek"
 CODEBOOK = BASE / "codebook.json"
@@ -709,10 +715,10 @@ def write_outputs(results, comp, comp_sens, labels, integrity, outdir, args):
         "seed": args.seed,
         "n_boot": args.n_boot,
         "sources": {
-            "rater_files": {k: str(v) for k, v in RATER_FILES.items()},
-            "validation_sample": str(SAMPLE_CSV),
+            "rater_files": {k: _rel(v) for k, v in RATER_FILES.items()},
+            "validation_sample": _rel(SAMPLE_CSV),
             "judge_files": integrity["judge_files"],
-            "codebook": str(CODEBOOK),
+            "codebook": _rel(CODEBOOK),
         },
         "row_counts": {
             "human_per_rater": integrity["n_samples"],

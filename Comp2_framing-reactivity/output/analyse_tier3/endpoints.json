@@ -1,5 +1,5 @@
 {
-  "source_gate": "/Users/miri/Documents/Research/LLM-Personality/00-Aug/prs-smol-analyse/Comp2_framing-reactivity/output/analyse_tier3_judge/gate_verdicts.json",
+  "source_gate": "output/analyse_tier3_judge/gate_verdicts.json",
   "endpoints": {
     "composite_relationship": {
       "role": "primary",

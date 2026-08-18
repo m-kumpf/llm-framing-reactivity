@@ -27,6 +27,7 @@ Usage:
 import argparse
 import csv
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from itertools import permutations
@@ -39,6 +40,11 @@ BASE = Path(__file__).resolve().parents[1]                      # Comp2_framing-
 COMP1_STATS = BASE.parent / "Comp1_IPIP-50" / "output" / "analyse-results" / "summary_statistics.csv"
 ANALYSIS_JSON = BASE / "output" / "analysis" / "analysis_results.json"
 DEFAULT_OUTDIR = BASE / "output" / "bridge1-2"
+
+
+def _rel(p):
+    """Path as recorded in metadata: relative to the component root."""
+    return os.path.relpath(p, BASE)
 
 MODEL_SHORT = {
     "anthropic/claude-sonnet-4.6": "Claude Sonnet 4.6",
@@ -187,7 +193,7 @@ def main():
     (outdir / "analysis_summary.txt").write_text("\n".join(lines) + "\n")
 
     meta = {"script": "bridge1_2.py", "timestamp_utc": now,
-            "sources": {"comp1": str(COMP1_STATS), "comp2": str(ANALYSIS_JSON)},
+            "sources": {"comp1": _rel(COMP1_STATS), "comp2": _rel(ANALYSIS_JSON)},
             "n_models": 7,
             "outputs": ["bridge_results.json", "bridge_correlations.csv",
                         "analysis_summary.txt"]}
